@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { RelatedTools } from '@/components/ui/RelatedTools';
 import { Button } from '@/components/ui/button';
+import { AdSlot } from '@/components/ui/AdSlot';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
@@ -29,6 +30,10 @@ export default function UseCasePage() {
           </div>
         </section>
 
+        <div className="w-full py-8 flex justify-center border-b">
+          <AdSlot variant="leaderboard" />
+        </div>
+
         <section className="w-full max-w-4xl mx-auto px-4 md:px-8 py-16 prose prose-slate dark:prose-invert">
           <h2>How to choose a name for your clothing brand</h2>
           <p>
@@ -36,6 +41,10 @@ export default function UseCasePage() {
             Avoid long, complicated words. Our tool helps you filter by vibe and industry to match your brand&apos;s core identity.
           </p>
         </section>
+
+        <div className="w-full py-8 flex justify-center">
+          <AdSlot variant="rectangle" />
+        </div>
 
         <RelatedTools />
       </main>

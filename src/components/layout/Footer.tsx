@@ -1,9 +1,13 @@
 import Link from 'next/link';
 import { siteConfig } from '@/lib/config';
+import { AdSlot } from '@/components/ui/AdSlot';
 
 export function Footer() {
   return (
     <footer className="border-t bg-background">
+      <div className="w-full py-4 bg-muted/10 border-b flex justify-center">
+        <AdSlot variant="leaderboard" />
+      </div>
       <div className="container mx-auto max-w-7xl px-4 py-12 md:px-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4 lg:grid-cols-5">
           <div className="lg:col-span-2">

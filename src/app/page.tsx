@@ -7,6 +7,7 @@ import { NameGrid } from '@/components/generator/NameGrid';
 import { ShortlistSidebar } from '@/components/generator/ShortlistSidebar';
 import { AdSlot } from '@/components/ui/AdSlot';
 import { RelatedTools } from '@/components/ui/RelatedTools';
+import { PopularTools } from '@/components/ui/PopularTools';
 import { Suspense, useMemo } from 'react';
 
 function GeneratorPageContent() {
@@ -40,27 +41,40 @@ function GeneratorPageContent() {
           <AdSlot variant="leaderboard" />
         </div>
 
-        {/* Generator App */}
-        <section className="w-full max-w-7xl mx-auto px-4 md:px-8 py-12 flex flex-col gap-10">
-          <FilterBar
-            filters={filters}
-            updateFilter={updateFilter}
-            onGenerate={generate}
-            isGenerating={isGenerating}
-          />
+        {/* Generator App with Sidebar Layout */}
+        <section className="w-full max-w-7xl mx-auto px-4 md:px-8 py-12">
+          <div className="flex flex-col lg:flex-row gap-10 items-start">
 
-          <div className="space-y-4">
-            <div className="flex justify-between items-end">
-              <h2 className="text-2xl font-bold tracking-tight">Generated Names</h2>
-              <p className="text-sm text-muted-foreground">{results.length} ideas ready</p>
+            {/* Main Content */}
+            <div className="flex-1 flex flex-col gap-10 w-full min-w-0">
+              <FilterBar
+                filters={filters}
+                updateFilter={updateFilter}
+                onGenerate={generate}
+                isGenerating={isGenerating}
+              />
+
+              <div className="space-y-4">
+                <div className="flex justify-between items-end">
+                  <h2 className="text-2xl font-bold tracking-tight">Generated Names</h2>
+                  <p className="text-sm text-muted-foreground">{results.length} ideas ready</p>
+                </div>
+
+                <NameGrid
+                  names={results}
+                  isGenerating={isGenerating}
+                  shortlistMap={shortlistMap}
+                  onToggleShortlist={toggleShortlist}
+                />
+              </div>
             </div>
 
-            <NameGrid
-              names={results}
-              isGenerating={isGenerating}
-              shortlistMap={shortlistMap}
-              onToggleShortlist={toggleShortlist}
-            />
+            {/* Sidebar */}
+            <aside className="w-full lg:w-80 flex-shrink-0 flex flex-col gap-6">
+              <PopularTools />
+              <AdSlot variant="rectangle" className="w-full min-h-[250px] bg-muted/20 border rounded-xl" />
+            </aside>
+
           </div>
         </section>
         <FAQAccordion />

@@ -3,7 +3,9 @@ import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
+import { RecentlyLaunched } from '@/components/ui/RecentlyLaunched';
 import { siteConfig } from '@/lib/config';
+import Script from 'next/script';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -68,6 +70,20 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${siteConfig.analytics.ga4Id}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', '${siteConfig.analytics.ga4Id}');
+          `}
+        </Script>
+        <RecentlyLaunched />
         <Header />
         <main className="flex-1">
           {children}
