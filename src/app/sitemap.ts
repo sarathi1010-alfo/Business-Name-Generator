@@ -2,15 +2,14 @@ import { MetadataRoute } from 'next';
 import { dictionary } from '@/data/dictionary';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://brandforge.example.com'; // Replace with actual domain when deploying
+  const baseUrl = 'https://brandforge.alfo.online';
 
   const routes: MetadataRoute.Sitemap = [
-    {
-      url: baseUrl,
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 1,
-    },
+    { url: baseUrl, lastModified: new Date(), changeFrequency: 'weekly', priority: 1 },
+    { url: `${baseUrl}/privacy-policy`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.1 },
+    { url: `${baseUrl}/terms-of-service`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.1 },
+    { url: `${baseUrl}/contact`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.2 },
+    { url: `${baseUrl}/about`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.5 },
   ];
 
   // Industry pages
