@@ -1,9 +1,8 @@
 import { Metadata } from 'next';
 import { Vibe } from '@/types';
 import { dictionary } from '@/data/dictionary';
-import { Header } from '@/components/layout/Header';
-import { Footer } from '@/components/layout/Footer';
 import { AdSlot } from '@/components/ui/AdSlot';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 import { generateNames } from '@/lib/generateNames';
 import { NameCard } from '@/components/generator/NameCard';
 import { Button } from '@/components/ui/button';
@@ -58,7 +57,6 @@ export default async function VibePage({ params }: Props) {
 
   return (
     <>
-      <Header />
       <main className="flex-1 flex flex-col items-center">
         <section className="w-full py-16 md:py-24 px-4 bg-muted/20 border-b">
           <div className="container max-w-4xl mx-auto text-center space-y-6">
@@ -101,8 +99,8 @@ export default async function VibePage({ params }: Props) {
             </Link>
           </div>
         </section>
+        <RelatedTools />
       </main>
-      <Footer />
     </>
   );
 }

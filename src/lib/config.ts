@@ -1,0 +1,65 @@
+export const siteConfig = {
+  siteName: 'BrandForge',
+  domain: 'brandforge.alfo.online',
+  url: 'https://brandforge.alfo.online',
+  primaryKeyword: 'AI Brand Name Generator',
+  description: 'Generate unique, memorable brand names for your startup or product instantly.',
+  social: {
+    twitter: 'https://twitter.com/alfo_online',
+    github: 'https://github.com/alfo-online',
+  },
+  analytics: {
+    gtmId: 'GTM-XXXXXXX', // Replace with real ID
+    ga4Id: 'G-HZQ3QT11QC',
+  },
+  ecosystemTools: [
+    {
+      name: 'Resume Forge',
+      description: 'Create ATS-friendly resumes instantly.',
+      url: 'https://resumeforge.alfo.online',
+      tag: 'productivity',
+      launchDate: '2023-01-15',
+      popularity: 95,
+    },
+    {
+      name: 'Palette Flow',
+      description: 'Generate cohesive brand color palettes.',
+      url: 'https://paletteflow.alfo.online',
+      tag: 'design',
+      launchDate: '2023-03-22',
+      popularity: 88,
+    },
+    {
+      name: 'Font Fusion',
+      description: 'Find perfect font pairings for your brand.',
+      url: 'https://fontfusion.alfo.online',
+      tag: 'design',
+      launchDate: '2023-05-10',
+      popularity: 75,
+    },
+    {
+      name: 'PDF Utility',
+      description: 'Compress, merge, and split PDFs.',
+      url: 'https://pdfutility.app',
+      tag: 'document',
+      launchDate: '2023-08-01',
+      popularity: 92,
+    },
+    {
+      name: 'QR Generator',
+      description: 'Create custom QR codes in seconds.',
+      url: 'https://qrgenerator.alfo.online',
+      tag: 'utility',
+      launchDate: '2024-01-10',
+      popularity: 85,
+    },
+    {
+      name: 'ASCII Forge',
+      description: 'Convert text to ASCII art.',
+      url: 'https://asciiforge.alfo.online',
+      tag: 'media',
+      launchDate: '2024-04-05',
+      popularity: 60,
+    },
+  ],
+};

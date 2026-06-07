@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/api/',
     },
-    sitemap: 'https://brandforge.example.com/sitemap.xml',
+    sitemap: 'https://brandforge.alfo.online/sitemap.xml',
   };
 }
