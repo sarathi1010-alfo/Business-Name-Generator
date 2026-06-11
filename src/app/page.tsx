@@ -87,7 +87,7 @@ function FAQAccordion() {
         <AccordionItem value="item-1">
           <AccordionTrigger>Are these business names free to use?</AccordionTrigger>
           <AccordionContent>
-            Yes! BrandForge generates ideas using open dictionaries and structural algorithms. However, you should always check local trademark databases to ensure a name isn't legally protected in your industry before officially registering it.
+            Yes! BrandForge generates ideas using open dictionaries and structural algorithms. However, you should always check local trademark databases to ensure a name isn&apos;t legally protected in your industry before officially registering it.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
@@ -99,7 +99,7 @@ function FAQAccordion() {
         <AccordionItem value="item-3">
           <AccordionTrigger>Can I check domain availability?</AccordionTrigger>
           <AccordionContent>
-            Currently, our tool provides a heuristic "Domain Likely" score indicating the probability that a short .com might be available or acquirable. Full live domain registry integration is coming soon.
+            Currently, our tool provides a heuristic &quot;Domain Likely&quot; score indicating the probability that a short .com might be available or acquirable. Full live domain registry integration is coming soon.
           </AccordionContent>
         </AccordionItem>
       </Accordion>
