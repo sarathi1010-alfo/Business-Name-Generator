@@ -29,6 +29,7 @@ export default function RootLayout({
     >
       <head>
         <meta name="google-adsense-account" content="ca-pub-6393936268623951" />
+        <meta name="monetag" content="86950f5308b2a836fd804730ef0e5e7d" />
       </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
