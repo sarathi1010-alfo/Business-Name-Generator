@@ -25,6 +25,9 @@ export async function generateMetadata(
   return {
     title: `${cap} Brand Names | BrandForge`,
     description: `Explore unique, ${normalized} brand names. Find the perfect name that captures your desired aesthetic and vibe.`,
+    alternates: {
+      canonical: `/${normalized}-brand-names`,
+    },
   };
 }
 

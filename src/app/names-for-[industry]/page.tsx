@@ -25,6 +25,9 @@ export async function generateMetadata(
   return {
     title: `${cap} Business Name Generator | BrandForge`,
     description: `Generate unique, brandable ${normalized} business names instantly. Filter by vibe, style, and length to find the perfect name for your ${normalized} startup.`,
+    alternates: {
+      canonical: `/names-for-${normalized}`,
+    },
   };
 }
 
