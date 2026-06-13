@@ -3,6 +3,7 @@ import { useState, useCallback, useEffect } from 'react';
 import { GenerationFilters, GeneratedName } from '../types';
 import { generateNames } from '../lib/generateNames';
 import { useRouter, useSearchParams } from 'next/navigation';
+import { generateBrandDNA } from '../lib/brand-engine';
 
 const DEFAULT_FILTERS: GenerationFilters = {
   industry: 'tech',
@@ -52,7 +53,10 @@ export function useGenerator(initialOverrides?: Partial<GenerationFilters>) {
 
     // Simulate slight delay for UX (perceived generation time)
     setTimeout(() => {
-      const newNames = generateNames(filters, 24);
+      const newNames = generateNames(filters, 24).map(nameObj => ({
+        ...nameObj,
+        dna: generateBrandDNA(filters.industry, filters.vibe)
+      }));
       setResults(newNames);
       setIsGenerating(false);
     }, 600);
