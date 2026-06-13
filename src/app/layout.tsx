@@ -1,15 +1,19 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { JsonLd } from "@/components/JsonLd";
+import { buildOrganizationSchema } from "@/lib/seo/buildSchema";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+  display: "swap",
 });
 
 import type { Viewport } from "next";
@@ -21,25 +25,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://brandforge.example.com"),
-  title: "BrandForge - The AI Business Name Generator",
-  description: "A fast, polished business naming studio that helps founders discover, filter, compare, and shortlist brandable names in seconds.",
-  alternates: {
-    canonical: "/",
-  },
-  openGraph: {
-    title: "BrandForge - The AI Business Name Generator",
-    description: "A fast, polished business naming studio that helps founders discover, filter, compare, and shortlist brandable names in seconds.",
-    url: "https://brandforge.example.com",
-    siteName: "BrandForge",
-    locale: "en_US",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "BrandForge - The AI Business Name Generator",
-    description: "A fast, polished business naming studio that helps founders discover, filter, compare, and shortlist brandable names in seconds.",
-  },
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://brandforge.example.com"),
 };
 
 export default function RootLayout({
@@ -49,13 +35,20 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang={process.env.NEXT_PUBLIC_DEFAULT_LOCALE ?? "en"}
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <meta name="google-adsense-account" content="ca-pub-6393936268623951" />
       </head>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <JsonLd schema={buildOrganizationSchema()} />
+        {children}
+      </body>
     </html>
   );
 }

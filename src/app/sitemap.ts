@@ -1,15 +1,16 @@
 import { MetadataRoute } from 'next';
 import { dictionary } from '@/data/dictionary';
+import { buildCanonical } from '@/lib/seo/buildCanonical';
+
+export const revalidate = 3600; // 1 hour ISR
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://brandforge.example.com'; // Replace with actual domain when deploying
-
   const routes: MetadataRoute.Sitemap = [
     {
-      url: baseUrl,
+      url: buildCanonical('/'),
       lastModified: new Date().toISOString(),
       changeFrequency: 'weekly',
-      priority: 1,
+      priority: 1.0,
     },
   ];
 
@@ -17,7 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const industries = Object.keys(dictionary.industryTokens);
   for (const industry of industries) {
     routes.push({
-      url: `${baseUrl}/names-for-${industry}`,
+      url: buildCanonical(`/names-for-${industry}`),
       lastModified: new Date().toISOString(),
       changeFrequency: 'monthly',
       priority: 0.8,
@@ -28,7 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const vibes = Object.keys(dictionary.vibeTokens);
   for (const vibe of vibes) {
     routes.push({
-      url: `${baseUrl}/${vibe}-brand-names`,
+      url: buildCanonical(`/${vibe}-brand-names`),
       lastModified: new Date().toISOString(),
       changeFrequency: 'monthly',
       priority: 0.8,
