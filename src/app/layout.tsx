@@ -12,9 +12,34 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+import type { Viewport } from "next";
+
+export const viewport: Viewport = {
+  themeColor: "#ffffff",
+  width: "device-width",
+  initialScale: 1,
+};
+
 export const metadata: Metadata = {
+  metadataBase: new URL("https://brandforge.example.com"),
   title: "BrandForge - The AI Business Name Generator",
   description: "A fast, polished business naming studio that helps founders discover, filter, compare, and shortlist brandable names in seconds.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "BrandForge - The AI Business Name Generator",
+    description: "A fast, polished business naming studio that helps founders discover, filter, compare, and shortlist brandable names in seconds.",
+    url: "https://brandforge.example.com",
+    siteName: "BrandForge",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "BrandForge - The AI Business Name Generator",
+    description: "A fast, polished business naming studio that helps founders discover, filter, compare, and shortlist brandable names in seconds.",
+  },
 };
 
 export default function RootLayout({

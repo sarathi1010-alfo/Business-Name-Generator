@@ -7,7 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const routes: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
-      lastModified: new Date(),
+      lastModified: new Date().toISOString(),
       changeFrequency: 'weekly',
       priority: 1,
     },
@@ -18,7 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const industry of industries) {
     routes.push({
       url: `${baseUrl}/names-for-${industry}`,
-      lastModified: new Date(),
+      lastModified: new Date().toISOString(),
       changeFrequency: 'monthly',
       priority: 0.8,
     });
@@ -29,7 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const vibe of vibes) {
     routes.push({
       url: `${baseUrl}/${vibe}-brand-names`,
-      lastModified: new Date(),
+      lastModified: new Date().toISOString(),
       changeFrequency: 'monthly',
       priority: 0.8,
     });
