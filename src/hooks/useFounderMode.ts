@@ -29,9 +29,9 @@ export function useFounderMode() {
     baseName: GeneratedName,
     industry: Industry,
     vibe: Vibe,
-    audience: string = 'General'
+    _audience: string = 'General'
   ) => {
-    const dna = generateBrandDNA(industry, vibe, audience);
+    const dna = generateBrandDNA(industry, vibe);
 
     const newKit: BrandKit = {
       ...baseName,

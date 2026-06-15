@@ -8,6 +8,10 @@ import { generateNames } from '@/lib/generateNames';
 import { NameCard } from '@/components/generator/NameCard';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
+import { JsonLd } from '@/components/JsonLd';
+import { buildBreadcrumbSchema } from '@/lib/seo/buildSchema';
+import { buildIndustryMeta } from '@/lib/seo/metaFactories';
+import { resolveMetadata } from '@/lib/seo/resolveMetadata';
 
 interface Props {
   params: Promise<{ industry: string }>;
@@ -16,19 +20,15 @@ interface Props {
 export async function generateMetadata(
   { params }: Props
 ): Promise<Metadata> {
-
   const resolvedParams = await params;
   const industry = resolvedParams?.industry || 'tech';
-
   const normalized = industry.toLowerCase();
-  const cap = normalized.charAt(0).toUpperCase() + normalized.slice(1);
-  return {
-    title: `${cap} Business Name Generator | BrandForge`,
-    description: `Generate unique, brandable ${normalized} business names instantly. Filter by vibe, style, and length to find the perfect name for your ${normalized} startup.`,
-    alternates: {
-      canonical: `/names-for-${normalized}`,
-    },
-  };
+
+  // Validate industry exists, otherwise fallback
+  const validIndustry = Object.keys(dictionary.industryTokens).includes(normalized) ? normalized : 'tech';
+  const meta = buildIndustryMeta(validIndustry);
+
+  return resolveMetadata(meta);
 }
 
 export function generateStaticParams() {
@@ -58,9 +58,11 @@ export default async function IndustryPage({ params }: Props) {
   }, 12);
 
   const cap = validIndustry.charAt(0).toUpperCase() + validIndustry.slice(1);
+  const meta = buildIndustryMeta(validIndustry);
 
   return (
     <>
+      <JsonLd schema={buildBreadcrumbSchema(meta.breadcrumbs)} />
       <Header />
       <main className="flex-1 flex flex-col items-center">
         <section className="w-full py-16 md:py-24 px-4 bg-muted/20 border-b">

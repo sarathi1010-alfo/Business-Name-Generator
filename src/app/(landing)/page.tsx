@@ -9,6 +9,8 @@ import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { AdSlot } from '@/components/ui/AdSlot';
 import { Suspense, useMemo } from 'react';
+import { JsonLd } from '@/components/JsonLd';
+import { buildWebsiteSchema, buildFaqSchema } from '@/lib/seo/buildSchema';
 
 function GeneratorPageContent() {
   const { filters, updateFilter, results, isGenerating, generate } = useGenerator();
@@ -91,29 +93,6 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 
 function FAQAccordion() {
   return (
-seo-sitemap-fixes-4891058029315111246
-    <section className="w-full max-w-4xl mx-auto px-4 md:px-8 py-16">
-      <h2 className="text-3xl font-bold tracking-tight mb-8 text-center">Frequently Asked Questions</h2>
-      <Accordion type="single" collapsible className="w-full">
-        <AccordionItem value="item-1">
-          <AccordionTrigger>Are these business names free to use?</AccordionTrigger>
-          <AccordionContent>
-            Yes! BrandForge generates ideas using open dictionaries and structural algorithms. However, you should always check local trademark databases to ensure a name isn&apos;t legally protected in your industry before officially registering it.
-          </AccordionContent>
-        </AccordionItem>
-        <AccordionItem value="item-2">
-          <AccordionTrigger>How does the generation algorithm work?</AccordionTrigger>
-          <AccordionContent>
-            Our tool uses a hybrid weighted combinational system. It mixes industry-specific roots, emotional/vibe prefixes and suffixes, and applies scoring heuristics to ensure names are highly pronounceable, symmetrical, and domain-friendly.
-          </AccordionContent>
-        </AccordionItem>
-        <AccordionItem value="item-3">
-          <AccordionTrigger>Can I check domain availability?</AccordionTrigger>
-          <AccordionContent>
-            Currently, our tool provides a heuristic &quot;Domain Likely&quot; score indicating the probability that a short .com might be available or acquirable. Full live domain registry integration is coming soon.
-          </AccordionContent>
-        </AccordionItem>
-      </Accordion>
     <section className="w-full max-w-4xl mx-auto px-4 md:px-8 py-24">
       <h2 className="text-4xl font-bold tracking-tight mb-12 text-center text-white">Frequently Asked Questions</h2>
       <div className="glass-panel rounded-2xl border border-white/10 bg-white/5 p-2 backdrop-blur-md">
@@ -138,7 +117,6 @@ seo-sitemap-fixes-4891058029315111246
           </AccordionItem>
         </Accordion>
       </div>
-      feat/brandforge-v1-11976913785023823923
     </section>
   );
 }
@@ -146,6 +124,12 @@ seo-sitemap-fixes-4891058029315111246
 export default function Home() {
   return (
     <>
+      <JsonLd schema={buildWebsiteSchema()} />
+      <JsonLd schema={buildFaqSchema([
+        { question: "Is this just a logo generator?", answer: "No. BrandForge is a complete Founder Brand Operating System. We generate your entire identity—emotional archetype, custom typography pairings, premium color palettes, brand voice, and a holistic strategy. A logo is just one tiny piece of the puzzle." },
+        { question: "How does the brand DNA mapping work?", answer: "Our core engine uses curated heuristics mapped to psychological archetypes (The Creator, The Innovator, The Luxury, etc.). Based on your industry and vibe, it orchestrates an identity that naturally builds trust and aligns with market expectations without relying on external APIs." },
+        { question: "Can I preview my brand in real-time?", answer: "Yes. Visualizing the output is essential to belief. We generate live, real-time mockups across landing pages, social profiles, and business cards so you can see exactly how your brand will perform in the wild." }
+      ])} />
       <Header />
       <Suspense fallback={<div className="h-screen w-full flex items-center justify-center">Loading...</div>}>
         <GeneratorPageContent />

@@ -77,7 +77,7 @@ function determineVoice(archetype: BrandArchetype): { tone: string[], tagline: s
   return voices[archetype];
 }
 
-export function generateBrandDNA(industry: Industry, vibe: Vibe, _audience: string = 'General'): BrandDNA {
+export function generateBrandDNA(industry: Industry, vibe: Vibe): BrandDNA {
   const archetype = mapToArchetype(vibe, industry);
   const typography = selectTypography(archetype);
   const palette = generatePalette(archetype, industry);
