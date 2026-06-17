@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { LandingPageMockup, SocialPostMockup } from '@/components/workspace/Mockups';
 import { StartupPack } from '@/components/workspace/StartupPack';
 import { ChevronRight } from 'lucide-react';
+import { validateInternalLink } from '@/lib/seo/utils';
 
 export default function WorkspacePage() {
   const { projects, activeProject, activeKit, setActiveProjectId } = useFounderMode();
@@ -25,7 +26,7 @@ export default function WorkspacePage() {
           <p className="text-white/60 max-w-md mx-auto">
             Head over to the generator to craft your first Founder Brand Operating System identity.
           </p>
-          <Link href="/" className="inline-block mt-4 px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-medium rounded-md transition-colors">
+          <Link href={validateInternalLink("/")} className="inline-block mt-4 px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-medium rounded-md transition-colors">
             Generate a Brand
           </Link>
         </div>

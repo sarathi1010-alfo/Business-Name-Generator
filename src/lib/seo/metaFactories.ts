@@ -1,22 +1,16 @@
 import type { SeoMeta } from '@/types/seo';
-
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://brandforge.example.com';
-
-function truncate(str: string, length: number = 160): string {
-  if (str.length <= length) return str;
-  return str.slice(0, length - 3) + '...';
-}
+import { SEO_CONFIG } from './config';
+import { normalizeRoute } from './utils';
 
 export function buildLandingMeta(): SeoMeta {
-  const title = "BrandForge - The AI Business Name Generator";
   return {
-    title,
-    description: "A fast, polished business naming studio that helps founders discover, filter, compare, and shortlist brandable names in seconds.",
-    slug: "/",
+    title: SEO_CONFIG.defaultTitle,
+    description: SEO_CONFIG.defaultDescription,
+    slug: normalizeRoute("/"),
     pageType: 'landing',
     ogImage: {
-      url: `${BASE_URL}/og?title=${encodeURIComponent(title)}&type=landing`,
-      alt: title
+      url: `${SEO_CONFIG.baseUrl}/og?title=${encodeURIComponent(SEO_CONFIG.defaultTitle)}&type=landing`,
+      alt: SEO_CONFIG.defaultTitle
     }
   };
 }
@@ -26,15 +20,15 @@ export function buildIndustryMeta(industry: string): SeoMeta {
   const title = `${cap} Business Name Generator`;
   return {
     title,
-    description: truncate(`Find the perfect brandable name for your ${industry} company. Get inspired by our top ideas or try the full generator.`),
-    slug: `/names-for-${industry}`,
+    description: `Find the perfect brandable name for your ${industry} company. Get inspired by our top ideas or try the full generator.`,
+    slug: normalizeRoute(`/names-for-${industry}`),
     pageType: 'category',
     breadcrumbs: [
       { label: 'Home', href: '/' },
-      { label: `${cap} Names`, href: `/names-for-${industry}` }
+      { label: `${cap} Names`, href: normalizeRoute(`/names-for-${industry}`) }
     ],
     ogImage: {
-      url: `${BASE_URL}/og?title=${encodeURIComponent(title)}&type=category&category=${encodeURIComponent(cap)}`,
+      url: `${SEO_CONFIG.baseUrl}/og?title=${encodeURIComponent(title)}&type=category&category=${encodeURIComponent(cap)}`,
       alt: title
     }
   };
@@ -45,15 +39,15 @@ export function buildVibeMeta(vibe: string): SeoMeta {
   const title = `${cap} Business Names`;
   return {
     title,
-    description: truncate(`Discover ${vibe} business name ideas engineered for perception and trust. Use our interactive studio to filter by vibe, style, and length.`),
-    slug: `/${vibe}-brand-names`,
+    description: `Discover ${vibe} business name ideas engineered for perception and trust. Use our interactive studio to filter by vibe, style, and length.`,
+    slug: normalizeRoute(`/${vibe}-brand-names`),
     pageType: 'category',
     breadcrumbs: [
       { label: 'Home', href: '/' },
-      { label: `${cap} Names`, href: `/${vibe}-brand-names` }
+      { label: `${cap} Names`, href: normalizeRoute(`/${vibe}-brand-names`) }
     ],
     ogImage: {
-      url: `${BASE_URL}/og?title=${encodeURIComponent(title)}&type=category&category=${encodeURIComponent(cap)}`,
+      url: `${SEO_CONFIG.baseUrl}/og?title=${encodeURIComponent(title)}&type=category&category=${encodeURIComponent(cap)}`,
       alt: title
     }
   };
@@ -64,12 +58,12 @@ export function buildWorkspaceMeta(): SeoMeta {
   return {
     title,
     description: "Manage, refine, and deploy your generated brand identities.",
-    slug: "/workspace",
+    slug: normalizeRoute("/workspace"),
     pageType: 'workspace',
     noindex: true,
     nofollow: true,
     ogImage: {
-      url: `${BASE_URL}/og?title=${encodeURIComponent(title)}&type=workspace`,
+      url: `${SEO_CONFIG.baseUrl}/og?title=${encodeURIComponent(title)}&type=workspace`,
       alt: title
     }
   };

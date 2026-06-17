@@ -12,6 +12,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { buildBreadcrumbSchema } from '@/lib/seo/buildSchema';
 import { buildVibeMeta } from '@/lib/seo/metaFactories';
 import { resolveMetadata } from '@/lib/seo/resolveMetadata';
+import { validateInternalLink, sanitizeSlug } from '@/lib/seo/utils';
 
 interface Props {
   params: Promise<{ vibe: string }>;
@@ -34,7 +35,7 @@ export async function generateMetadata(
 export function generateStaticParams() {
   const vibes = Object.keys(dictionary.vibeTokens) as Vibe[];
   return vibes.map((vibe) => ({
-    vibe,
+    vibe: sanitizeSlug(vibe),
   }));
 }
 
@@ -74,7 +75,7 @@ export default async function VibePage({ params }: Props) {
               Looking for a {validVibe} feel? Browse our curated ideas and launch your next big thing.
             </p>
             <div className="pt-4">
-              <Link href={`/?vibe=${validVibe}`}>
+              <Link href={validateInternalLink(`/?vibe=${validVibe}`)}>
                 <Button size="lg" className="font-bold">Open Full Generator</Button>
               </Link>
             </div>
@@ -101,7 +102,7 @@ export default async function VibePage({ params }: Props) {
           </div>
 
           <div className="mt-12 p-8 bg-card border rounded-xl flex flex-col items-center text-center space-y-4">
-            <Link href={`/?vibe=${validVibe}`}>
+            <Link href={validateInternalLink(`/?vibe=${validVibe}`)}>
               <Button variant="outline" size="lg">Explore more {validVibe} names</Button>
             </Link>
           </div>

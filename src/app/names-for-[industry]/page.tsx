@@ -12,6 +12,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { buildBreadcrumbSchema } from '@/lib/seo/buildSchema';
 import { buildIndustryMeta } from '@/lib/seo/metaFactories';
 import { resolveMetadata } from '@/lib/seo/resolveMetadata';
+import { validateInternalLink, sanitizeSlug } from '@/lib/seo/utils';
 
 interface Props {
   params: Promise<{ industry: string }>;
@@ -34,7 +35,7 @@ export async function generateMetadata(
 export function generateStaticParams() {
   const industries = Object.keys(dictionary.industryTokens) as Industry[];
   return industries.map((industry) => ({
-    industry,
+    industry: sanitizeSlug(industry),
   }));
 }
 
@@ -74,7 +75,7 @@ export default async function IndustryPage({ params }: Props) {
               Find the perfect brandable name for your {validIndustry} company. Get inspired by our top ideas or try the full generator.
             </p>
             <div className="pt-4">
-              <Link href={`/?industry=${validIndustry}`}>
+              <Link href={validateInternalLink(`/?industry=${validIndustry}`)}>
                 <Button size="lg" className="font-bold">Open Full Generator</Button>
               </Link>
             </div>
@@ -105,7 +106,7 @@ export default async function IndustryPage({ params }: Props) {
             <p className="text-muted-foreground max-w-md">
               Use our interactive studio to filter by vibe, style, and length, and save your favorites to a shortlist.
             </p>
-            <Link href={`/?industry=${validIndustry}`}>
+            <Link href={validateInternalLink(`/?industry=${validIndustry}`)}>
               <Button>Try the interactive studio</Button>
             </Link>
           </div>
