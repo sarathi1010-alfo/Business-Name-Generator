@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { validateInternalLink } from '@/lib/seo/utils';
 
 export function Footer() {
   return (
@@ -8,9 +9,9 @@ export function Footer() {
           Built with precision. <span className="font-semibold text-foreground">BrandForge</span>.
         </p>
         <div className="flex items-center space-x-4 text-sm text-muted-foreground">
-          <Link href="#" className="hover:underline">Terms</Link>
-          <Link href="#" className="hover:underline">Privacy</Link>
-          <Link href="#" className="hover:underline">Contact</Link>
+          <Link href={validateInternalLink("/terms")} className="hover:underline">Terms</Link>
+          <Link href={validateInternalLink("/privacy")} className="hover:underline">Privacy</Link>
+          <Link href={validateInternalLink("/contact")} className="hover:underline">Contact</Link>
         </div>
       </div>
     </footer>

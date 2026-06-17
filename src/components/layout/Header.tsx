@@ -1,12 +1,13 @@
 import Link from 'next/link';
 import { Sparkles } from 'lucide-react';
+import { validateInternalLink } from '@/lib/seo/utils';
 
 export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-14 max-w-7xl items-center px-4 md:px-8">
         <div className="mr-4 flex">
-          <Link href="/" className="mr-6 flex items-center space-x-2">
+          <Link href={validateInternalLink("/")} className="mr-6 flex items-center space-x-2">
             <Sparkles className="h-5 w-5 text-primary" />
             <span className="font-bold sm:inline-block">
               BrandForge
@@ -14,13 +15,13 @@ export function Header() {
           </Link>
           <nav className="flex items-center space-x-6 text-sm font-medium">
             <Link
-              href="/"
+              href={validateInternalLink("/")}
               className="transition-colors hover:text-foreground/80 text-foreground/60"
             >
               Generator
             </Link>
             <Link
-              href="/names-for-tech"
+              href={validateInternalLink("/names-for-tech")}
               className="transition-colors hover:text-foreground/80 text-foreground/60 hidden sm:block"
             >
               Industries

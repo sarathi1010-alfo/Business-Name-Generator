@@ -22,10 +22,22 @@ export function middleware(request: NextRequest) {
   }
 
   // Handle trailing slashes explicitly by redirecting to the version without a trailing slash
-  // (Next.js can do this but middleware enforces it completely)
   if (url.pathname !== '/' && url.pathname.endsWith('/')) {
     url.pathname = url.pathname.slice(0, -1);
     isRedirecting = true;
+  }
+
+  // Enforce lowercase
+  if (url.pathname !== url.pathname.toLowerCase()) {
+    url.pathname = url.pathname.toLowerCase();
+    isRedirecting = true;
+  }
+
+  // Enforce no duplicate slashes in pathname
+  const cleanedPath = url.pathname.replace(/\/+/g, '/');
+  if (url.pathname !== cleanedPath) {
+      url.pathname = cleanedPath;
+      isRedirecting = true;
   }
 
   if (isRedirecting) {
@@ -44,6 +56,6 @@ export function middleware(request: NextRequest) {
 export const config = {
   matcher: [
     // Skip all internal paths (_next)
-    '/((?!_next|favicon.ico).*)',
+    '/((?!_next|favicon.ico|og).*)',
   ],
 };
