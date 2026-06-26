@@ -1,6 +1,6 @@
 import type { SeoMeta } from '@/types/seo';
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://brandforge.example.com';
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://brandforge.alfo.online';
 
 function truncate(str: string, length: number = 160): string {
   if (str.length <= length) return str;

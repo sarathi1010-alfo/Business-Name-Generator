@@ -1,6 +1,6 @@
 import type { SeoMeta } from '@/types/seo';
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://brandforge.example.com';
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://brandforge.alfo.online';
 const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME ?? 'BrandForge';
 
 export function buildOrganizationSchema() {
