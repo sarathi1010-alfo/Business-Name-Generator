@@ -69,7 +69,7 @@ export async function GET(request: NextRequest) {
 
           <div style={{ display: 'flex', marginTop: 'auto', borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '30px', width: '100%', justifyContent: 'space-between' }}>
             <span style={{ fontSize: '24px', color: '#9ca3af' }}>Founder Brand Operating System</span>
-            <span style={{ fontSize: '24px', color: '#4f46e5' }}>brandforge.example.com</span>
+            <span style={{ fontSize: '24px', color: '#4f46e5' }}>brandforge.alfo.online</span>
           </div>
         </div>
       ),
