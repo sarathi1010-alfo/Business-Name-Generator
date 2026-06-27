@@ -25,6 +25,20 @@ export function useFounderMode() {
     }
   }, [projects]);
 
+  const updateActiveKitDNA = useCallback((newDna: import('@/types').BrandDNA) => {
+    setProjects(prevProjects => prevProjects.map(project => {
+      if (project.id === activeProjectId) {
+        return {
+          ...project,
+          kits: project.kits.map(kit =>
+            kit.id === project.activeKitId ? { ...kit, dna: newDna } : kit
+          )
+        };
+      }
+      return project;
+    }));
+  }, [activeProjectId]);
+
   const createProjectFromIdea = useCallback((
     baseName: GeneratedName,
     industry: Industry,
@@ -63,6 +77,7 @@ export function useFounderMode() {
     activeProjectId,
     setActiveProjectId,
     createProjectFromIdea,
+    updateActiveKitDNA,
     activeProject,
     activeKit
   };
