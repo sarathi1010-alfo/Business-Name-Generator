@@ -25,7 +25,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://brandforge.alfo.online"),
+  metadataBase: new URL("https://brandforge.alfo.online"),
 };
 
 export default function RootLayout({

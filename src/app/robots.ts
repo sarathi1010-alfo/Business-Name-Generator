@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://brandforge.alfo.online';
+const BASE_URL = 'https://brandforge.alfo.online';
 
 export default function robots(): MetadataRoute.Robots {
   return {
