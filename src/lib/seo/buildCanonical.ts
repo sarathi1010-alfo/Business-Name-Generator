@@ -1,4 +1,4 @@
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://brandforge.alfo.online';
+const BASE_URL = 'https://brandforge.alfo.online';
 
 export function buildCanonical(slug: string): string {
   const base = BASE_URL.replace(/\/$/, '');
