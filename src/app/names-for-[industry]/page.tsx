@@ -109,6 +109,12 @@ export default async function IndustryPage({ params }: Props) {
               <Button>Try the interactive studio</Button>
             </Link>
           </div>
+
+          <div className="mt-8 text-center">
+            <p className="text-sm text-muted-foreground">
+              Need help deciding? Read our guide on <Link href="/blog/choose-standout-brand-name" className="text-indigo-400 hover:underline">how to choose a brand name that stands out</Link>.
+            </p>
+          </div>
         </section>
 
         {/* SEO Content Block Example */}
