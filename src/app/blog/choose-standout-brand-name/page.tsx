@@ -23,7 +23,7 @@ export default function ArticlePage() {
       <JsonLd schema={buildBreadcrumbSchema(meta.breadcrumbs)} />
       <JsonLd schema={buildArticleSchema(meta)} />
       <Header />
-      <main className="flex-1 bg-background text-foreground">
+      <main className="flex-1 bg-[#0a0a0c] text-white">
         <article className="max-w-3xl mx-auto px-4 py-16 md:py-24 prose prose-lg dark:prose-invert">
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-8">
             How to Choose a Brand Name That Stands Out
