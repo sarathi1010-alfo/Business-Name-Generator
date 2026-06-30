@@ -14,6 +14,47 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
+  // Blog Pages
+  routes.push({
+    url: buildCanonical('/blog/choose-standout-brand-name'),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+
+  // Name Style Programmatic Pages
+  const nameStyles = ['descriptive', 'evocative', 'abstract', 'acronym'];
+  for (const style of nameStyles) {
+    routes.push({
+      url: buildCanonical(`/name-styles/${style}-brand-names`),
+      lastModified: new Date().toISOString(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    });
+  }
+
+  // Target Industries Programmatic Pages
+  const targetIndustries = ['tech-startup', 'fashion-brand', 'food-beverage', 'health-wellness'];
+  for (const industry of targetIndustries) {
+    routes.push({
+      url: buildCanonical(`/industries/${industry}-names`),
+      lastModified: new Date().toISOString(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    });
+  }
+
+  // Archetype Programmatic Pages
+  const archetypes = ['hero', 'outlaw'];
+  for (const archetype of archetypes) {
+    routes.push({
+      url: buildCanonical(`/archetypes/${archetype}-brand-names`),
+      lastModified: new Date().toISOString(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    });
+  }
+
   // Industry pages
   const industries = Object.keys(dictionary.industryTokens);
   for (const industry of industries) {

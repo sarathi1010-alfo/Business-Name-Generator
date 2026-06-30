@@ -21,6 +21,25 @@ export function buildLandingMeta(): SeoMeta {
   };
 }
 
+export function buildArticleMeta(title: string, description: string, slug: string): SeoMeta {
+  return {
+    title,
+    description: truncate(description),
+    slug,
+    pageType: 'article',
+    breadcrumbs: [
+      { label: 'Home', href: '/' },
+      { label: 'Blog', href: '/blog' },
+      { label: title, href: slug }
+    ],
+    publishedAt: new Date().toISOString(),
+    ogImage: {
+      url: `${BASE_URL}/og?title=${encodeURIComponent(title)}&type=article`,
+      alt: title
+    }
+  };
+}
+
 export function buildIndustryMeta(industry: string): SeoMeta {
   const cap = industry.charAt(0).toUpperCase() + industry.slice(1);
   const title = `${cap} Business Name Generator`;

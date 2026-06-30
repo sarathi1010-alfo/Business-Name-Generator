@@ -11,6 +11,7 @@ import { AdSlot } from '@/components/ui/AdSlot';
 import { Suspense, useMemo } from 'react';
 import { JsonLd } from '@/components/JsonLd';
 import { buildWebsiteSchema, buildFaqSchema } from '@/lib/seo/buildSchema';
+import Link from 'next/link';
 
 function GeneratorPageContent() {
   const { filters, updateFilter, results, isGenerating, generate } = useGenerator();
@@ -62,7 +63,7 @@ function GeneratorPageContent() {
             />
           </div>
 
-          <div className="space-y-6">
+          <div id="identity-directions" className="space-y-6 scroll-mt-24">
             <div className="flex justify-between items-end border-b border-white/10 pb-4">
               <h2 className="text-3xl font-bold tracking-tight text-white">Generated Identity Directions</h2>
               <p className="text-sm font-medium text-indigo-400">{results.length} concepts ready</p>
@@ -109,10 +110,16 @@ function FAQAccordion() {
               Our core engine uses curated heuristics mapped to psychological archetypes (The Creator, The Innovator, The Luxury, etc.). Based on your industry and vibe, it orchestrates an identity that naturally builds trust and aligns with market expectations without relying on external APIs.
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-3" className="border-b-0 px-6 py-2">
+          <AccordionItem value="item-3" className="border-b border-white/10 px-6 py-2">
             <AccordionTrigger className="text-white hover:text-indigo-300 transition-colors">Can I preview my brand in real-time?</AccordionTrigger>
             <AccordionContent className="text-white/60 text-base leading-relaxed pt-2 pb-6">
               Yes. Visualizing the output is essential to belief. We generate live, real-time mockups across landing pages, social profiles, and business cards so you can see exactly how your brand will perform in the wild.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-4" className="border-b-0 px-6 py-2">
+            <AccordionTrigger className="text-white hover:text-indigo-300 transition-colors">How do I choose a brand name that stands out?</AccordionTrigger>
+            <AccordionContent className="text-white/60 text-base leading-relaxed pt-2 pb-6">
+              Choosing a standout brand name involves brainstorming across different naming strategies, evaluating for memorability and pronounceability, and ensuring domain and trademark availability. For a deep dive into the process, check out our comprehensive guide on <Link href="/blog/choose-standout-brand-name" className="text-indigo-400 hover:underline">how to choose a brand name that stands out</Link>.
             </AccordionContent>
           </AccordionItem>
         </Accordion>
@@ -128,7 +135,8 @@ export default function Home() {
       <JsonLd schema={buildFaqSchema([
         { question: "Is this just a logo generator?", answer: "No. BrandForge is a complete Founder Brand Operating System. We generate your entire identity—emotional archetype, custom typography pairings, premium color palettes, brand voice, and a holistic strategy. A logo is just one tiny piece of the puzzle." },
         { question: "How does the brand DNA mapping work?", answer: "Our core engine uses curated heuristics mapped to psychological archetypes (The Creator, The Innovator, The Luxury, etc.). Based on your industry and vibe, it orchestrates an identity that naturally builds trust and aligns with market expectations without relying on external APIs." },
-        { question: "Can I preview my brand in real-time?", answer: "Yes. Visualizing the output is essential to belief. We generate live, real-time mockups across landing pages, social profiles, and business cards so you can see exactly how your brand will perform in the wild." }
+        { question: "Can I preview my brand in real-time?", answer: "Yes. Visualizing the output is essential to belief. We generate live, real-time mockups across landing pages, social profiles, and business cards so you can see exactly how your brand will perform in the wild." },
+        { question: "How do I choose a brand name that stands out?", answer: "Choosing a standout brand name involves brainstorming across different naming strategies, evaluating for memorability and pronounceability, and ensuring domain and trademark availability. For a deep dive into the process, check out our comprehensive guide on how to choose a brand name that stands out." }
       ])} />
       <Header />
       <Suspense fallback={<div className="h-screen w-full flex items-center justify-center">Loading...</div>}>
