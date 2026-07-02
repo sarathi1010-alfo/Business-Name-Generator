@@ -47,12 +47,14 @@ export default function ArticlePage() {
           <p>
             There are several established strategies for creating a brand name. Each has its strengths and weaknesses:
           </p>
-          <ul>
-            <li><strong>Descriptive Names:</strong> These names tell you exactly what the business does (e.g., General Motors, Bank of America). They are straightforward but can be boring and hard to trademark.</li>
-            <li><strong>Evocative Names:</strong> These names suggest a feeling or experience related to the brand (e.g., Apple, Amazon). They are powerful and memorable but require significant marketing effort to build association.</li>
-            <li><strong>Abstract Names:</strong> These are entirely invented words with no inherent meaning (e.g., Kodak, Google). They are blank slates and easy to trademark, but you have to build the meaning from scratch.</li>
-            <li><strong>Acronyms:</strong> These are abbreviations of longer names (e.g., IBM, KFC). They are often a last resort when the full name is too long or cumbersome.</li>
-          </ul>
+          <h3>Descriptive Brand Names</h3>
+          <p>These names tell you exactly what the business does (e.g., General Motors, Bank of America). They are straightforward but can be boring and hard to trademark.</p>
+          <h3>Evocative Brand Names</h3>
+          <p>These names suggest a feeling or experience related to the brand (e.g., Apple, Amazon). They are powerful and memorable but require significant marketing effort to build association.</p>
+          <h3>Abstract Brand Names</h3>
+          <p>These are entirely invented words with no inherent meaning (e.g., Kodak, Google). They are blank slates and easy to trademark, but you have to build the meaning from scratch.</p>
+          <h3>Acronym Brand Names</h3>
+          <p>These are abbreviations of longer names (e.g., IBM, KFC). They are often a last resort when the full name is too long or cumbersome.</p>
 
           <h2>The Importance of Memorability and Pronounceability</h2>
           <p>
