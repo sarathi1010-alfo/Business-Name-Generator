@@ -22,7 +22,7 @@ export default function EvocativeBrandNamesPage() {
         { question: 'Why are evocative names popular for startups?', answer: 'They are memorable, highly brandable, easier to trademark than descriptive names, and allow a company to expand its product line without the name becoming obsolete.' }
       ])} />
       <Header />
-      <main className="flex-1 bg-background text-foreground flex flex-col items-center">
+      <main className="flex-1 bg-[#0a0a0c] text-white flex flex-col items-center">
         <section className="w-full py-16 md:py-24 px-4 bg-muted/20 border-b">
           <div className="container max-w-4xl mx-auto text-center space-y-6">
             <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Evocative Brand Names</h1>
