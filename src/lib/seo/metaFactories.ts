@@ -21,7 +21,12 @@ export function buildLandingMeta(): SeoMeta {
   };
 }
 
-export function buildArticleMeta(title: string, description: string, slug: string): SeoMeta {
+export function buildArticleMeta(
+  title: string,
+  description: string,
+  slug: string,
+  options?: { publishedAt?: string; updatedAt?: string }
+): SeoMeta {
   return {
     title,
     description: truncate(description),
@@ -32,7 +37,8 @@ export function buildArticleMeta(title: string, description: string, slug: strin
       { label: 'Blog', href: '/blog' },
       { label: title, href: slug }
     ],
-    publishedAt: new Date().toISOString(),
+    publishedAt: options?.publishedAt || new Date().toISOString(),
+    updatedAt: options?.updatedAt,
     ogImage: {
       url: `${BASE_URL}/og?title=${encodeURIComponent(title)}&type=article`,
       alt: title
