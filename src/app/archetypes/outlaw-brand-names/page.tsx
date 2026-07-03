@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: 'Outlaw Brand Archetype Names - Rebellious & Disruptive',
   description: 'Learn how to name a brand with the Outlaw archetype. Generate disruptive, edgy, and rebellious brand name ideas.',
   alternates: {
+    lastModified: '2026-07-03T00:00:00Z',
     canonical: 'https://brandforge.alfo.online/archetypes/outlaw-brand-names',
   },
 };

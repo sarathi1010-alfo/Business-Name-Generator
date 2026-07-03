@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: 'Health & Wellness Brand Names - Trustworthy Ideas',
   description: 'Create a brand name that inspires vitality and trust. Explore naming strategies for health, wellness, and fitness businesses.',
   alternates: {
+    lastModified: '2026-07-03T00:00:00Z',
     canonical: 'https://brandforge.alfo.online/industries/health-wellness-names',
   },
 };
