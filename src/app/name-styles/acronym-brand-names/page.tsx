@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: 'Acronym Brand Names - Strategies and Examples',
   description: 'Understand the pros and cons of acronym brand names. Learn when to use initials and how to transition a long business name into a catchy acronym.',
   alternates: {
+    lastModified: '2026-07-03T00:00:00Z',
     canonical: 'https://brandforge.alfo.online/name-styles/acronym-brand-names',
   },
 };

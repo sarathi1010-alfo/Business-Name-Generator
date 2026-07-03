@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: 'Tech Startup Names - Generate Modern Tech Brand Ideas',
   description: 'Generate cutting-edge, modern tech startup names. Discover naming trends in the tech industry and find the perfect brandable domain.',
   alternates: {
+    lastModified: '2026-07-03T00:00:00Z',
     canonical: 'https://brandforge.alfo.online/industries/tech-startup-names',
   },
 };
