@@ -11,7 +11,7 @@ const meta = buildArticleMeta(
   "What is Brand Identity? A Founder's Guide to Building Trust",
   "Discover what brand identity truly is and why it's the foundation of business success. Learn how to create a cohesive visual and emotional brand for 2026.",
   "/blog/what-is-brand-identity",
-  { updatedAt: "2025-05-15T00:00:00Z" }
+  { updatedAt: "2026-07-04T00:00:00Z" }
 );
 
 export async function generateMetadata(): Promise<Metadata> {

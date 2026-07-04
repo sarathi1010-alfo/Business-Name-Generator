@@ -7,6 +7,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Acronym Brand Names - Strategies and Examples',
+  updatedAt: "2026-07-04T08:00:00Z",
   description: 'Understand the pros and cons of acronym brand names. Learn when to use initials and how to transition a long business name into a catchy acronym.',
   alternates: {
     canonical: 'https://brandforge.alfo.online/name-styles/acronym-brand-names',

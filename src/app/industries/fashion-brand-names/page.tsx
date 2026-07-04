@@ -7,6 +7,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Fashion Brand Names - Elegant and Trendy Ideas',
+  updatedAt: "2026-07-04T08:00:00Z",
   description: 'Discover how to name a fashion brand. Generate elegant, edgy, or chic fashion brand name ideas that capture your unique aesthetic.',
   alternates: {
     canonical: 'https://brandforge.alfo.online/industries/fashion-brand-names',
