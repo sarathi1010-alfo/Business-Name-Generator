@@ -7,6 +7,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Health & Wellness Brand Names - Trustworthy Ideas',
+  updatedAt: "2026-07-04T08:00:00Z",
   description: 'Create a brand name that inspires vitality and trust. Explore naming strategies for health, wellness, and fitness businesses.',
   alternates: {
     canonical: 'https://brandforge.alfo.online/industries/health-wellness-names',
