@@ -1,0 +1,25 @@
+
+> temp-app@0.1.0 dev /app
+> next dev
+
+▲ Next.js 16.2.7 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.2:3000
+✓ Ready in 602ms
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+
+○ Compiling /blog/choose-standout-brand-name ...
+ GET /blog/choose-standout-brand-name 200 in 7.2s (next.js: 6.2s, proxy.ts: 139ms, application-code: 878ms)
+ GET /name-styles/descriptive-brand-names 200 in 1249ms (next.js: 1050ms, proxy.ts: 14ms, application-code: 185ms)
+○ Compiling / ...
+ GET / 200 in 4.2s (next.js: 3.7s, proxy.ts: 9ms, application-code: 487ms)
+ GET /?industry=tech&vibe=modern&length=any&style=startup&isTwoWords=false 200 in 43ms (next.js: 4ms, proxy.ts: 6ms, application-code: 33ms)
+ GET /blog/choose-standout-brand-name 200 in 165ms (next.js: 7ms, proxy.ts: 9ms, application-code: 150ms)
+ GET /name-styles/descriptive-brand-names 200 in 143ms (next.js: 6ms, proxy.ts: 5ms, application-code: 131ms)
+ GET / 200 in 104ms (next.js: 5ms, proxy.ts: 5ms, application-code: 94ms)
+ GET /?industry=tech&vibe=modern&length=any&style=startup&isTwoWords=false 200 in 45ms (next.js: 4ms, proxy.ts: 5ms, application-code: 35ms)
