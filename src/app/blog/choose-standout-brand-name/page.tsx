@@ -10,7 +10,8 @@ import Link from 'next/link';
 const meta = buildArticleMeta(
   "How to Choose a Brand Name That Stands Out",
   "Learn how to choose a memorable, unique brand name. Explore naming strategies, check domain availability, and use AI tools like BrandForge for perfect naming.",
-  "/blog/choose-standout-brand-name"
+  "/blog/choose-standout-brand-name",
+  { publishedAt: "2025-05-21T00:00:00Z", updatedAt: "2025-05-21T00:00:00Z" }
 );
 
 export async function generateMetadata(): Promise<Metadata> {

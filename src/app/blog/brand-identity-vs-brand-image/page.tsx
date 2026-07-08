@@ -11,7 +11,7 @@ const meta = buildArticleMeta(
   "Brand Identity vs. Brand Image: What's the Difference?",
   "Understanding the crucial difference between who you are (Identity) and how people see you (Image). Learn how to bridge the gap for a stronger brand.",
   "/blog/brand-identity-vs-brand-image",
-  { updatedAt: "2025-05-15T00:00:00Z" }
+  { updatedAt: "2025-05-21T00:00:00Z" }
 );
 
 export async function generateMetadata(): Promise<Metadata> {

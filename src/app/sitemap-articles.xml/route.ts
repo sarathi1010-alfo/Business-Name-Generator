@@ -7,37 +7,37 @@ export async function GET() {
   const routes: MetadataRoute.Sitemap = [
     {
       url: buildCanonical('/blog'),
-      lastModified: new Date().toISOString(),
+      lastModified: "2025-05-21T00:00:00Z",
       changeFrequency: 'weekly',
       priority: 0.8,
     },
     {
       url: buildCanonical('/blog/choose-standout-brand-name'),
-      lastModified: new Date().toISOString(),
+      lastModified: "2025-05-21T00:00:00Z",
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
       url: buildCanonical('/blog/what-is-brand-identity'),
-      lastModified: new Date().toISOString(),
+      lastModified: "2025-05-21T00:00:00Z",
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
       url: buildCanonical('/blog/ultimate-guide-to-brand-archetypes'),
-      lastModified: new Date().toISOString(),
+      lastModified: "2025-05-21T00:00:00Z",
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
       url: buildCanonical('/blog/brand-identity-vs-brand-image'),
-      lastModified: new Date().toISOString(),
+      lastModified: "2025-05-21T00:00:00Z",
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
       url: buildCanonical('/blog/how-to-define-your-brand-voice'),
-      lastModified: new Date().toISOString(),
+      lastModified: "2025-05-21T00:00:00Z",
       changeFrequency: 'weekly',
       priority: 0.9,
     },
