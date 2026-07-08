@@ -12,7 +12,7 @@ export async function GET() {
   for (const style of nameStyles) {
     routes.push({
       url: buildCanonical(`/name-styles/${style}-brand-names`),
-      lastModified: "2025-05-21T00:00:00Z",
+      lastModified: new Date().toISOString(),
       changeFrequency: 'monthly',
       priority: 0.8,
     });
@@ -23,7 +23,7 @@ export async function GET() {
   for (const industry of targetIndustries) {
     routes.push({
       url: buildCanonical(`/industries/${industry}-names`),
-      lastModified: "2025-05-21T00:00:00Z",
+      lastModified: new Date().toISOString(),
       changeFrequency: 'monthly',
       priority: 0.8,
     });
@@ -34,7 +34,7 @@ export async function GET() {
   for (const archetype of archetypes) {
     routes.push({
       url: buildCanonical(`/archetypes/${archetype}-brand-names`),
-      lastModified: "2025-05-21T00:00:00Z",
+      lastModified: new Date().toISOString(),
       changeFrequency: 'monthly',
       priority: 0.8,
     });
@@ -45,7 +45,7 @@ export async function GET() {
   for (const industry of industries) {
     routes.push({
       url: buildCanonical(`/names-for-${industry}`),
-      lastModified: "2025-05-21T00:00:00Z",
+      lastModified: new Date().toISOString(),
       changeFrequency: 'monthly',
       priority: 0.8,
     });
@@ -56,7 +56,7 @@ export async function GET() {
   for (const vibe of vibes) {
     routes.push({
       url: buildCanonical(`/${vibe}-brand-names`),
-      lastModified: "2025-05-21T00:00:00Z",
+      lastModified: new Date().toISOString(),
       changeFrequency: 'monthly',
       priority: 0.8,
     });
