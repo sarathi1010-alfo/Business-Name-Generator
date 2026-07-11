@@ -8,6 +8,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Descriptive Brand Names - Strategies & Ideas',
   description: 'Explore the power of descriptive brand names. Learn how they work, when to use them, and generate your own descriptive brand name ideas.',
+    lastModified: "2026-07-11T00:00:00Z",
   alternates: {
     canonical: 'https://brandforge.alfo.online/name-styles/descriptive-brand-names',
   },

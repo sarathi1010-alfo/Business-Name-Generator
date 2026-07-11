@@ -8,6 +8,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Abstract Brand Names - Invented Names for Modern Brands',
   description: 'Create a unique, highly trademarkable abstract brand name. Learn how invented words become iconic brands and generate your own abstract ideas.',
+    lastModified: "2026-07-11T00:00:00Z",
   alternates: {
     canonical: 'https://brandforge.alfo.online/name-styles/abstract-brand-names',
   },

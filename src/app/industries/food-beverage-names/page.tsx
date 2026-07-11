@@ -8,6 +8,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Food & Beverage Brand Names - Appetizing Ideas',
   description: 'Generate appetizing food and beverage brand names. Learn naming strategies for restaurants, CPG brands, and craft beverages.',
+    lastModified: "2026-07-11T00:00:00Z",
   alternates: {
     canonical: 'https://brandforge.alfo.online/industries/food-beverage-names',
   },

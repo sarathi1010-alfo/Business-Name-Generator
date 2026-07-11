@@ -8,6 +8,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Tech Startup Names - Generate Modern Tech Brand Ideas',
   description: 'Generate cutting-edge, modern tech startup names. Discover naming trends in the tech industry and find the perfect brandable domain.',
+    lastModified: "2026-07-11T00:00:00Z",
   alternates: {
     canonical: 'https://brandforge.alfo.online/industries/tech-startup-names',
   },
