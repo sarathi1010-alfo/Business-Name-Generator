@@ -8,6 +8,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Hero Brand Archetype Names - Bold & Courageous',
   description: 'Discover how to name a brand with the Hero archetype. Generate bold, courageous, and triumphant brand names.',
+    lastModified: "2026-07-11T00:00:00Z",
   alternates: {
     canonical: 'https://brandforge.alfo.online/archetypes/hero-brand-names',
   },

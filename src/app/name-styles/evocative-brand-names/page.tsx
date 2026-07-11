@@ -8,6 +8,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Evocative Brand Names - Meaning & Inspiration',
   description: 'Evoke emotion with a powerful brand name. Discover evocative naming strategies and generate names that resonate with your target audience.',
+    lastModified: "2026-07-11T00:00:00Z",
   alternates: {
     canonical: 'https://brandforge.alfo.online/name-styles/evocative-brand-names',
   },
