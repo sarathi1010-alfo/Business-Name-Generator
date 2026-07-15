@@ -10,7 +10,8 @@ import Link from 'next/link';
 const meta = buildArticleMeta(
   "How to Define Your Brand Voice: A 2026 Strategy",
   "Master the art of brand linguistics. Learn how to define a brand voice that resonates with your audience and stays consistent across all channels.",
-  "/blog/how-to-define-your-brand-voice"
+  "/blog/how-to-define-your-brand-voice",
+  { updatedAt: "2026-07-10T00:00:00Z" }
 );
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -73,7 +74,10 @@ export default function ArticlePage() {
 
           <h3>Conclusion</h3>
           <p>
-            A strong brand voice builds familiarity and trust. It makes your brand recognizable even without a logo. Start by defining your core personality, and then apply it consistently across every email, tweet, and landing page.
+            A strong brand voice builds familiarity and trust. It makes your brand recognizable even without a logo. It works in tandem with your name; a great brand voice amplifies a well-chosen name. If you haven&apos;t settled on one yet, read our guide on <Link href="/blog/choose-standout-brand-name" className="text-indigo-400 hover:underline">how to choose a brand name that stands out</Link>.
+          </p>
+          <p>
+            Start by defining your core personality, and then apply it consistently across every email, tweet, and landing page.
           </p>
         </article>
       </main>

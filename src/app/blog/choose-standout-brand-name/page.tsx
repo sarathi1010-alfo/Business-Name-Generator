@@ -97,6 +97,14 @@ export default function ArticlePage() {
             A common mistake is assuming that a slight spelling variation (e.g., changing &quot;Quick&quot; to &quot;Kwik&quot;) offers legal protection. It rarely does. Phonetic equivalents are often considered just as infringing. Before you commit resources to a name, invest the time to search the USPTO database (or your local equivalent). If you are building a venture-backed startup with high growth potential, hiring a trademark attorney to conduct a comprehensive clearance search is not an expense; it is a critical investment in your company&apos;s foundation.
           </p>
 
+          <h2>The Role of Domain Extensions in Modern Branding</h2>
+          <p>
+            A decade ago, the .com extension was the only viable option for a serious business. Today, the landscape has shifted. While .com remains the gold standard for authority and trust, the rise of &quot;Not-Com&quot; extensions like .io, .ai, .co, and even industry-specific ones like .shop or .design has opened up new creative possibilities.
+          </p>
+          <p>
+            However, choosing a non-traditional extension comes with trade-offs. The &quot;leakage&quot; problem is real—if you own &quot;YourBrand.io&quot;, a significant portion of your traffic will instinctively type &quot;YourBrand.com&quot; and potentially end up at a competitor&apos;s site or a parked domain. If you go with a non-.com, you must be prepared to invest more in brand awareness to train your customers on where to find you. Ideally, you should aim to secure the .com eventually as your business scales, treating it as a key defensive asset for your intellectual property.
+          </p>
+
           <h2>The Pivot-Proof Naming Strategy</h2>
           <p>
             Startups rarely end up exactly where they began. A business that starts selling books might eventually sell everything in the world (Amazon). A company that starts as a podcasting platform might pivot to become a 140-character microblogging site (Twitter/X). If your name is too heavily anchored to your V1 product, a pivot requires a painful rebrand.

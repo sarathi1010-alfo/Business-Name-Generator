@@ -22,7 +22,7 @@ export default function AcronymBrandNamesPage() {
         { question: 'Are acronyms good for new businesses?', answer: 'Generally, no. Acronyms lack inherent meaning and emotion, making it difficult for a new, unknown business to stand out and communicate its value.' }
       ])} />
       <Header />
-      <main className="flex-1 bg-background text-foreground flex flex-col items-center">
+      <main className="flex-1 bg-[#0a0a0c] text-white flex flex-col items-center">
         <section className="w-full py-16 md:py-24 px-4 bg-muted/20 border-b">
           <div className="container max-w-4xl mx-auto text-center space-y-6">
             <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Acronym Brand Names</h1>
