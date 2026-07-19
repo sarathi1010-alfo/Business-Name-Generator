@@ -8,7 +8,7 @@ export async function GET() {
   const routes: MetadataRoute.Sitemap = [];
 
   // Name Style Programmatic Pages
-  const nameStyles = ['descriptive', 'evocative', 'abstract', 'acronym'];
+  const nameStyles = ['descriptive', 'evocative', 'abstract', 'acronym', 'portmanteau', 'founder', 'compound', 'invented'];
   for (const style of nameStyles) {
     routes.push({
       url: buildCanonical(`/name-styles/${style}-brand-names`),
@@ -19,7 +19,7 @@ export async function GET() {
   }
 
   // Target Industries Programmatic Pages
-  const targetIndustries = ['tech-startup', 'fashion-brand', 'food-beverage', 'health-wellness'];
+  const targetIndustries = ['tech-startup', 'fashion-brand', 'food-beverage', 'health-wellness', 'ai-company', 'saas-business', 'beauty-brand', 'finance-startup'];
   for (const industry of targetIndustries) {
     routes.push({
       url: buildCanonical(`/industries/${industry}-names`),
@@ -30,7 +30,7 @@ export async function GET() {
   }
 
   // Archetype Programmatic Pages
-  const archetypes = ['hero', 'outlaw'];
+  const archetypes = ['hero', 'outlaw', 'creator', 'sage'];
   for (const archetype of archetypes) {
     routes.push({
       url: buildCanonical(`/archetypes/${archetype}-brand-names`),

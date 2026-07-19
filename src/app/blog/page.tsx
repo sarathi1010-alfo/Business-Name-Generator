@@ -23,6 +23,13 @@ const categories = [
 
 const posts = [
   {
+    title: "How to Build a Powerful Brand Strategy",
+    description: "A step-by-step blueprint to build a scalable brand strategy from scratch. Master positioning, visual identity, and brand voice.",
+    slug: "how-to-build-brand-strategy",
+    date: "Jul 2026",
+    category: "Fundamentals"
+  },
+  {
     title: "The Ultimate Guide to Brand Identity in 2026",
     description: "Your complete blueprint for building a cohesive, powerful brand identity that builds trust and drives growth in 2026.",
     slug: "ultimate-guide-to-brand-identity",

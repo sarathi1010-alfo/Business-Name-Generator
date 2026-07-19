@@ -11,19 +11,17 @@ if [ $# -gt 0 ]; then
 else
   # List of primary URLs to index
   URLS=(
-    "https://brandforge.alfo.online/blog/choose-standout-brand-name"
-    "https://brandforge.alfo.online/blog/what-is-brand-identity"
-    "https://brandforge.alfo.online/blog/brand-identity-vs-brand-image"
-    "https://brandforge.alfo.online/name-styles/descriptive-brand-names"
-    "https://brandforge.alfo.online/name-styles/evocative-brand-names"
-    "https://brandforge.alfo.online/name-styles/abstract-brand-names"
-    "https://brandforge.alfo.online/name-styles/acronym-brand-names"
-    "https://brandforge.alfo.online/industries/tech-startup-names"
-    "https://brandforge.alfo.online/industries/fashion-brand-names"
-    "https://brandforge.alfo.online/industries/food-beverage-names"
-    "https://brandforge.alfo.online/industries/health-wellness-names"
-    "https://brandforge.alfo.online/archetypes/hero-brand-names"
-    "https://brandforge.alfo.online/archetypes/outlaw-brand-names"
+    "https://brandforge.alfo.online/blog/how-to-build-brand-strategy"
+    "https://brandforge.alfo.online/name-styles/portmanteau-brand-names"
+    "https://brandforge.alfo.online/name-styles/founder-brand-names"
+    "https://brandforge.alfo.online/name-styles/compound-brand-names"
+    "https://brandforge.alfo.online/name-styles/invented-brand-names"
+    "https://brandforge.alfo.online/industries/ai-company-names"
+    "https://brandforge.alfo.online/industries/saas-business-names"
+    "https://brandforge.alfo.online/industries/beauty-brand-names"
+    "https://brandforge.alfo.online/industries/finance-startup-names"
+    "https://brandforge.alfo.online/archetypes/creator-brand-names"
+    "https://brandforge.alfo.online/archetypes/sage-brand-names"
   )
 fi
 
