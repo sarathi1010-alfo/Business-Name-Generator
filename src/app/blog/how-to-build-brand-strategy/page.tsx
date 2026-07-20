@@ -11,7 +11,7 @@ const meta = buildArticleMeta(
   "How to Build a Powerful Brand Strategy – The 2026 Founder's Guide",
   "A step-by-step blueprint to build a scalable brand strategy from scratch. Master positioning, visual identity, and brand voice.",
   "/blog/how-to-build-brand-strategy",
-  { updatedAt: "2026-07-20T00:00:00Z" }
+  { updatedAt: "2026-07-21T00:00:00Z" }
 );
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -73,7 +73,7 @@ export default function ArticlePage() {
           </p>
           <ul>
             <li><strong>Typography:</strong> Do you need modern sans-serifs for a tech startup, or elegant serifs for a luxury brand?</li>
-            <li><strong>Color Palette:</strong> Colors evoke specific emotions. Blue for trust, red for urgency, purple for luxury or creativity.</li>
+            <li><strong>Color Palette:</strong> Colors evoke specific emotions. Blue for trust, red for urgency, purple for luxury or creativity. Read our complete guide on <Link href="/blog/how-to-choose-brand-colors" className="text-indigo-400 hover:underline">how to choose perfect brand colors</Link> to ensure your palette aligns with your strategy.</li>
             <li><strong>Logo/Mark:</strong> The recognizable symbol that acts as the shorthand for your entire strategy.</li>
           </ul>
           <p>
@@ -85,7 +85,7 @@ export default function ArticlePage() {
             If your visual identity is how you look, your brand voice is how you sound. A consistent brand voice builds trust. If you look like a high-end luxury brand but your website copy sounds like a casual teenager, the cognitive dissonance will kill conversions.
           </p>
           <p>
-            Define 3-5 adjectives that describe your brand&apos;s personality (e.g., "Confident, Witty, Direct, Helpful") and use them to grade all your written content.
+            Define 3-5 adjectives that describe your brand&apos;s personality (e.g., &quot;Confident, Witty, Direct, Helpful&quot;) and use them to grade all your written content.
           </p>
 
           <h2>Step 5: Apply and Iterate</h2>
@@ -98,7 +98,7 @@ export default function ArticlePage() {
             <ul className="mb-0">
               <li><strong>Trying to be everything to everyone:</strong> A brand for everyone is a brand for no one.</li>
               <li><strong>Copying competitors:</strong> If you look and sound like the market leader, you offer no reason to switch.</li>
-              <li><strong>Ignoring the "Radio Test":</strong> If your brand name is too hard to spell or pronounce, you lose word-of-mouth growth.</li>
+              <li><strong>Ignoring the &quot;Radio Test&quot;:</strong> If your brand name is too hard to spell or pronounce, you lose word-of-mouth growth.</li>
               <li><strong>Inconsistency:</strong> Changing your visual style every month destroys brand recognition.</li>
               <li><strong>Treating branding as a one-time project:</strong> Your brand strategy must evolve as your product and market evolve.</li>
             </ul>

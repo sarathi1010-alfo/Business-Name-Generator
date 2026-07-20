@@ -11,17 +11,17 @@ if [ $# -gt 0 ]; then
 else
   # List of primary URLs to index
   URLS=(
-    "https://brandforge.alfo.online/blog/how-to-build-brand-strategy"
-    "https://brandforge.alfo.online/name-styles/portmanteau-brand-names"
-    "https://brandforge.alfo.online/name-styles/founder-brand-names"
-    "https://brandforge.alfo.online/name-styles/compound-brand-names"
-    "https://brandforge.alfo.online/name-styles/invented-brand-names"
-    "https://brandforge.alfo.online/industries/ai-company-names"
-    "https://brandforge.alfo.online/industries/saas-business-names"
-    "https://brandforge.alfo.online/industries/beauty-brand-names"
-    "https://brandforge.alfo.online/industries/finance-startup-names"
-    "https://brandforge.alfo.online/archetypes/creator-brand-names"
-    "https://brandforge.alfo.online/archetypes/sage-brand-names"
+    "https://brandforge.alfo.online/blog/how-to-choose-brand-colors"
+    "https://brandforge.alfo.online/industries/ecommerce-store-names"
+    "https://brandforge.alfo.online/industries/agency-business-names"
+    "https://brandforge.alfo.online/industries/gaming-company-names"
+    "https://brandforge.alfo.online/industries/education-brand-names"
+    "https://brandforge.alfo.online/industries/fitness-brand-names"
+    "https://brandforge.alfo.online/archetypes/magician-brand-names"
+    "https://brandforge.alfo.online/archetypes/explorer-brand-names"
+    "https://brandforge.alfo.online/archetypes/jester-brand-names"
+    "https://brandforge.alfo.online/archetypes/lover-brand-names"
+    "https://brandforge.alfo.online/archetypes/ruler-brand-names"
   )
 fi
 
