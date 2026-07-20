@@ -2,17 +2,17 @@
 import { test, expect } from '@playwright/test';
 
 const urls = [
-  '/blog/how-to-build-brand-strategy',
-  '/name-styles/portmanteau-brand-names',
-  '/name-styles/founder-brand-names',
-  '/name-styles/compound-brand-names',
-  '/name-styles/invented-brand-names',
-  '/industries/ai-company-names',
-  '/industries/saas-business-names',
-  '/industries/beauty-brand-names',
-  '/industries/finance-startup-names',
-  '/archetypes/creator-brand-names',
-  '/archetypes/sage-brand-names',
+  '/blog/how-to-choose-brand-colors',
+  '/industries/ecommerce-store-names',
+  '/industries/agency-business-names',
+  '/industries/gaming-company-names',
+  '/industries/education-brand-names',
+  '/industries/fitness-brand-names',
+  '/archetypes/magician-brand-names',
+  '/archetypes/explorer-brand-names',
+  '/archetypes/jester-brand-names',
+  '/archetypes/lover-brand-names',
+  '/archetypes/ruler-brand-names',
 ];
 
 test.describe('Technical Integrity Check', () => {
