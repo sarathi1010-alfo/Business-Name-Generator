@@ -19,7 +19,7 @@ export async function GET() {
   }
 
   // Target Industries Programmatic Pages
-  const targetIndustries = ['tech-startup', 'fashion-brand', 'food-beverage', 'health-wellness', 'ai-company', 'saas-business', 'beauty-brand', 'finance-startup', 'ecommerce-store', 'agency-business', 'gaming-company', 'education-brand', 'fitness-brand'];
+  const targetIndustries = ['tech-startup', 'fashion-brand', 'food-beverage', 'health-wellness', 'ai-company', 'saas-business', 'beauty-brand', 'finance-startup', 'ecommerce-store', 'agency-business', 'gaming-company', 'education-brand', 'fitness-brand', 'real-estate-company', 'consulting-business', 'nonprofit-organization', 'photography-business', 'podcast', 'dental-clinic', 'cleaning-business'];
   for (const industry of targetIndustries) {
     routes.push({
       url: buildCanonical(`/industries/${industry}-names`),
@@ -30,7 +30,7 @@ export async function GET() {
   }
 
   // Archetype Programmatic Pages
-  const archetypes = ['hero', 'outlaw', 'creator', 'sage', 'magician', 'explorer', 'jester', 'lover', 'ruler'];
+  const archetypes = ['hero', 'outlaw', 'creator', 'sage', 'magician', 'explorer', 'jester', 'lover', 'ruler', 'caregiver', 'everyman', 'innocent'];
   for (const archetype of archetypes) {
     routes.push({
       url: buildCanonical(`/archetypes/${archetype}-brand-names`),
