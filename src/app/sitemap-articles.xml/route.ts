@@ -6,6 +6,12 @@ import { MetadataRoute } from 'next';
 export async function GET() {
   const routes: MetadataRoute.Sitemap = [
     {
+      url: buildCanonical('/blog/what-is-a-brand-story'),
+      lastModified: new Date().toISOString(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
       url: buildCanonical('/blog/how-to-choose-brand-colors'),
       lastModified: new Date().toISOString(),
       changeFrequency: 'weekly',

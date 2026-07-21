@@ -22,6 +22,17 @@ else
     "https://brandforge.alfo.online/archetypes/jester-brand-names"
     "https://brandforge.alfo.online/archetypes/lover-brand-names"
     "https://brandforge.alfo.online/archetypes/ruler-brand-names"
+    "https://brandforge.alfo.online/blog/what-is-a-brand-story"
+    "https://brandforge.alfo.online/industries/real-estate-company-names"
+    "https://brandforge.alfo.online/industries/consulting-business-names"
+    "https://brandforge.alfo.online/industries/nonprofit-organization-names"
+    "https://brandforge.alfo.online/industries/photography-business-names"
+    "https://brandforge.alfo.online/industries/podcast-names"
+    "https://brandforge.alfo.online/industries/dental-clinic-names"
+    "https://brandforge.alfo.online/industries/cleaning-business-names"
+    "https://brandforge.alfo.online/archetypes/caregiver-brand-names"
+    "https://brandforge.alfo.online/archetypes/everyman-brand-names"
+    "https://brandforge.alfo.online/archetypes/innocent-brand-names"
   )
 fi
 
