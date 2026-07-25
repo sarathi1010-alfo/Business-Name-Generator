@@ -11,7 +11,7 @@ const meta = buildArticleMeta(
   "How to Choose the Perfect Brand Colors – The 2026 Guide",
   "A comprehensive guide to selecting brand colors using psychology, market positioning, and the latest design trends.",
   "/blog/how-to-choose-brand-colors",
-  { updatedAt: "2026-07-21T00:00:00Z" }
+  { updatedAt: "2026-07-22T00:00:00Z" }
 );
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -60,7 +60,7 @@ export default function ArticlePage() {
 
           <h2>Step 1: Define Your Brand Archetype and Personality</h2>
           <p>
-            Before you even look at a color wheel, you must deeply understand who your brand is. What is your <Link href="/blog/what-is-brand-positioning" className="text-indigo-400 hover:underline">brand positioning</Link>? Are you the rebel disrupting an outdated industry, or the sage offering wisdom and security?
+            Before you even look at a color wheel, you must deeply understand who your brand is, especially if you are figuring out <Link href="/blog/how-to-rebrand-your-business" className="text-indigo-400 hover:underline">how to rebrand your business</Link>. What is your <Link href="/blog/what-is-brand-positioning" className="text-indigo-400 hover:underline">brand positioning</Link>? Are you the rebel disrupting an outdated industry, or the sage offering wisdom and security?
           </p>
           <p>
             If you are a <strong>Creator</strong> archetype focused on innovation, your palette might include vibrant oranges or deep purples. If you are an <strong>Innocent</strong> archetype focused on simplicity and purity, soft pastels or clean whites might be more appropriate. Your colors must be an authentic reflection of your brand&apos;s soul.

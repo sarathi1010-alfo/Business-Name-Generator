@@ -30,7 +30,16 @@ export const dictionary: Dictionary = {
     saas: ['Cloud', 'Soft', 'App', 'Flow', 'Sync', 'Grid', 'Suite', 'Base', 'Hub', 'HQ'],
     gaming: ['Play', 'Game', 'Pixel', 'Quest', 'Forge', 'Arcade', 'Loot', 'Spawn', 'Nexus', 'Glitch'],
     education: ['Learn', 'Study', 'Skill', 'Edu', 'Brain', 'Mind', 'Academy', 'Scholar', 'Class', 'Course'],
-    food: ['Bite', 'Taste', 'Crave', 'Dish', 'Meal', 'Eats', 'Fork', 'Savor', 'Chef', 'Brew']
+    food: ['Bite', 'Taste', 'Crave', 'Dish', 'Meal', 'Eats', 'Fork', 'Savor', 'Chef', 'Brew'],
+    medical: ['Care', 'Heal', 'Med', 'Cure', 'Life', 'Pulse', 'Health', 'Clinic', 'Doc', 'Sana'],
+    nutrition: ['Pure', 'Core', 'Vital', 'Nutri', 'Bio', 'Green', 'Fresh', 'Fuel', 'Life', 'Veda'],
+    marketing: ['Brand', 'Growth', 'Scale', 'Reach', 'Boost', 'Market', 'Sync', 'Flow', 'Spark', 'Impact'],
+    design: ['Form', 'Art', 'Craft', 'Line', 'Space', 'Shape', 'Hue', 'Mode', 'Frame', 'Studio'],
+    coffee: ['Brew', 'Bean', 'Roast', 'Cup', 'Mug', 'Grind', 'Pour', 'Daily', 'Origin', 'Press'],
+    restaurant: ['Dine', 'Taste', 'Eats', 'Savor', 'Bite', 'Table', 'Plate', 'Dish', 'Chef', 'Feast'],
+    skincare: ['Glow', 'Pure', 'Skin', 'Derma', 'Clear', 'Soft', 'Lumi', 'Aura', 'Silk', 'Dew'],
+    clothing: ['Wear', 'Thread', 'Style', 'Fit', 'Mode', 'Vogue', 'Loom', 'Stitch', 'Chic', 'Fabric'],
+    cybersecurity: ['Shield', 'Guard', 'Safe', 'Lock', 'Fort', 'Secure', 'Trust', 'Wall', 'Defend', 'Watch']
   },
   vibeTokens: {
     luxury: ['Luxe', 'Elite', 'Prime', 'Aura', 'Velvet', 'Crown', 'Gold', 'Silk', 'Grand', 'Opus'],
@@ -57,6 +66,15 @@ export const dictionary: Dictionary = {
     saas: ['Software that works', 'Streamline your workflow', 'Cloud solutions'],
     gaming: ['Play to win', 'Immersive worlds', 'Level up your game'],
     education: ['Learn to lead', 'Knowledge is power', 'Empowering minds'],
-    food: ['Taste the difference', 'Savor every bite', 'Fresh and delicious']
+    food: ['Taste the difference', 'Savor every bite', 'Fresh and delicious'],
+    medical: ['Care you can trust', 'Expertise that heals', 'Your health first'],
+    nutrition: ['Fuel your life', 'Natural vitality', 'Pure and simple'],
+    marketing: ['Growth that scales', 'Creative impact', 'Your brand elevated'],
+    design: ['Aesthetic excellence', 'Form meets function', 'Crafting visual stories'],
+    coffee: ['The perfect cup', 'Roasted to perfection', 'Your daily brew'],
+    restaurant: ['A taste of excellence', 'Savor every moment', 'Culinary perfection'],
+    skincare: ['Your best skin', 'Radiance redefined', 'Clean and glowing'],
+    clothing: ['Style that speaks', 'Wear your confidence', 'Threads of tomorrow'],
+    cybersecurity: ['Security you can trust', 'Protecting your future', 'Unbreakable defense']
   }
 };

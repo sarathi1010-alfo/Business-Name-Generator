@@ -11,7 +11,7 @@ const meta = buildArticleMeta(
   "What is a Brand Story? A Guide for Founders",
   "Discover what a brand story is, why it matters, and how to craft one that connects emotionally with your audience and builds lasting loyalty.",
   "/blog/what-is-a-brand-story",
-  { updatedAt: new Date().toISOString() }
+  { updatedAt: "2026-07-22T00:00:00Z" }
 );
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -100,7 +100,7 @@ export default function ArticlePage() {
           </div>
 
           <p>
-            Crafting your story is a crucial step in building your brand identity. If you need help defining the visual and psychological elements of your brand that support your story, try the <Link href="/" className="text-indigo-400 hover:underline">BrandForge Studio</Link> or view <Link href="/#identity-directions" className="text-indigo-400 hover:underline">Generated Identity Directions</Link>.
+            Crafting your story is a crucial step in building your brand identity, especially if you are learning <Link href="/blog/how-to-rebrand-your-business" className="text-indigo-400 hover:underline">how to rebrand your business</Link>. If you need help defining the visual and psychological elements of your brand that support your story, try the <Link href="/" className="text-indigo-400 hover:underline">BrandForge Studio</Link> or view <Link href="/#identity-directions" className="text-indigo-400 hover:underline">Generated Identity Directions</Link>.
           </p>
         </article>
       </main>
