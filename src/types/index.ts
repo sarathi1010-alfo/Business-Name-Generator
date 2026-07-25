@@ -1,4 +1,4 @@
-export type Industry = 'tech' | 'ai' | 'beauty' | 'fitness' | 'fashion' | 'finance' | 'health' | 'ecommerce' | 'agency' | 'saas' | 'gaming' | 'education' | 'food';
+export type Industry = 'tech' | 'ai' | 'beauty' | 'fitness' | 'fashion' | 'finance' | 'health' | 'ecommerce' | 'agency' | 'saas' | 'gaming' | 'education' | 'food' | 'medical' | 'nutrition' | 'marketing' | 'design' | 'coffee' | 'restaurant' | 'skincare' | 'clothing' | 'cybersecurity';
 
 export type Vibe = 'luxury' | 'modern' | 'minimalist' | 'futuristic' | 'playful' | 'premium' | 'elegant' | 'bold' | 'edgy' | 'trustworthy';
 
