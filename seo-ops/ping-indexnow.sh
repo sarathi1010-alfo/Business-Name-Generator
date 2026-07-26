@@ -33,6 +33,13 @@ else
     "https://brandforge.alfo.online/archetypes/caregiver-brand-names"
     "https://brandforge.alfo.online/archetypes/everyman-brand-names"
     "https://brandforge.alfo.online/archetypes/innocent-brand-names"
+    "https://brandforge.alfo.online/blog/brandforge-vs-looka"
+    "https://brandforge.alfo.online/blog/brandforge-vs-brandmark"
+    "https://brandforge.alfo.online/blog/what-is-a-logo-mark"
+    "https://brandforge.alfo.online/blog/what-is-color-psychology"
+    "https://brandforge.alfo.online/blog/what-is-typography-in-branding"
+    "https://brandforge.alfo.online/blog/what-is-a-brand-guideline"
+    "https://brandforge.alfo.online/blog/what-is-brand-differentiation"
   )
 fi
 

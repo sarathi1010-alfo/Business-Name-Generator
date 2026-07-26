@@ -33,11 +33,9 @@ export default function WhatIsTypographyPage() {
         <article className="max-w-4xl mx-auto px-4 py-16 md:py-24 prose prose-slate dark:prose-invert prose-headings:font-bold prose-h1:text-4xl md:prose-h1:text-5xl prose-a:text-primary hover:prose-a:text-primary/80">
           <h1>What is Typography in Branding?</h1>
 
-          <div className="p-6 bg-card border rounded-lg not-prose my-8">
-            <p className="text-muted-foreground font-medium">
-              Typography in branding is the strategic selection and arrangement of typefaces (fonts) to visually communicate a brand&apos;s tone of voice. It is the clothes your words wear—determining whether your message feels authoritative, playful, luxurious, or approachable.
-            </p>
-          </div>
+          <p className="text-lg font-medium border-l-4 border-indigo-500 pl-4 py-1 bg-muted/30">
+            Typography in branding is the strategic selection and hierarchical arrangement of typefaces (fonts) designed to visually communicate a brand&apos;s tone of voice, reinforce its psychological archetype, and ensure optimal readability across all digital and physical touchpoints.
+          </p>
 
           <h2>How Does Typography Work?</h2>
           <p>
@@ -99,7 +97,7 @@ export default function WhatIsTypographyPage() {
           </div>
 
           <p>
-            Struggling to pair fonts? The <Link href="/">BrandForge Studio</Link> automatically generates professional typography pairings tailored to your specific industry and archetype. For a deeper dive into how we handle typography versus other tools, read our <Link href="/blog/brandforge-vs-looka">BrandForge vs Looka comparison</Link>.
+            Struggling to pair fonts? The <Link href="/">BrandForge Studio</Link> automatically generates professional typography pairings tailored to your specific industry and archetype. You can also explore curated examples in our <Link href="/identity-directions">Generated Identity Directions</Link> gallery.
           </p>
         </article>
       </main>

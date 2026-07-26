@@ -33,11 +33,9 @@ export default function WhatIsABrandGuidelinePage() {
         <article className="max-w-4xl mx-auto px-4 py-16 md:py-24 prose prose-slate dark:prose-invert prose-headings:font-bold prose-h1:text-4xl md:prose-h1:text-5xl prose-a:text-primary hover:prose-a:text-primary/80">
           <h1>What is a Brand Guideline?</h1>
 
-          <div className="p-6 bg-card border rounded-lg not-prose my-8">
-            <p className="text-muted-foreground font-medium">
-              A brand guideline (also known as a brand book or style guide) is the ultimate rulebook for your company&apos;s identity. It dictates exactly how your brand should look, feel, and sound across every single touchpoint—from your website to your social media, to the way your support team answers emails.
-            </p>
-          </div>
+          <p className="text-lg font-medium border-l-4 border-indigo-500 pl-4 py-1 bg-muted/30">
+            A brand guideline is a foundational rulebook that codifies a company&apos;s visual and verbal identity—including precise logo usage, color hex codes, typography hierarchy, and tone of voice—ensuring absolute consistency across all internal and external communication channels.
+          </p>
 
           <h2>How Do Brand Guidelines Work?</h2>
           <p>
@@ -99,7 +97,7 @@ export default function WhatIsABrandGuidelinePage() {
           </div>
 
           <p>
-            When you use <Link href="/">BrandForge</Link>, you aren&apos;t just getting a name; the output is effectively a lightweight brand guideline (a Brand Board) containing your archetype, typography, palette, and voice. You can export this immediately. See how this comprehensive approach compares to logo-only generators in our <Link href="/blog/brandforge-vs-looka">BrandForge vs Looka</Link> guide.
+            When you use <Link href="/">BrandForge</Link>, you aren&apos;t just getting a name; the output is effectively a lightweight brand guideline (a Brand Board) containing your archetype, typography, palette, and voice. You can export this immediately or view examples in our <Link href="/identity-directions">Generated Identity Directions</Link> gallery.
           </p>
         </article>
       </main>
