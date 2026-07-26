@@ -33,11 +33,9 @@ export default function WhatIsALogoMarkPage() {
         <article className="max-w-4xl mx-auto px-4 py-16 md:py-24 prose prose-slate dark:prose-invert prose-headings:font-bold prose-h1:text-4xl md:prose-h1:text-5xl prose-a:text-primary hover:prose-a:text-primary/80">
           <h1>What is a Logo Mark?</h1>
 
-          <div className="p-6 bg-card border rounded-lg not-prose my-8">
-            <p className="text-muted-foreground font-medium">
-              A logo mark (or brand mark) is the visual symbol or icon that represents a company, entirely separate from its name or typography. Think of the Nike Swoosh, the Twitter Bird, or the Apple silhouette—it&apos;s the visual shorthand for an entire brand identity.
-            </p>
-          </div>
+          <p className="text-lg font-medium border-l-4 border-indigo-500 pl-4 py-1 bg-muted/30">
+            A logo mark is the standalone symbol, icon, or visual shorthand representing a brand—entirely separate from its typography or wordmark—used to build rapid visual recognition in environments with limited space, such as app icons.
+          </p>
 
           <h2>How Does a Logo Mark Work?</h2>
           <p>
@@ -94,7 +92,7 @@ export default function WhatIsALogoMarkPage() {
           </div>
 
           <p>
-            Before you invest in a logo mark, you need to establish your core brand identity. Start by exploring our <Link href="/">BrandForge Studio</Link> to generate the foundational DNA (Archetype, Palette, Typography) that will inform your future logo mark design. You can also compare how different visual identities stack up by reading our breakdown of <Link href="/blog/brandforge-vs-looka">BrandForge vs Looka</Link>.
+            Before you invest in a logo mark, you need to establish your core brand identity. Start by exploring our <Link href="/">BrandForge Studio</Link> or browsing our <Link href="/identity-directions">Generated Identity Directions</Link> to build the foundational DNA (Archetype, Palette, Typography) that will inform your future logo mark design.
           </p>
         </article>
       </main>

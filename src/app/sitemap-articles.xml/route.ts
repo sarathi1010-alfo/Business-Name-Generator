@@ -65,6 +65,48 @@ export async function GET() {
       changeFrequency: 'weekly',
       priority: 0.9,
     },
+    {
+      url: buildCanonical('/blog/brandforge-vs-looka'),
+      lastModified: new Date().toISOString(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: buildCanonical('/blog/brandforge-vs-brandmark'),
+      lastModified: new Date().toISOString(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: buildCanonical('/blog/what-is-a-logo-mark'),
+      lastModified: new Date().toISOString(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: buildCanonical('/blog/what-is-color-psychology'),
+      lastModified: new Date().toISOString(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: buildCanonical('/blog/what-is-typography-in-branding'),
+      lastModified: new Date().toISOString(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: buildCanonical('/blog/what-is-a-brand-guideline'),
+      lastModified: new Date().toISOString(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: buildCanonical('/blog/what-is-brand-differentiation'),
+      lastModified: new Date().toISOString(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
   ];
 
   const xml = generateSitemapXml(routes);

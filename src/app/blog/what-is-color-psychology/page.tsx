@@ -33,11 +33,9 @@ export default function WhatIsColorPsychologyPage() {
         <article className="max-w-4xl mx-auto px-4 py-16 md:py-24 prose prose-slate dark:prose-invert prose-headings:font-bold prose-h1:text-4xl md:prose-h1:text-5xl prose-a:text-primary hover:prose-a:text-primary/80">
           <h1>What is Color Psychology?</h1>
 
-          <div className="p-6 bg-card border rounded-lg not-prose my-8">
-            <p className="text-muted-foreground font-medium">
-              Color psychology is the study of how colors influence human emotion and behavior. In branding, it is the strategic selection of color palettes to subconsciously communicate a brand&apos;s values, personality, and promise to its audience before a single word is read.
-            </p>
-          </div>
+          <p className="text-lg font-medium border-l-4 border-indigo-500 pl-4 py-1 bg-muted/30">
+            Color psychology in branding is the strategic study and application of specific color palettes to subconsciously trigger desired emotional responses, align with psychological archetypes, and communicate a brand&apos;s core values before a single word is read.
+          </p>
 
           <h2>How Does Color Psychology Work?</h2>
           <p>
@@ -99,7 +97,7 @@ export default function WhatIsColorPsychologyPage() {
           </div>
 
           <p>
-            Ready to find the perfect color palette for your startup? Explore the <Link href="/">BrandForge Generator</Link>, which automatically matches color psychology to your chosen industry and vibe, or see how our tool compares to others in our <Link href="/blog/brandforge-vs-looka">BrandForge vs Looka</Link> review.
+            Ready to find the perfect color palette for your startup? Explore the <Link href="/">BrandForge Generator</Link>, which automatically matches color psychology to your chosen industry and vibe, or browse our <Link href="/identity-directions">Generated Identity Directions</Link> to see these principles in action.
           </p>
         </article>
       </main>

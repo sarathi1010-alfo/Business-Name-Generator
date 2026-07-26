@@ -27,7 +27,12 @@ export default function BrandForgeVsLookaPage() {
       <Header />
       <main className="flex-1 bg-[#0a0a0c] text-white">
         <article className="max-w-4xl mx-auto px-4 py-16 md:py-24 prose prose-slate dark:prose-invert prose-headings:font-bold prose-h1:text-4xl md:prose-h1:text-5xl prose-a:text-primary hover:prose-a:text-primary/80">
-          <h1>BrandForge vs Looka: Which Brand Identity Generator is Better for Tech Startups?</h1>
+          <h1>BrandForge vs Looka: Which Brand Identity Generator is Better for Founders?</h1>
+
+          <h2>BrandForge vs Looka Overview</h2>
+          <p className="text-lg font-medium border-l-4 border-indigo-500 pl-4 py-1 bg-muted/30">
+            When comparing BrandForge vs Looka, BrandForge is best for tech founders wanting a complete, strategically aligned brand DNA (archetypes, voice, typography) for free, while Looka is ideal for quickly purchasing a traditional, downloadable vector logo lockup and matching merch assets.
+          </p>
 
           <div className="p-6 bg-card border rounded-lg not-prose my-8">
             <h2 className="text-xl font-bold mb-2">The Quick Verdict</h2>
@@ -153,7 +158,7 @@ export default function BrandForgeVsLookaPage() {
               Open BrandForge Studio
             </Link>
             <p className="mt-4 text-sm">
-              Not sure where to begin? Browse our <Link href="/#identity-directions" className="text-indigo-400 hover:underline">Generated Identity Directions</Link>.
+              Not sure where to begin? Browse our <Link href="/identity-directions" className="text-indigo-400 hover:underline">Generated Identity Directions</Link>.
             </p>
           </div>
         </article>
