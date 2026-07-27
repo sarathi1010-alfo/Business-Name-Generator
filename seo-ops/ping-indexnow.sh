@@ -40,6 +40,17 @@ else
     "https://brandforge.alfo.online/blog/what-is-typography-in-branding"
     "https://brandforge.alfo.online/blog/what-is-a-brand-guideline"
     "https://brandforge.alfo.online/blog/what-is-brand-differentiation"
+    "https://brandforge.alfo.online/blog/complete-guide-to-visual-identity-design"
+    "https://brandforge.alfo.online/industries/crypto-startup-names"
+    "https://brandforge.alfo.online/industries/solar-company-names"
+    "https://brandforge.alfo.online/industries/robotics-company-names"
+    "https://brandforge.alfo.online/industries/logistics-business-names"
+    "https://brandforge.alfo.online/industries/biotech-company-names"
+    "https://brandforge.alfo.online/industries/travel-agency-names"
+    "https://brandforge.alfo.online/industries/hospitality-brand-names"
+    "https://brandforge.alfo.online/industries/pet-brand-names"
+    "https://brandforge.alfo.online/industries/music-studio-names"
+    "https://brandforge.alfo.online/industries/automotive-brand-names"
   )
 fi
 
