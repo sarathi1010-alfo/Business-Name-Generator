@@ -43,7 +43,7 @@ export default function ArticlePage() {
           <div className="p-6 bg-card border rounded-lg not-prose my-8">
             <h2 className="text-xl font-bold mb-2">The Quick Verdict</h2>
             <p className="text-muted-foreground">
-              Choose <strong>BrandForge</strong> if you are starting from scratch, need help with naming, and want to define your brand's underlying psychology and strategy before designing visuals. Choose <strong>Brandmark</strong> if you already have a name and want to quickly buy a clean, modern logo package.
+              Choose <strong>BrandForge</strong> if you are starting from scratch, need help with naming, and want to define your brand&apos;s underlying psychology and strategy before designing visuals. Choose <strong>Brandmark</strong> if you already have a name and want to quickly buy a clean, modern logo package.
             </p>
           </div>
 
@@ -98,8 +98,8 @@ export default function ArticlePage() {
 
           <h3>Pros of BrandForge</h3>
           <ul>
-            <li><strong>Ideation to Strategy:</strong> It doesn't just ask for a name; it helps you generate one based on your industry and desired vibe.</li>
-            <li><strong>Strategic Depth:</strong> It builds a "Brand DNA" by assigning psychological Archetypes (like the Hero or Creator) and defining the Brand Voice, ensuring your marketing copy aligns with your visuals.</li>
+            <li><strong>Ideation to Strategy:</strong> It doesn&apos;t just ask for a name; it helps you generate one based on your industry and desired vibe.</li>
+            <li><strong>Strategic Depth:</strong> It builds a &quot;Brand DNA&quot; by assigning psychological Archetypes (like the Hero or Creator) and defining the Brand Voice, ensuring your marketing copy aligns with your visuals.</li>
             <li><strong>Completely Free:</strong> The entire tool runs in your browser via local storage, meaning you can generate hundreds of ideas without hitting a paywall.</li>
           </ul>
 
@@ -117,14 +117,14 @@ export default function ArticlePage() {
           <ul>
             <li><strong>High-Quality Outputs:</strong> Brandmark tends to produce very clean, professional-looking logos compared to older logo generators.</li>
             <li><strong>Comprehensive Asset Kits:</strong> Their higher pricing tiers include business card designs, social media graphics, and letterheads.</li>
-            <li><strong>Instant Visuals:</strong> It's incredibly fast to see your existing name rendered in dozens of different styles.</li>
+            <li><strong>Instant Visuals:</strong> It&apos;s incredibly fast to see your existing name rendered in dozens of different styles.</li>
           </ul>
 
           <h3>Cons of Brandmark</h3>
           <ul>
             <li><strong>No Naming Help:</strong> You must already know your business name before you can use the tool.</li>
             <li><strong>Expensive:</strong> While you can generate logos for free, downloading a usable vector file starts at $25, and full branding packages run up to $175.</li>
-            <li><strong>Lacks Strategic Foundation:</strong> It gives you a pretty logo, but it doesn't help you figure out your brand's voice or core positioning.</li>
+            <li><strong>Lacks Strategic Foundation:</strong> It gives you a pretty logo, but it doesn&apos;t help you figure out your brand&apos;s voice or core positioning.</li>
           </ul>
 
           <div className="my-8 p-6 bg-muted/20 border-l-4 border-primary">

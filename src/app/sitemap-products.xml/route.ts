@@ -19,7 +19,7 @@ export async function GET() {
   }
 
   // Target Industries Programmatic Pages
-  const targetIndustries = ['tech-startup', 'fashion-brand', 'food-beverage', 'health-wellness', 'ai-company', 'saas-business', 'beauty-brand', 'finance-startup', 'ecommerce-store', 'agency-business', 'gaming-company', 'education-brand', 'fitness-brand', 'real-estate-company', 'consulting-business', 'nonprofit-organization', 'photography-business', 'podcast', 'dental-clinic', 'cleaning-business', 'medical-brand', 'nutrition-brand', 'fitness-app', 'marketing-agency', 'design-studio', 'coffee-shop', 'restaurant', 'skincare-brand', 'clothing-brand', 'cybersecurity-company'];
+  const targetIndustries = ['tech-startup', 'fashion-brand', 'food-beverage', 'health-wellness', 'ai-company', 'saas-business', 'beauty-brand', 'finance-startup', 'ecommerce-store', 'agency-business', 'gaming-company', 'education-brand', 'fitness-brand', 'real-estate-company', 'consulting-business', 'nonprofit-organization', 'photography-business', 'podcast', 'dental-clinic', 'cleaning-business', 'medical-brand', 'nutrition-brand', 'fitness-app', 'marketing-agency', 'design-studio', 'coffee-shop', 'restaurant', 'skincare-brand', 'clothing-brand', 'cybersecurity-company', 'crypto-startup', 'solar-company', 'robotics-company', 'logistics-business', 'biotech-company', 'travel-agency', 'hospitality-brand', 'pet-brand', 'music-studio', 'automotive-brand'];
   for (const industry of targetIndustries) {
     routes.push({
       url: buildCanonical(`/industries/${industry}-names`),

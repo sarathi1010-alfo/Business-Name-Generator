@@ -95,7 +95,7 @@ export default function ArticlePage() {
           </div>
 
           <p>
-            Building a brand identity used to require expensive agencies. Now, you can use the <Link href="/" className="text-indigo-400 hover:underline">BrandForge Generator Studio</Link> to instantly map your industry and vibe to a coherent Brand DNA. For a deeper dive into overall strategy, read our <Link href="/blog/how-to-build-brand-strategy" className="text-indigo-400 hover:underline">guide on how to build a powerful brand strategy</Link>, or see how BrandForge compares to alternatives in our <Link href="/blog/brandforge-vs-brandmark" className="text-indigo-400 hover:underline">BrandForge vs Brandmark</Link> review.
+            Building a brand identity used to require expensive agencies. Now, you can use the <Link href="/" className="text-indigo-400 hover:underline">BrandForge Generator Studio</Link> to instantly map your industry and vibe to a coherent Brand DNA. For a deeper dive into overall strategy, read our <Link href="/blog/how-to-build-brand-strategy" className="text-indigo-400 hover:underline">guide on how to build a powerful brand strategy</Link> or our <Link href="/blog/complete-guide-to-visual-identity-design" className="text-indigo-400 hover:underline">Complete Guide to Visual Identity Design</Link>, or see how BrandForge compares to alternatives in our <Link href="/blog/brandforge-vs-brandmark" className="text-indigo-400 hover:underline">BrandForge vs Brandmark</Link> review.
           </p>
         </article>
       </main>

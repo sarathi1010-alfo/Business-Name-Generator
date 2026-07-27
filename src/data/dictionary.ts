@@ -39,7 +39,17 @@ export const dictionary: Dictionary = {
     restaurant: ['Dine', 'Taste', 'Eats', 'Savor', 'Bite', 'Table', 'Plate', 'Dish', 'Chef', 'Feast'],
     skincare: ['Glow', 'Pure', 'Skin', 'Derma', 'Clear', 'Soft', 'Lumi', 'Aura', 'Silk', 'Dew'],
     clothing: ['Wear', 'Thread', 'Style', 'Fit', 'Mode', 'Vogue', 'Loom', 'Stitch', 'Chic', 'Fabric'],
-    cybersecurity: ['Shield', 'Guard', 'Safe', 'Lock', 'Fort', 'Secure', 'Trust', 'Wall', 'Defend', 'Watch']
+    cybersecurity: ['Shield', 'Guard', 'Safe', 'Lock', 'Fort', 'Secure', 'Trust', 'Wall', 'Defend', 'Watch'],
+    crypto: ['Chain', 'Block', 'Coin', 'Hash', 'Ledger', 'Mint', 'Node', 'Trust', 'Vault', 'Pay'],
+    solar: ['Sun', 'Ray', 'Light', 'Volt', 'Ener', 'Eco', 'Power', 'Lumi', 'Helio', 'Green'],
+    robotics: ['Bot', 'Mech', 'Auto', 'Core', 'Tech', 'Cyber', 'Tron', 'Logic', 'Gear', 'Syn'],
+    logistics: ['Move', 'Flow', 'Route', 'Ship', 'Track', 'Transit', 'Line', 'Fast', 'Way', 'Hub'],
+    biotech: ['Bio', 'Gene', 'Cell', 'Life', 'Syn', 'Lab', 'Veda', 'Gen', 'Cure', 'Helix'],
+    travel: ['Trip', 'Journey', 'Go', 'Way', 'Path', 'Nomad', 'Quest', 'Venture', 'Roam', 'Tour'],
+    hospitality: ['Host', 'Stay', 'Guest', 'Rest', 'Inn', 'Luxe', 'Haven', 'Home', 'Nest', 'Welcome'],
+    pet: ['Paw', 'Tail', 'Bark', 'Meow', 'Furry', 'Pet', 'Care', 'Friend', 'Woof', 'Purr'],
+    music: ['Sound', 'Beat', 'Chord', 'Tune', 'Note', 'Vibe', 'Rhythm', 'Echo', 'Play', 'Sonic'],
+    automotive: ['Drive', 'Motor', 'Auto', 'Car', 'Speed', 'Gear', 'Wheel', 'Motion', 'Ride', 'Shift']
   },
   vibeTokens: {
     luxury: ['Luxe', 'Elite', 'Prime', 'Aura', 'Velvet', 'Crown', 'Gold', 'Silk', 'Grand', 'Opus'],
@@ -75,6 +85,16 @@ export const dictionary: Dictionary = {
     restaurant: ['A taste of excellence', 'Savor every moment', 'Culinary perfection'],
     skincare: ['Your best skin', 'Radiance redefined', 'Clean and glowing'],
     clothing: ['Style that speaks', 'Wear your confidence', 'Threads of tomorrow'],
-    cybersecurity: ['Security you can trust', 'Protecting your future', 'Unbreakable defense']
+    cybersecurity: ['Security you can trust', 'Protecting your future', 'Unbreakable defense'],
+    crypto: ['Decentralize your future', 'Secure digital wealth', 'The new economy'],
+    solar: ['Powering a brighter future', 'Clean energy for all', 'Harness the sun'],
+    robotics: ['Automating the future', 'Precision and intelligence', 'Building tomorrow'],
+    logistics: ['Delivering on time', 'Connecting the world', 'Moving your business forward'],
+    biotech: ['Innovating life', 'Science for a better tomorrow', 'Unlocking nature'],
+    travel: ['Explore the world', 'Your next adventure awaits', 'Journeys that matter'],
+    hospitality: ['Welcome home', 'Exceptional service', 'Memories that last'],
+    pet: ['For your best friend', 'Pawsitive care', 'Love in every wag'],
+    music: ['Feel the beat', 'The soundtrack of your life', 'Harmony in motion'],
+    automotive: ['Drive into the future', 'Performance you can trust', 'The road ahead']
   }
 };

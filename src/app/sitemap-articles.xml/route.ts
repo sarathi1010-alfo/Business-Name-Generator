@@ -107,6 +107,12 @@ export async function GET() {
       changeFrequency: 'weekly',
       priority: 0.9,
     },
+    {
+      url: buildCanonical('/blog/complete-guide-to-visual-identity-design'),
+      lastModified: new Date().toISOString(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
   ];
 
   const xml = generateSitemapXml(routes);
