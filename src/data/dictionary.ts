@@ -49,7 +49,17 @@ export const dictionary: Dictionary = {
     hospitality: ['Host', 'Stay', 'Guest', 'Rest', 'Inn', 'Luxe', 'Haven', 'Home', 'Nest', 'Welcome'],
     pet: ['Paw', 'Tail', 'Bark', 'Meow', 'Furry', 'Pet', 'Care', 'Friend', 'Woof', 'Purr'],
     music: ['Sound', 'Beat', 'Chord', 'Tune', 'Note', 'Vibe', 'Rhythm', 'Echo', 'Play', 'Sonic'],
-    automotive: ['Drive', 'Motor', 'Auto', 'Car', 'Speed', 'Gear', 'Wheel', 'Motion', 'Ride', 'Shift']
+    automotive: ['Drive', 'Motor', 'Auto', 'Car', 'Speed', 'Gear', 'Wheel', 'Motion', 'Ride', 'Shift'],
+    legal: ['Law', 'Justice', 'Rights', 'Advocate', 'Trust', 'Firm', 'Counsel', 'Defend', 'Case', 'Legal'],
+    accounting: ['Ledger', 'Tax', 'Wealth', 'Trust', 'Count', 'Finance', 'Balance', 'Book', 'Num', 'Cents'],
+    architecture: ['Build', 'Design', 'Form', 'Space', 'Plan', 'Struct', 'Arch', 'Home', 'Draft', 'Base'],
+    wedding: ['Love', 'Vow', 'Ring', 'Forever', 'Say', 'Bride', 'Union', 'Joy', 'Celebrate', 'Knot'],
+    landscaping: ['Green', 'Lawn', 'Yard', 'Leaf', 'Grow', 'Bloom', 'Scape', 'Nature', 'Earth', 'Plant'],
+    plumbing: ['Pipe', 'Flow', 'Water', 'Fix', 'Clear', 'Root', 'Drain', 'Drop', 'Tech', 'Plumb'],
+    bakery: ['Bake', 'Sweet', 'Crust', 'Dough', 'Oven', 'Treat', 'Cake', 'Loaf', 'Flour', 'Mix'],
+    brewery: ['Brew', 'Hop', 'Craft', 'Draft', 'Ale', 'Malt', 'Pour', 'Sip', 'Barrel', 'Tap'],
+    spa: ['Relax', 'Calm', 'Zen', 'Heal', 'Glow', 'Rest', 'Peace', 'Soothe', 'Touch', 'Aura'],
+    tattoo: ['Ink', 'Art', 'Skin', 'Mark', 'Line', 'Draw', 'Fade', 'Needle', 'Shade', 'Tatt']
   },
   vibeTokens: {
     luxury: ['Luxe', 'Elite', 'Prime', 'Aura', 'Velvet', 'Crown', 'Gold', 'Silk', 'Grand', 'Opus'],
@@ -95,6 +105,16 @@ export const dictionary: Dictionary = {
     hospitality: ['Welcome home', 'Exceptional service', 'Memories that last'],
     pet: ['For your best friend', 'Pawsitive care', 'Love in every wag'],
     music: ['Feel the beat', 'The soundtrack of your life', 'Harmony in motion'],
-    automotive: ['Drive into the future', 'Performance you can trust', 'The road ahead']
+    automotive: ['Drive into the future', 'Performance you can trust', 'The road ahead'],
+    legal: ['Justice served', 'Your trusted counsel', 'Protecting your rights'],
+    accounting: ['Your financial future', 'Numbers you can trust', 'Balancing your success'],
+    architecture: ['Building your vision', 'Spaces that inspire', 'Design for the future'],
+    wedding: ['Your perfect day', 'Love celebrated', 'Memories that last forever'],
+    landscaping: ['Creating beautiful spaces', 'Nature transformed', 'Your green oasis'],
+    plumbing: ['Flowing freely', 'Expert repairs', 'Keeping things clear'],
+    bakery: ['Baked with love', 'Sweet treats daily', 'Fresh from the oven'],
+    brewery: ['Crafted to perfection', 'Pours of joy', 'Brewed with passion'],
+    spa: ['Relax and rejuvenate', 'Your sanctuary of calm', 'Glow from within'],
+    tattoo: ['Ink your story', 'Art that lasts', 'Wear your mark']
   }
 };

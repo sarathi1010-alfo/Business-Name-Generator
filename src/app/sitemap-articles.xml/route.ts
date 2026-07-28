@@ -113,6 +113,12 @@ export async function GET() {
       changeFrequency: 'weekly',
       priority: 0.9,
     },
+    {
+      url: buildCanonical('/blog/how-to-ensure-brand-consistency'),
+      lastModified: new Date().toISOString(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
   ];
 
   const xml = generateSitemapXml(routes);
