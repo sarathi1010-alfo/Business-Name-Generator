@@ -11,7 +11,7 @@ const meta = buildArticleMeta(
   "What is Brand Identity? A Founder's Guide to Building Trust",
   "Discover what brand identity truly is and why it&apos;s the foundation of business success. Learn how to create a cohesive visual and emotional brand for 2026.",
   "/blog/what-is-brand-identity",
-  { updatedAt: new Date().toISOString() }
+  { updatedAt: "2026-07-28T00:00:00Z" }
 );
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -87,7 +87,7 @@ export default function ArticlePage() {
           <div className="bg-white/5 border border-white/10 p-6 rounded-xl mt-12 mb-12">
             <h3 className="mt-0 text-xl font-bold">Core Principles of Identity</h3>
             <ul className="mb-0">
-              <li><strong>Consistency is Key:</strong> Stick to your <Link href="/blog/what-is-a-brand-guideline" className="text-indigo-400 hover:underline">brand guidelines</Link>.</li>
+              <li><strong>Consistency is Key:</strong> Stick to your <Link href="/blog/what-is-a-brand-guideline" className="text-indigo-400 hover:underline">brand guidelines</Link> and read our guide on <Link href="/blog/how-to-ensure-brand-consistency" className="text-indigo-400 hover:underline">how to ensure brand consistency</Link>.</li>
               <li><strong>Audience Alignment:</strong> Speak to your specific target market.</li>
               <li><strong>Psychological Resonance:</strong> Leverage archetypes like The Creator or The Hero.</li>
               <li><strong>Distinctiveness:</strong> Stand out, don&apos;t just blend in.</li>
