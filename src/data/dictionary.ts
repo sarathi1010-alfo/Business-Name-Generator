@@ -18,6 +18,16 @@ export const dictionary: Dictionary = {
     'Plural', 'Miro', 'Loom', 'Bento', 'Vivid', 'Axios', 'Coda', 'Fathom', 'Vanta'
   ],
   industryTokens: {
+    roofing: ['Roof', 'Peak', 'Top', 'Shield', 'Guard', 'Cover', 'Elevate', 'Summit', 'Apex', 'Pro'],
+    hvac: ['Air', 'Cool', 'Heat', 'Flow', 'Temp', 'Climate', 'Vent', 'Breeze', 'Pure', 'Comfort'],
+    event: ['Plan', 'Party', 'Gather', 'Host', 'Gala', 'Fest', 'Vibe', 'Create', 'Spark', 'Joy'],
+    interior: ['Space', 'Room', 'Design', 'Decor', 'Home', 'Style', 'Living', 'Form', 'Nest', 'Aura'],
+    childcare: ['Kids', 'Play', 'Learn', 'Grow', 'Care', 'Joy', 'Tiny', 'Sprout', 'Nest', 'Safe'],
+    yoga: ['Zen', 'Flow', 'Mind', 'Body', 'Soul', 'Peace', 'Om', 'Align', 'Breathe', 'Lotus'],
+    publishing: ['Print', 'Press', 'Book', 'Page', 'Word', 'Story', 'Type', 'Read', 'Ink', 'Text'],
+    insurance: ['Safe', 'Guard', 'Sure', 'Shield', 'Trust', 'Cover', 'Life', 'Protect', 'Care', 'Secure'],
+    manufacturing: ['Make', 'Build', 'Forge', 'Craft', 'Produce', 'Factory', 'Line', 'Metal', 'Core', 'Steel'],
+    aviation: ['Sky', 'Fly', 'Aero', 'Air', 'Jet', 'Wing', 'Flight', 'Ascend', 'Cloud', 'Soar'],
     tech: ['Sys', 'Byte', 'Code', 'Dev', 'Soft', 'Stack', 'Cloud', 'Net', 'Host', 'Tech'],
     ai: ['Brain', 'Mind', 'Cogni', 'Neuro', 'Gen', 'Logic', 'Synth', 'Bot', 'Intel', 'Axiom'],
     beauty: ['Glow', 'Aura', 'Silk', 'Velvet', 'Luxe', 'Pure', 'Glam', 'Hue', 'Lumi', 'Rose'],
@@ -74,6 +84,16 @@ export const dictionary: Dictionary = {
     trustworthy: ['Sure', 'True', 'Trust', 'Safe', 'Guard', 'Shield', 'Solid', 'Veri', 'Secure', 'Clear']
   },
   taglines: {
+    roofing: ['Protecting what matters most', 'Raising the standard', 'Your reliable shelter'],
+    hvac: ['Comfort in every season', 'Breathe easier', 'Perfect climate control'],
+    event: ['Unforgettable moments', 'Bringing people together', 'Creating magic'],
+    interior: ['Designing your dream space', 'Where style meets comfort', 'Transforming houses into homes'],
+    childcare: ['Nurturing the future', 'A safe place to grow', 'Learning through play'],
+    yoga: ['Find your balance', 'Breathe, move, live', 'Harmony in motion'],
+    publishing: ['Giving words a voice', 'Stories that matter', 'Printing the future'],
+    insurance: ['Peace of mind guaranteed', 'Protecting your tomorrow', 'Trust in every policy'],
+    manufacturing: ['Building the future', 'Precision in every part', 'Craftsmanship meets scale'],
+    aviation: ['Elevating your journey', 'The sky is not the limit', 'Safe, swift, soaring'],
     tech: ['Empowering the future', 'Code that scales', 'Technology simplified'],
     ai: ['Intelligence redefined', 'The future of thought', 'Smart solutions'],
     beauty: ['Radiance unleashed', 'Your natural glow', 'Elegance in every drop'],
