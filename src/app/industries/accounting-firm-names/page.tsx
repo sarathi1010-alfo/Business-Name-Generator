@@ -35,12 +35,12 @@ export default function AccountingFirmNamesPage() {
         <section className="w-full max-w-4xl mx-auto px-4 py-16 prose prose-slate dark:prose-invert">
           <h2>Naming in the Financial World</h2>
           <p>
-            Trust is the currency of the accounting profession. Your brand name must immediately reassure clients that their finances are in capable hands. While many firms still use the classic "Smith & Associates" model, modern firms are embracing names that speak to their methodology or target demographic.
+            Trust is the currency of the accounting profession. Your brand name must immediately reassure clients that their finances are in capable hands. While many firms still use the classic &quot;Smith & Associates&quot; model, modern firms are embracing names that speak to their methodology or target demographic.
           </p>
 
           <h3>Communicating Value</h3>
           <p>
-            Are you a traditional firm focused on compliance and tax, or a modern advisory firm focused on startup growth? Your name should reflect this. Words like "Ledger" and "Balance" convey traditional stability, while "Velocity" and "Forward" suggest a focus on future growth.
+            Are you a traditional firm focused on compliance and tax, or a modern advisory firm focused on startup growth? Your name should reflect this. Words like &quot;Ledger&quot; and &quot;Balance&quot; convey traditional stability, while &quot;Velocity&quot; and &quot;Forward&quot; suggest a focus on future growth.
           </p>
 
           <div className="mt-8 p-6 bg-card border rounded-lg not-prose">

@@ -35,7 +35,7 @@ export default function ChildcareBusinessNamesPage() {
         <section className="w-full max-w-4xl mx-auto px-4 py-16 prose prose-slate dark:prose-invert">
           <h2>Naming in the Childcare Industry</h2>
           <p>
-            When parents are choosing a childcare provider, their primary concerns are safety, education, and happiness. Your name needs to reflect those priorities. Words like "Nest", "Sprout", "Joy", and "Grow" are highly effective because they tap into the nurturing aspect of early childhood.
+            When parents are choosing a childcare provider, their primary concerns are safety, education, and happiness. Your name needs to reflect those priorities. Words like &quot;Nest&quot;, &quot;Sprout&quot;, &quot;Joy&quot;, and &quot;Grow&quot; are highly effective because they tap into the nurturing aspect of early childhood.
           </p>
 
           <h3>Balancing Playful and Professional</h3>

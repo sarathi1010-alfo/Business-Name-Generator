@@ -35,12 +35,12 @@ export default function RoofingCompanyNamesPage() {
         <section className="w-full max-w-4xl mx-auto px-4 py-16 prose prose-slate dark:prose-invert">
           <h2>Naming in the Roofing Industry</h2>
           <p>
-            In the roofing industry, trust is everything. Homeowners are making a major investment and need to know you are reliable. Your name should project strength, protection, and durability. Using words like "Shield", "Apex", "Summit", or "Guard" can help build this subconscious trust.
+            In the roofing industry, trust is everything. Homeowners are making a major investment and need to know you are reliable. Your name should project strength, protection, and durability. Using words like &quot;Shield&quot;, &quot;Apex&quot;, &quot;Summit&quot;, or &quot;Guard&quot; can help build this subconscious trust.
           </p>
 
           <h3>Local vs. Brandable Names</h3>
           <p>
-            Many roofing companies use their city or region in their name (e.g., "Austin Roofers"). While this helps with immediate local SEO, it can limit your expansion. A brandable name (e.g., "Apex Exteriors") allows you to grow into new territories without sounding out of place.
+            Many roofing companies use their city or region in their name (e.g., &quot;Austin Roofers&quot;). While this helps with immediate local SEO, it can limit your expansion. A brandable name (e.g., &quot;Apex Exteriors&quot;) allows you to grow into new territories without sounding out of place.
           </p>
 
           <div className="mt-8 p-6 bg-card border rounded-lg not-prose">

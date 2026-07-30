@@ -18,6 +18,18 @@ export const dictionary: Dictionary = {
     'Plural', 'Miro', 'Loom', 'Bento', 'Vivid', 'Axios', 'Coda', 'Fathom', 'Vanta'
   ],
   industryTokens: {
+
+    agriculture: ['Farm', 'Grow', 'Harvest', 'Crop', 'Field', 'Green', 'Soil', 'Agri', 'Yield', 'Seed'],
+    entertainment: ['Play', 'Show', 'Star', 'Vibe', 'Live', 'Scene', 'Cast', 'Stage', 'Joy', 'Fame'],
+    telecom: ['Connect', 'Link', 'Net', 'Sync', 'Wave', 'Signal', 'Reach', 'Comm', 'Grid', 'Cell'],
+    pharmaceutical: ['Med', 'Cure', 'Pharm', 'Bio', 'Life', 'Heal', 'Gen', 'Care', 'Health', 'Dose'],
+    construction: ['Build', 'Base', 'Struct', 'Craft', 'Iron', 'Steel', 'Stone', 'Form', 'Rise', 'Core'],
+    maritime: ['Sea', 'Wave', 'Ocean', 'Ship', 'Sail', 'Tide', 'Nav', 'Port', 'Marine', 'Anchor'],
+    mining: ['Ore', 'Rock', 'Core', 'Earth', 'Mine', 'Deep', 'Gem', 'Stone', 'Metal', 'Extract'],
+    forestry: ['Wood', 'Tree', 'Forest', 'Timber', 'Leaf', 'Pine', 'Oak', 'Green', 'Log', 'Grove'],
+    retail: ['Shop', 'Mart', 'Store', 'Buy', 'Sale', 'Cart', 'Vend', 'Trade', 'Goods', 'Mall'],
+    media: ['News', 'Press', 'Cast', 'Stream', 'View', 'Story', 'Voice', 'Buzz', 'Print', 'Live'],
+
     roofing: ['Roof', 'Peak', 'Top', 'Shield', 'Guard', 'Cover', 'Elevate', 'Summit', 'Apex', 'Pro'],
     hvac: ['Air', 'Cool', 'Heat', 'Flow', 'Temp', 'Climate', 'Vent', 'Breeze', 'Pure', 'Comfort'],
     event: ['Plan', 'Party', 'Gather', 'Host', 'Gala', 'Fest', 'Vibe', 'Create', 'Spark', 'Joy'],
@@ -84,6 +96,18 @@ export const dictionary: Dictionary = {
     trustworthy: ['Sure', 'True', 'Trust', 'Safe', 'Guard', 'Shield', 'Solid', 'Veri', 'Secure', 'Clear']
   },
   taglines: {
+
+    agriculture: ['Feeding the future', 'Rooted in nature', 'Growing your success'],
+    entertainment: ['Where magic happens', 'Your daily joy', 'Lighting up the stage'],
+    telecom: ['Connecting your world', 'Always in touch', 'Seamless communication'],
+    pharmaceutical: ['Science for life', 'Healing tomorrow', 'Care you can trust'],
+    construction: ['Building your vision', 'Foundations of the future', 'Strength in every structure'],
+    maritime: ['Navigating success', 'Sailing new horizons', 'Your trusted port'],
+    mining: ['Unearthing value', 'Deep expertise', 'Resources for tomorrow'],
+    forestry: ['Sustaining nature', 'Timber you can trust', 'Growing greener futures'],
+    retail: ['Everything you need', 'Shop with confidence', 'Your lifestyle destination'],
+    media: ['Telling your story', 'Voices that matter', 'Shaping the conversation'],
+
     roofing: ['Protecting what matters most', 'Raising the standard', 'Your reliable shelter'],
     hvac: ['Comfort in every season', 'Breathe easier', 'Perfect climate control'],
     event: ['Unforgettable moments', 'Bringing people together', 'Creating magic'],

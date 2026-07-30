@@ -62,6 +62,17 @@ else
     "https://brandforge.alfo.online/industries/pet-brand-names"
     "https://brandforge.alfo.online/industries/music-studio-names"
     "https://brandforge.alfo.online/industries/automotive-brand-names"
+    "https://brandforge.alfo.online/blog/how-to-craft-brand-tagline"
+    "https://brandforge.alfo.online/industries/agriculture-company-names"
+    "https://brandforge.alfo.online/industries/entertainment-business-names"
+    "https://brandforge.alfo.online/industries/telecom-company-names"
+    "https://brandforge.alfo.online/industries/pharmaceutical-company-names"
+    "https://brandforge.alfo.online/industries/construction-company-names"
+    "https://brandforge.alfo.online/industries/maritime-company-names"
+    "https://brandforge.alfo.online/industries/mining-company-names"
+    "https://brandforge.alfo.online/industries/forestry-business-names"
+    "https://brandforge.alfo.online/industries/retail-store-names"
+    "https://brandforge.alfo.online/industries/media-company-names"
   )
 fi
 

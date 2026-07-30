@@ -40,7 +40,7 @@ export default function YogaStudioNamesPage() {
 
           <h3>Accessibility vs. Tradition</h3>
           <p>
-            You must decide if your studio is rooted in traditional practice (where Sanskrit names might be appropriate) or if it&apos;s a modern, fitness-focused studio (where words like "Core", "Flex", or "Flow" might attract a broader audience).
+            You must decide if your studio is rooted in traditional practice (where Sanskrit names might be appropriate) or if it&apos;s a modern, fitness-focused studio (where words like &quot;Core&quot;, &quot;Flex&quot;, or &quot;Flow&quot; might attract a broader audience).
           </p>
 
           <div className="mt-8 p-6 bg-card border rounded-lg not-prose">

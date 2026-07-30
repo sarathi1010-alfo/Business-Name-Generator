@@ -35,12 +35,12 @@ export default function InsuranceCompanyNamesPage() {
         <section className="w-full max-w-4xl mx-auto px-4 py-16 prose prose-slate dark:prose-invert">
           <h2>Naming in the Insurance Industry</h2>
           <p>
-            In insurance, you are selling an intangible promise to be there during a crisis. Therefore, trust is the only currency that matters. Your name must instantly communicate security and stability. Words like "Shield", "Guard", "Sure", and "Trust" are staples in this industry for a reason.
+            In insurance, you are selling an intangible promise to be there during a crisis. Therefore, trust is the only currency that matters. Your name must instantly communicate security and stability. Words like &quot;Shield&quot;, &quot;Guard&quot;, &quot;Sure&quot;, and &quot;Trust&quot; are staples in this industry for a reason.
           </p>
 
           <h3>Modern Insurtech vs. Traditional Agencies</h3>
           <p>
-            Traditional agencies often rely on family names to project community trust. However, the rise of "Insurtech" startups has popularized short, snappy, one-word names that appeal to younger demographics looking for fast, app-based coverage.
+            Traditional agencies often rely on family names to project community trust. However, the rise of &quot;Insurtech&quot; startups has popularized short, snappy, one-word names that appeal to younger demographics looking for fast, app-based coverage.
           </p>
 
           <div className="mt-8 p-6 bg-card border rounded-lg not-prose">

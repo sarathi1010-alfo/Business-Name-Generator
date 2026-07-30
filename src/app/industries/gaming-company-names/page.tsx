@@ -1,9 +1,9 @@
+import { NameCard } from "@/components/generator/NameCard";
 import { Metadata } from 'next';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { AdSlot } from '@/components/ui/AdSlot';
 import { generateNames } from '@/lib/generateNames';
-import { NameCard } from '@/components/generator/NameCard';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { JsonLd } from '@/components/JsonLd';
