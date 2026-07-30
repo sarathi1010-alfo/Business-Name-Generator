@@ -35,7 +35,7 @@ export default function ArchitectureFirmNamesPage() {
         <section className="w-full max-w-4xl mx-auto px-4 py-16 prose prose-slate dark:prose-invert">
           <h2>Naming in the Built Environment</h2>
           <p>
-            An architecture firm's name is its first design project. It sets the tone for the firm's aesthetic and philosophy. While many renowned firms are named after their founders, there is a growing trend toward conceptual names that reflect the studio's approach to space, light, and structure.
+            An architecture firm&apos;s name is its first design project. It sets the tone for the firm&apos;s aesthetic and philosophy. While many renowned firms are named after their founders, there is a growing trend toward conceptual names that reflect the studio&apos;s approach to space, light, and structure.
           </p>
 
           <h3>Finding Your Angle</h3>

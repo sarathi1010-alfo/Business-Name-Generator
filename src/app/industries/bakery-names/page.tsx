@@ -35,7 +35,7 @@ export default function BakeryNamesPage() {
         <section className="w-full max-w-4xl mx-auto px-4 py-16 prose prose-slate dark:prose-invert">
           <h2>Naming in the Baking Industry</h2>
           <p>
-            A bakery's name is its storefront before the customer even sees the pastries. It needs to evoke the warmth of an oven and the comfort of fresh bread. Whether you are opening a high-end patisserie or a neighborhood bread shop, your name sets the expectation for the flavors inside.
+            A bakery&apos;s name is its storefront before the customer even sees the pastries. It needs to evoke the warmth of an oven and the comfort of fresh bread. Whether you are opening a high-end patisserie or a neighborhood bread shop, your name sets the expectation for the flavors inside.
           </p>
 
           <h3>Finding the Sweet Spot</h3>

@@ -40,7 +40,7 @@ export default function PublishingCompanyNamesPage() {
 
           <h3>Traditional vs. Modern Media</h3>
           <p>
-            If you are publishing classic literature or non-fiction, a traditional name ending in "Press" works beautifully. If you are a modern, digital-first media company, you might choose something punchier and more abstract to signal innovation.
+            If you are publishing classic literature or non-fiction, a traditional name ending in &quot;Press&quot; works beautifully. If you are a modern, digital-first media company, you might choose something punchier and more abstract to signal innovation.
           </p>
 
           <div className="mt-8 p-6 bg-card border rounded-lg not-prose">

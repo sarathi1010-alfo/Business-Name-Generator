@@ -40,7 +40,7 @@ export default function EventCompanyNamesPage() {
 
           <h3>Evocative vs. Descriptive</h3>
           <p>
-            While descriptive names like "City Event Planners" are clear, evocative names like "Spark & Vibe" or "Gather Gala" create a feeling. In an industry driven by emotion and aesthetics, evocative names often help you stand out and charge premium rates.
+            While descriptive names like &quot;City Event Planners&quot; are clear, evocative names like &quot;Spark & Vibe&quot; or &quot;Gather Gala&quot; create a feeling. In an industry driven by emotion and aesthetics, evocative names often help you stand out and charge premium rates.
           </p>
 
           <div className="mt-8 p-6 bg-card border rounded-lg not-prose">

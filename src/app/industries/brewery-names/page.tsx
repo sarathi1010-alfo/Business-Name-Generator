@@ -35,7 +35,7 @@ export default function BreweryNamesPage() {
         <section className="w-full max-w-4xl mx-auto px-4 py-16 prose prose-slate dark:prose-invert">
           <h2>Naming in the Craft Beer World</h2>
           <p>
-            The craft beer market is fiercely competitive, and a brewery's name and visual identity are often the deciding factor for a consumer facing a massive wall of options. The best brewery names tell a story, evoke a strong sense of place, or project a distinct personality that resonates with the target audience.
+            The craft beer market is fiercely competitive, and a brewery&apos;s name and visual identity are often the deciding factor for a consumer facing a massive wall of options. The best brewery names tell a story, evoke a strong sense of place, or project a distinct personality that resonates with the target audience.
           </p>
 
           <h3>Standing Out on the Shelf</h3>

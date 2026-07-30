@@ -35,7 +35,7 @@ export default function PlumbingCompanyNamesPage() {
         <section className="w-full max-w-4xl mx-auto px-4 py-16 prose prose-slate dark:prose-invert">
           <h2>Naming in the Trades</h2>
           <p>
-            In the plumbing industry, trust and reliability are everything. When a customer has a leak, they want to call a company that sounds established and capable. A strong brand name helps you stand out from the countless "City Name Plumbing" businesses and position yourself as a premium service provider.
+            In the plumbing industry, trust and reliability are everything. When a customer has a leak, they want to call a company that sounds established and capable. A strong brand name helps you stand out from the countless &quot;City Name Plumbing&quot; businesses and position yourself as a premium service provider.
           </p>
 
           <h3>Focusing on the Solution</h3>

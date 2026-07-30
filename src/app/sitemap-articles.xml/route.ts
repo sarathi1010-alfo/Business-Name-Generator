@@ -6,6 +6,12 @@ import { MetadataRoute } from 'next';
 export async function GET() {
   const routes: MetadataRoute.Sitemap = [
     {
+      url: buildCanonical('/blog/how-to-craft-brand-tagline'),
+      lastModified: new Date().toISOString(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
       url: buildCanonical('/blog/the-psychology-of-brand-names'),
       lastModified: new Date().toISOString(),
       changeFrequency: 'weekly',

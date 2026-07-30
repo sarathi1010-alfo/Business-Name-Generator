@@ -40,7 +40,7 @@ export default function InteriorDesignNamesPage() {
 
           <h3>Eponymous vs. Studio Names</h3>
           <p>
-            Many legendary designers use their own names, leaning on personal reputation. However, creating a distinct studio name (like "Nest & Form" or "Lumi Living") allows you to build an agency that isn&apos;t solely dependent on you as the founder, making it easier to hire junior designers and scale.
+            Many legendary designers use their own names, leaning on personal reputation. However, creating a distinct studio name (like &quot;Nest & Form&quot; or &quot;Lumi Living&quot;) allows you to build an agency that isn&apos;t solely dependent on you as the founder, making it easier to hire junior designers and scale.
           </p>
 
           <div className="mt-8 p-6 bg-card border rounded-lg not-prose">

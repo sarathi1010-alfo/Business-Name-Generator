@@ -35,12 +35,12 @@ export default function HvacCompanyNamesPage() {
         <section className="w-full max-w-4xl mx-auto px-4 py-16 prose prose-slate dark:prose-invert">
           <h2>Naming in the HVAC Industry</h2>
           <p>
-            HVAC is often an emergency service industry. When a heater breaks in winter or an AC fails in summer, customers need someone fast and reliable. Names that imply speed, comfort, and temperature control (like "Breeze", "Climate", or "Flow") work exceptionally well.
+            HVAC is often an emergency service industry. When a heater breaks in winter or an AC fails in summer, customers need someone fast and reliable. Names that imply speed, comfort, and temperature control (like &quot;Breeze&quot;, &quot;Climate&quot;, or &quot;Flow&quot;) work exceptionally well.
           </p>
 
           <h3>Family Names vs. Modern Brands</h3>
           <p>
-            Using a family name (e.g., "Smith Heating & Air") conveys long-standing trust and community ties. However, modern, abstract names (e.g., "AirZen" or "ComfortFlow") can sound more professional, scalable, and appeal to younger homeowners.
+            Using a family name (e.g., &quot;Smith Heating & Air&quot;) conveys long-standing trust and community ties. However, modern, abstract names (e.g., &quot;AirZen&quot; or &quot;ComfortFlow&quot;) can sound more professional, scalable, and appeal to younger homeowners.
           </p>
 
           <div className="mt-8 p-6 bg-card border rounded-lg not-prose">
