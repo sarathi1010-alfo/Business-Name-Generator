@@ -35,6 +35,9 @@ export default function CreatorBrandNamesPage() {
 
         <section className="w-full max-w-4xl mx-auto px-4 py-16 prose prose-slate dark:prose-invert">
           <h2>The Drive to Build</h2>
+          <p className="text-lg font-medium border-l-4 border-indigo-500 pl-4 py-1 bg-muted/30">
+            A Creator brand name must spark imagination and convey boundless potential. It should feel open-ended and expressive, signaling to users that your brand provides the ultimate canvas or tools for their own innovation and self-expression.
+          </p>
           <p>
             Brands that adopt the Creator archetype exist to help their customers express themselves and build new things. They believe that if you can imagine it, it can be created.
           </p>

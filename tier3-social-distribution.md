@@ -275,3 +275,25 @@ Discover the psychology behind successful brand names—from cognitive fluency t
 2. Image: Split screen of an Abstract logo vs a Descriptive logo with their respective taglines. \nCaption: The type of brand name you choose dictates the job of your tagline. Abstract names need descriptive taglines. Descriptive names need evocative taglines. Learn the balance on the blog. Link in bio! ✨ #NamingStudio #BrandIdentity
 3. Image: Collage of 10 new industry icons (Agriculture, Construction, Entertainment, etc.) \nCaption: The BrandForge engine just got smarter! 🧠 We've added 10 new highly requested industries. Generate your next construction company or media brand name today—for free. Link in bio. 🏗️🎬 #BrandNaming #NewFeatures #Entrepreneur
 4. Image: Quote graphic "People make buying decisions based on emotion and justify them with logic." \nCaption: If your tagline doesn't tap into a core human desire (status, safety, connection), it's not working hard enough. Learn how to inject emotion into your brand copy. Link in bio! 🗣️ #CopywritingTips #MarketingStrategy
+
+---
+
+## Daily Run - [Logo Design & Comparisons]
+
+### Twitter / X
+1. A logo is an identifier, not a literal description of what you sell. Apple isn't a fruit company. Nike isn't a shoe company. Start with strategy, not a sketch. #LogoDesign #StartupTips
+2. Most startup logos fail because they are too complex. Can you draw your logo from memory in 5 seconds? If not, simplify. #Branding #Design
+3. Building a brand from scratch? BrandForge vs Canva: Use BrandForge to generate the core DNA (name, archetype, palette). Use Canva to execute daily posts. They are a stack, not an either/or. #BrandStrategy
+4. Stop using free generic logo generators for your serious startup. Hatchful is great for a weekend dropshipping test, but BrandForge builds a scalable, strategic identity. #Startups
+5. Are you an "Everyman" brand or a "Ruler"? Your archetype dictates everything from your color palette to your voice. Don't guess. Build it right. #BrandArchetypes
+
+### LinkedIn
+6. Most founders treat branding as an afterthought—a logo slapped onto a landing page just before launch. But in a crowded market where technical moats are shrinking, your brand is your only enduring competitive advantage. Learn how to design a memorable logo that scales with your business: https://brandforge.alfo.online/blog/how-to-design-a-memorable-logo
+7. AI is changing how we name companies. Slapping "AI" onto a generic word doesn't work anymore. The best AI brands use evocative naming—words that suggest clarity, synthesis, and human-machine collaboration. See our guide to AI company names: https://brandforge.alfo.online/industries/ai-company-names
+8. We often get asked: "BrandForge or Canva?" The answer is both. BrandForge is the architect (creating your core identity, name, and archetype). Canva is the construction team (applying that identity to daily templates). Read the full breakdown: https://brandforge.alfo.online/blog/brandforge-vs-canva
+
+### Instagram
+9. [Image: Minimalist Logo breakdown] Caption: Simplicity scales. Complexity fails. How to design a logo that works on a billboard and an Apple Watch. Link in bio. 🎨 #Design #Branding #BrandForge
+10. [Image: Ruler vs Everyman Archetype comparison] Caption: Are you leading the pack (Ruler) or connecting with the people (Everyman)? Your brand archetype changes your entire visual identity. Discover yours with BrandForge. 👑🤝 #BrandStrategy
+11. [Image: Canva + BrandForge workflow graphic] Caption: The ultimate 2026 founder stack. Generate the DNA with BrandForge. Execute the daily marketing with Canva. 🚀
+12. [Image: Cybersecurity branding examples] Caption: In infosec, your brand is a promise of protection. Is your name strong enough to win enterprise trust? 🛡️ #Cybersecurity #TechStartup

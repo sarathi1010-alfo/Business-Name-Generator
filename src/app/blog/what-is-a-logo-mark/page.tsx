@@ -11,7 +11,7 @@ const meta = buildArticleMeta(
   'What is a Logo Mark? Everything Founders Need to Know',
   'A logo mark is the symbol or icon used to identify a brand, separate from its typography. Learn how it works and why it is important for founders.',
   '/blog/what-is-a-logo-mark',
-  { publishedAt: new Date().toISOString() }
+  { updatedAt: new Date().toISOString() }
 );
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -87,7 +87,7 @@ export default function WhatIsALogoMarkPage() {
             <ul className="mb-0">
               <li><strong>Simplicity:</strong> It should be recognizable even when scaled down to a 16x16 pixel favicon.</li>
               <li><strong>Relevance:</strong> While it doesn&apos;t need to literally show what you sell, the abstract feeling should align with your brand archetype.</li>
-              <li><strong>Distinctiveness:</strong> It must stand out from competitors within your specific industry.</li>
+              <li><strong>Distinctiveness:</strong> It must stand out from competitors within your specific industry. Learn <Link href="/blog/how-to-design-a-memorable-logo">how to design a memorable logo</Link> to ensure your mark truly represents your brand.</li>
             </ul>
           </div>
 
