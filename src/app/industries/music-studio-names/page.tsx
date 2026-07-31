@@ -35,6 +35,9 @@ export default function MusicNamesPage() {
 
         <section className="w-full max-w-4xl mx-auto px-4 py-16 prose prose-slate dark:prose-invert">
           <h2>Building a Standout Music Brand</h2>
+          <p className="text-lg font-medium border-l-4 border-indigo-500 pl-4 py-1 bg-muted/30">
+            A great music studio name acts as a strategic asset that captures rhythm, creativity, and professional sound quality. To build a standout music brand, select a name that immediately resonates with artists and producers while establishing instant trust.
+          </p>
           <p>
             In a crowded market, your name is your first impression. A great name acts as a strategic asset that communicates your unique positioning and builds instant trust with your audience.
           </p>

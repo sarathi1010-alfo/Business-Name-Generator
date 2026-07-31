@@ -73,6 +73,17 @@ else
     "https://brandforge.alfo.online/industries/forestry-business-names"
     "https://brandforge.alfo.online/industries/retail-store-names"
     "https://brandforge.alfo.online/industries/media-company-names"
+    "https://brandforge.alfo.online/blog/how-to-design-a-memorable-logo"
+    "https://brandforge.alfo.online/blog/brandforge-vs-canva"
+    "https://brandforge.alfo.online/blog/brandforge-vs-hatchful"
+    "https://brandforge.alfo.online/industries/ai-company-names"
+    "https://brandforge.alfo.online/industries/cybersecurity-company-names"
+    "https://brandforge.alfo.online/industries/music-studio-names"
+    "https://brandforge.alfo.online/industries/pet-brand-names"
+    "https://brandforge.alfo.online/archetypes/ruler-brand-names"
+    "https://brandforge.alfo.online/archetypes/everyman-brand-names"
+    "https://brandforge.alfo.online/archetypes/creator-brand-names"
+    "https://brandforge.alfo.online/archetypes/magician-brand-names"
   )
 fi
 

@@ -57,12 +57,22 @@ export default function ArchetypeNamesPage() {
           </div>
         </section>
 
+        <section className="w-full max-w-4xl mx-auto px-4 py-16 prose prose-slate dark:prose-invert">
+          <h2>Understanding The {archetypeTitle} Archetype</h2>
+          <p className="text-lg font-medium border-l-4 border-indigo-500 pl-4 py-1 bg-muted/30">
+            The {archetypeTitle} brand archetype is defined by transformation, vision, and making the impossible happen. A strong Magician brand name feels mysterious, advanced, and deeply transformative, often using evocative words that suggest alchemy, deep technology, or futuristic capabilities.
+          </p>
+          <p>
+            These brands often disrupt their industries by introducing seemingly magical technology or processes. If you want to change the world, the {archetypeTitle} archetype is a powerful place to start.
+          </p>
+        </section>
+
         <div className="w-full py-8 flex justify-center border-b">
           <AdSlot variant="leaderboard" />
         </div>
 
         <section className="w-full max-w-7xl mx-auto px-4 md:px-8 py-16">
-          <h2 className="text-2xl font-bold tracking-tight mb-8">Top {archetypeTitle} Name Ideas</h2>
+          <h2 className="text-2xl font-bold tracking-tight mb-8 text-foreground">Top {archetypeTitle} Name Ideas</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {staticNames.map((n, i) => (
               <div key={n.id} className="pointer-events-none">
