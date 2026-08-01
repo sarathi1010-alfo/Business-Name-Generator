@@ -8,6 +8,18 @@ API_URL="https://api.indexnow.org/indexnow"
 # If URLs are passed as arguments, use them. Otherwise, use the default list.
 if [ $# -gt 0 ]; then
   URLS=(
+    "https://brandforge.alfo.online/blog/how-to-name-a-future-proof-startup"
+    "https://brandforge.alfo.online/industries/vr-company-names"
+    "https://brandforge.alfo.online/industries/space-startup-names"
+    "https://brandforge.alfo.online/industries/esports-team-names"
+    "https://brandforge.alfo.online/industries/influencer-agency-names"
+    "https://brandforge.alfo.online/industries/drone-business-names"
+    "https://brandforge.alfo.online/industries/3d-printing-company-names"
+    "https://brandforge.alfo.online/name-styles/rhyming-brand-names"
+    "https://brandforge.alfo.online/name-styles/misspelled-brand-names"
+    "https://brandforge.alfo.online/name-styles/historical-brand-names"
+    "https://brandforge.alfo.online/name-styles/geographic-brand-names"
+
     "$@"
     "https://brandforge.alfo.online/about"
     "https://brandforge.alfo.online/blog"
