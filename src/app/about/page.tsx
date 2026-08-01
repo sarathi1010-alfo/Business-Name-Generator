@@ -45,6 +45,12 @@ export default function AboutPage() {
             Whether you are using our color generator <em>PaletteFlow</em>, our typography matcher <em>FontFusion</em>, or testing your new identity in real-world scenarios with <em>MockBrand</em>, the entire ecosystem is designed to orchestrate identities that don&apos;t just look good in a vacuum, but perform effectively in the chaotic real world.
           </p>
 
+
+          <h2 className="text-2xl font-bold mt-12 mb-6">Future-Proofing Your Brand</h2>
+          <p className="text-white/70 mb-4">
+            We believe that a brand's longevity starts with its foundation. That's why we've put together comprehensive resources, such as our guide on <Link href="/blog/how-to-name-a-future-proof-startup" className="text-indigo-400 hover:underline">how to name a future-proof startup</Link>, to ensure founders make strategic decisions from day one. Your name is the container for the legacy you are building, and it must be built to scale.
+          </p>
+
           <h2 className="text-2xl font-bold mt-12 mb-6">Why We Built This</h2>
           <p>
             We built BrandForge because we saw too many brilliant products fail to gain traction simply because their visual identity didn&apos;t reflect the quality of their engineering. In a digital landscape dominated by noise and endless competition, a strong, resonant brand is your ultimate differentiator. We use curated heuristics and psychological mapping—grounded in <Link href="/blog/the-psychology-of-brand-names" className="text-indigo-400 hover:text-indigo-300">the psychology of brand names</Link>—to ensure that every brand direction generated through our studio feels human, intentional, and deeply connected to your target audience.

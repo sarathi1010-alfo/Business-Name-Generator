@@ -19,6 +19,14 @@ export const dictionary: Dictionary = {
   ],
   industryTokens: {
 
+    vr: ['Virtual', 'Immense', 'Reality', 'Sense', 'Oculus', 'Sphere', 'Vivid', 'Holo', 'Lens', 'World'],
+    space: ['Astro', 'Cosmos', 'Orbit', 'Galaxy', 'Stellar', 'Nova', 'Void', 'Launch', 'Zenith', 'Star'],
+    esports: ['Game', 'Play', 'Compete', 'Arena', 'Nexus', 'Elite', 'Frag', 'Clutch', 'Ping', 'Core'],
+    influencer: ['Trend', 'Vibe', 'Fame', 'Social', 'Hype', 'Reach', 'Pulse', 'Connect', 'Aura', 'Star'],
+    drone: ['Aero', 'Sky', 'Hover', 'Fly', 'Drone', 'View', 'Altitude', 'Wing', 'Soar', 'Glide'],
+    printing3d: ['Layer', 'Print', 'Form', 'Shape', 'Build', 'Craft', 'Resin', 'Maker', 'Create', 'Mesh'],
+
+
     agriculture: ['Farm', 'Grow', 'Harvest', 'Crop', 'Field', 'Green', 'Soil', 'Agri', 'Yield', 'Seed'],
     entertainment: ['Play', 'Show', 'Star', 'Vibe', 'Live', 'Scene', 'Cast', 'Stage', 'Joy', 'Fame'],
     telecom: ['Connect', 'Link', 'Net', 'Sync', 'Wave', 'Signal', 'Reach', 'Comm', 'Grid', 'Cell'],
@@ -96,6 +104,14 @@ export const dictionary: Dictionary = {
     trustworthy: ['Sure', 'True', 'Trust', 'Safe', 'Guard', 'Shield', 'Solid', 'Veri', 'Secure', 'Clear']
   },
   taglines: {
+
+    vr: ['Step into the future', 'Beyond reality', 'Immersive worlds'],
+    space: ['Reaching the stars', 'The final frontier', 'Beyond limits'],
+    esports: ['Play to win', 'Unleash your potential', 'The competitive edge'],
+    influencer: ['Shape the culture', 'Your voice amplified', 'Connecting the world'],
+    drone: ['View from above', 'Sky high precision', 'Elevate your perspective'],
+    printing3d: ['Forming the future', 'Layer by layer', 'Ideas made real'],
+
 
     agriculture: ['Feeding the future', 'Rooted in nature', 'Growing your success'],
     entertainment: ['Where magic happens', 'Your daily joy', 'Lighting up the stage'],
