@@ -11,7 +11,7 @@ const meta = buildArticleMeta(
   "What is a Brand Archetype? The Psychology of Branding",
   "A quick guide to understanding brand archetypes and how they shape your brand&apos;s personality and voice in 2026.",
   "/blog/what-is-a-brand-archetype",
-  { updatedAt: "2026-07-10T00:00:00Z" }
+  { updatedAt: "2026-07-10T00:00:00Z", publishedAt: "2026-07-10T00:00:00Z" }
 );
 
 export async function generateMetadata(): Promise<Metadata> {

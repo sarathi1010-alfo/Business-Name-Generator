@@ -44,6 +44,17 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <meta name="google-adsense-account" content="ca-pub-6393936268623951" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-HZQ3QT11QC"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-HZQ3QT11QC');
+            `,
+          }}
+        />
       </head>
       <body className="min-h-full flex flex-col">
         <JsonLd schema={buildOrganizationSchema()} />
