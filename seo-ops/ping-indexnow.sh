@@ -7,7 +7,18 @@ API_URL="https://api.indexnow.org/indexnow"
 
 # If URLs are passed as arguments, use them. Otherwise, use the default list.
 if [ $# -gt 0 ]; then
-  URLS=("$@")
+  URLS=(
+    "$@"
+    "https://brandforge.alfo.online/about"
+    "https://brandforge.alfo.online/blog"
+    "https://brandforge.alfo.online/identity-directions"
+    "https://brandforge.alfo.online/blog/ultimate-guide-to-brand-identity"
+    "https://brandforge.alfo.online/blog/what-is-brand-identity"
+    "https://brandforge.alfo.online/blog/what-is-a-brand-archetype"
+    "https://brandforge.alfo.online/blog/why-is-branding-important"
+    "https://brandforge.alfo.online/blog/what-is-brand-positioning"
+    "https://brandforge.alfo.online/blog/what-is-brand-voice"
+  )
 else
   # List of primary URLs to index
   URLS=(

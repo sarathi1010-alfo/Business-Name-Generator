@@ -6,6 +6,36 @@ import { MetadataRoute } from 'next';
 export async function GET() {
   const routes: MetadataRoute.Sitemap = [
     {
+      url: buildCanonical('/blog/ultimate-guide-to-brand-identity'),
+      lastModified: new Date().toISOString(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: buildCanonical('/blog/what-is-a-brand-archetype'),
+      lastModified: new Date().toISOString(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: buildCanonical('/blog/why-is-branding-important'),
+      lastModified: new Date().toISOString(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: buildCanonical('/blog/what-is-brand-positioning'),
+      lastModified: new Date().toISOString(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: buildCanonical('/blog/what-is-brand-voice'),
+      lastModified: new Date().toISOString(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
       url: buildCanonical('/blog/how-to-craft-brand-tagline'),
       lastModified: new Date().toISOString(),
       changeFrequency: 'weekly',
