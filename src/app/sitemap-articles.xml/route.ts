@@ -187,6 +187,12 @@ export async function GET() {
       changeFrequency: 'weekly',
       priority: 0.9,
     },
+    {
+      url: buildCanonical('/blog/how-to-name-local-business'),
+      lastModified: new Date().toISOString(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
   ];
 
   const xml = generateSitemapXml(routes);
