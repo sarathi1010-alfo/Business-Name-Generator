@@ -89,7 +89,11 @@ export const dictionary: Dictionary = {
     bakery: ['Bake', 'Sweet', 'Crust', 'Dough', 'Oven', 'Treat', 'Cake', 'Loaf', 'Flour', 'Mix'],
     brewery: ['Brew', 'Hop', 'Craft', 'Draft', 'Ale', 'Malt', 'Pour', 'Sip', 'Barrel', 'Tap'],
     spa: ['Relax', 'Calm', 'Zen', 'Heal', 'Glow', 'Rest', 'Peace', 'Soothe', 'Touch', 'Aura'],
-    tattoo: ['Ink', 'Art', 'Skin', 'Mark', 'Line', 'Draw', 'Fade', 'Needle', 'Shade', 'Tatt']
+    tattoo: ['Ink', 'Art', 'Skin', 'Mark', 'Line', 'Draw', 'Fade', 'Needle', 'Shade', 'Tatt'],
+    florist: ['Bloom', 'Petal', 'Stem', 'Flora', 'Bud', 'Leaf', 'Rose', 'Wild', 'Blossom', 'Root'],
+    barbershop: ['Fade', 'Trim', 'Cut', 'Edge', 'Blend', 'Blade', 'Shear', 'Clip', 'Groom', 'Line'],
+    cafe: ['Brew', 'Sip', 'Bean', 'Roast', 'Mug', 'Cup', 'Pour', 'Drip', 'Crema', 'Blend'],
+    moving: ['Move', 'Haul', 'Shift', 'Transit', 'Load', 'Carry', 'Lift', 'Box', 'Pack', 'Relay']
   },
   vibeTokens: {
     luxury: ['Luxe', 'Elite', 'Prime', 'Aura', 'Velvet', 'Crown', 'Gold', 'Silk', 'Grand', 'Opus'],
@@ -175,6 +179,10 @@ export const dictionary: Dictionary = {
     bakery: ['Baked with love', 'Sweet treats daily', 'Fresh from the oven'],
     brewery: ['Crafted to perfection', 'Pours of joy', 'Brewed with passion'],
     spa: ['Relax and rejuvenate', 'Your sanctuary of calm', 'Glow from within'],
-    tattoo: ['Ink your story', 'Art that lasts', 'Wear your mark']
+    tattoo: ['Ink your story', 'Art that lasts', 'Wear your mark'],
+    florist: ['Say it with flowers', 'Nature in full bloom', 'Fresh from the garden'],
+    barbershop: ['Sharp cuts, clean fades', 'Your local groomer', 'Fresh looks daily'],
+    cafe: ['Your daily brew', 'Sip the moment', 'Where coffee meets community'],
+    moving: ['Moving made easy', 'We carry the load', 'Safe and swift transport']
   }
 };

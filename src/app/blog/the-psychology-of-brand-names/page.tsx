@@ -11,7 +11,7 @@ const meta = buildArticleMeta(
   "The Psychology of Brand Names: How to Connect Subconsciously in 2026",
   "Discover the psychology behind successful brand names. Learn how phonetics, semantics, and cognitive fluency influence consumer perception and trust.",
   "/blog/the-psychology-of-brand-names",
-  { updatedAt: "2026-07-11T00:00:00Z" }
+  { updatedAt: new Date().toISOString() }
 );
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -64,7 +64,7 @@ export default function ArticlePage() {
 
           <h2>Semantic Association and Framing</h2>
           <p>
-            The literal meaning of the word or its roots also matters. Even abstract names often use Latin or Greek roots to frame the brand. For example, the prefix &quot;Nov-&quot; implies newness and innovation.
+            The literal meaning of the word or its roots also matters. Even abstract names often use Latin or Greek roots to frame the brand. For example, the prefix &quot;Nov-&quot; implies newness and innovation. For small community-based businesses, understanding <Link href="/blog/how-to-name-local-business" className="text-indigo-400 hover:underline">how to name a local business</Link> involves leveraging these semantic associations to build instant trust and recognition.
           </p>
           <p>
             When utilizing tools like the <Link href="/" className="text-indigo-400 hover:underline">BrandForge Generator Studio</Link>, the algorithm leverages these semantic roots and industry tokens to construct names that feel inherently right for your sector.

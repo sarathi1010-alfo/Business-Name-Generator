@@ -84,6 +84,46 @@ export function buildVibeMeta(vibe: string): SeoMeta {
   };
 }
 
+export function buildNameStyleMeta(style: string): SeoMeta {
+  const words = style.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+  const title = `${words} Brand Names`;
+  return {
+    title,
+    description: truncate(`Find the perfect ${style.replace('-', ' ')} brand name. Discover ideas engineered for perception, trust, and uniqueness.`),
+    slug: `/name-styles/${style}-brand-names`,
+    pageType: 'category',
+    breadcrumbs: [
+      { label: 'Home', href: '/' },
+      { label: 'Name Styles', href: '/name-styles' },
+      { label: title, href: `/name-styles/${style}-brand-names` }
+    ],
+    ogImage: {
+      url: `${BASE_URL}/og?title=${encodeURIComponent(title)}&type=category`,
+      alt: title
+    }
+  };
+}
+
+export function buildArchetypeMeta(archetype: string): SeoMeta {
+  const cap = archetype.charAt(0).toUpperCase() + archetype.slice(1);
+  const title = `${cap} Brand Archetype Names`;
+  return {
+    title,
+    description: truncate(`Discover powerful brand names inspired by the ${cap} archetype. Master the psychology of branding to connect deeply with your audience.`),
+    slug: `/archetypes/${archetype}-brand-names`,
+    pageType: 'category',
+    breadcrumbs: [
+      { label: 'Home', href: '/' },
+      { label: 'Archetypes', href: '/archetypes' },
+      { label: title, href: `/archetypes/${archetype}-brand-names` }
+    ],
+    ogImage: {
+      url: `${BASE_URL}/og?title=${encodeURIComponent(title)}&type=category`,
+      alt: title
+    }
+  };
+}
+
 export function buildWorkspaceMeta(): SeoMeta {
   const title = "Brand Workspace";
   return {

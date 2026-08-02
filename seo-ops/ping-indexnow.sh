@@ -107,6 +107,17 @@ else
     "https://brandforge.alfo.online/archetypes/everyman-brand-names"
     "https://brandforge.alfo.online/archetypes/creator-brand-names"
     "https://brandforge.alfo.online/archetypes/magician-brand-names"
+    "https://brandforge.alfo.online/name-styles/alliteration-brand-names"
+    "https://brandforge.alfo.online/name-styles/alphanumeric-brand-names"
+    "https://brandforge.alfo.online/name-styles/foreign-word-brand-names"
+    "https://brandforge.alfo.online/name-styles/dictionary-word-brand-names"
+    "https://brandforge.alfo.online/industries/florist-names"
+    "https://brandforge.alfo.online/industries/barbershop-names"
+    "https://brandforge.alfo.online/industries/cafe-names"
+    "https://brandforge.alfo.online/industries/moving-company-names"
+    "https://brandforge.alfo.online/archetypes/innovator-brand-names"
+    "https://brandforge.alfo.online/archetypes/guide-brand-names"
+    "https://brandforge.alfo.online/blog/how-to-name-local-business"
   )
 fi
 
