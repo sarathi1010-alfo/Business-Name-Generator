@@ -118,6 +118,17 @@ else
     "https://brandforge.alfo.online/archetypes/innovator-brand-names"
     "https://brandforge.alfo.online/archetypes/guide-brand-names"
     "https://brandforge.alfo.online/blog/how-to-name-local-business"
+    "https://brandforge.alfo.online/industries/sustainability-company-names"
+    "https://brandforge.alfo.online/industries/hardware-company-names"
+    "https://brandforge.alfo.online/industries/delivery-company-names"
+    "https://brandforge.alfo.online/industries/therapy-company-names"
+    "https://brandforge.alfo.online/industries/jewelry-brand-names"
+    "https://brandforge.alfo.online/industries/furniture-brand-names"
+    "https://brandforge.alfo.online/industries/organic-brand-names"
+    "https://brandforge.alfo.online/industries/fintech-startup-names"
+    "https://brandforge.alfo.online/industries/web3-startup-names"
+    "https://brandforge.alfo.online/industries/catering-business-names"
+    "https://brandforge.alfo.online/blog/how-to-build-minimum-viable-brand"
   )
 fi
 

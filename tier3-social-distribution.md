@@ -405,3 +405,75 @@ Caption: Local SEO hack: Put the city in your name. But only if you plan to stay
 **Post 12:**
 [Image: Clean, modern Cafe storefront mockup]
 Caption: A great name builds a great community. Whether it's a cafe, a barbershop, or a florist, your name sets the vibe. Generate yours today at BrandForge. #CafeVibes #BrandIdentity #BrandForge
+
+## Daily Batch: Minimum Viable Brand (MVB)
+
+### Twitter/X
+
+**Post 1 (Thread Hook):**
+You know about the Minimum Viable Product (MVP). But launching a great product with terrible branding gives you false negatives.
+People won't trust you enough to try it.
+You need a Minimum Viable Brand (MVB). Here is what you need on day 1: 👇
+#Startups #MVB #BrandForge
+
+**Post 2:**
+Stop spending $20k on an agency before you have product-market fit.
+Start with a Minimum Viable Brand:
+1. A strong name
+2. A clear 1-sentence value prop
+3. A simple logo & 2-color palette
+Launch, learn, then rebrand later.
+#Founders #SaaS
+
+**Post 3:**
+When every SaaS tool takes a weekend to build with AI, the code is no longer the moat.
+Brand is the moat.
+Start building yours today with our guide to the Minimum Viable Brand.
+#TechStartups #Branding
+
+**Post 4:**
+A Minimum Viable Brand (MVB) isn't about cutting corners. It is about speed and consistency.
+Use BrandForge to generate your core DNA, stick to it ruthlessly, and focus on talking to customers.
+#Entrepreneurship #BrandStrategy
+
+### LinkedIn
+
+**Post 5:**
+The biggest mistake technical founders make? Thinking the product will sell itself.
+In a crowded market, if you look like a generic template, early adopters will assume your code is just as sloppy. You don't need a massive rebrand to fix this. You need a Minimum Viable Brand (MVB). Read our complete guide to launching with trust: https://brandforge.alfo.online/blog/how-to-build-minimum-viable-brand
+#Founders #Startups #BrandForge
+
+**Post 6:**
+The BrandForge engine just expanded! We've added 10 new industries to our generator, including Sustainability, Hardware, Delivery, Fintech, and Web3.
+If you're building in one of these spaces, stop struggling with generic names. Generate a strategically aligned brand identity in seconds.
+#BrandNaming #NewFeatures #Entrepreneur
+
+**Post 7:**
+What is the difference between an MVP and an MVB?
+MVP = Minimum Viable Product (Testing the feature set)
+MVB = Minimum Viable Brand (Testing the market positioning and trust)
+You need both to succeed.
+#BusinessStrategy #Marketing #SaaS
+
+**Post 8:**
+Consistency > Complexity.
+A Minimum Viable Brand with one font, two colors, and a clear message applied consistently across every touchpoint will beat a complex $50k rebrand that is executed poorly. Stay lean. Stay consistent.
+#Design #MarketingTips #BrandForge
+
+### Instagram
+
+**Post 9:**
+[Image: Bold text: "You need a Minimum Viable Brand."]
+Caption: Stop losing early adopters because your landing page looks untrustworthy. Build an MVB. #Startups #BrandingTips #BrandForge
+
+**Post 10:**
+[Image: Checklist graphic: Strong Name, Clear Value Prop, Simple Colors, Defined Tone]
+Caption: The MVB Checklist. You don't need a full agency to launch. You just need the essentials. #FounderAdvice #NamingStrategy
+
+**Post 11:**
+[Image: Grid of new industry icons: Web3, Fintech, Organic, Therapy]
+Caption: We just added 10 new industries to the BrandForge generator! Find the perfect name for your niche today. Link in bio. #TechStartup #Marketing #Founders
+
+**Post 12:**
+[Image: Split screen: "No Brand (Sloppy)" vs "MVB (Trusted)"]
+Caption: When the tech is easy to copy, the brand becomes your only moat. Start building yours. #SaaS #BrandIdentity #BrandForge

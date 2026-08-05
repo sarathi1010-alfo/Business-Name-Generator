@@ -93,7 +93,17 @@ export const dictionary: Dictionary = {
     florist: ['Bloom', 'Petal', 'Stem', 'Flora', 'Bud', 'Leaf', 'Rose', 'Wild', 'Blossom', 'Root'],
     barbershop: ['Fade', 'Trim', 'Cut', 'Edge', 'Blend', 'Blade', 'Shear', 'Clip', 'Groom', 'Line'],
     cafe: ['Brew', 'Sip', 'Bean', 'Roast', 'Mug', 'Cup', 'Pour', 'Drip', 'Crema', 'Blend'],
-    moving: ['Move', 'Haul', 'Shift', 'Transit', 'Load', 'Carry', 'Lift', 'Box', 'Pack', 'Relay']
+    moving: ['Move', 'Haul', 'Shift', 'Transit', 'Load', 'Carry', 'Lift', 'Box', 'Pack', 'Relay'],
+    sustainability: ['Green', 'Eco', 'Earth', 'Renew', 'Pure', 'Clear', 'Bio', 'Loop', 'Sustain', 'Planet'],
+    hardware: ['Forge', 'Build', 'Gear', 'Iron', 'Tech', 'Core', 'Solid', 'Base', 'Craft', 'Tool'],
+    delivery: ['Dash', 'Swift', 'Drop', 'Send', 'Quick', 'Haul', 'Move', 'Run', 'Speed', 'Direct'],
+    therapy: ['Mind', 'Heal', 'Calm', 'Peace', 'Care', 'Soul', 'Path', 'Growth', 'Clear', 'Listen'],
+    jewelry: ['Gem', 'Gold', 'Shine', 'Luxe', 'Aura', 'Stone', 'Craft', 'Spark', 'Adorn', 'Brilliant'],
+    furniture: ['Home', 'Wood', 'Craft', 'Space', 'Form', 'Nest', 'Loom', 'Build', 'Rest', 'Style'],
+    organic: ['Pure', 'Earth', 'Raw', 'Fresh', 'Root', 'Nature', 'Wild', 'Green', 'Sprout', 'Vital'],
+    fintech: ['Pay', 'Vault', 'Flow', 'Wealth', 'Trust', 'Ledger', 'Coin', 'Capital', 'Finance', 'Asset'],
+    web3: ['Block', 'Chain', 'Node', 'Hash', 'Token', 'Decent', 'Meta', 'Vault', 'Mint', 'Network'],
+    catering: ['Feast', 'Taste', 'Serve', 'Dish', 'Bite', 'Table', 'Chef', 'Flavor', 'Gather', 'Plate']
   },
   vibeTokens: {
     luxury: ['Luxe', 'Elite', 'Prime', 'Aura', 'Velvet', 'Crown', 'Gold', 'Silk', 'Grand', 'Opus'],
@@ -183,6 +193,16 @@ export const dictionary: Dictionary = {
     florist: ['Say it with flowers', 'Nature in full bloom', 'Fresh from the garden'],
     barbershop: ['Sharp cuts, clean fades', 'Your local groomer', 'Fresh looks daily'],
     cafe: ['Your daily brew', 'Sip the moment', 'Where coffee meets community'],
-    moving: ['Moving made easy', 'We carry the load', 'Safe and swift transport']
+    moving: ['Moving made easy', 'We carry the load', 'Safe and swift transport'],
+    sustainability: ['A greener tomorrow', 'Eco-friendly solutions', 'Protecting the planet'],
+    hardware: ['Built to last', 'Tools for the job', 'Engineering the future'],
+    delivery: ['Delivered with speed', 'Your package, on time', 'Moving at your pace'],
+    therapy: ['Healing your mind', 'A safe space', 'Guiding your growth'],
+    jewelry: ['Timeless elegance', 'Crafted for you', 'Shining bright'],
+    furniture: ['Designing your home', 'Comfort in every piece', 'Style meets function'],
+    organic: ['Purely natural', 'From earth to you', 'Healthy living'],
+    fintech: ['Empowering your finances', 'Smart money', 'The future of wealth'],
+    web3: ['Decentralize everything', 'Building the new web', 'Secure and transparent'],
+    catering: ['A feast for the senses', 'Serving excellence', 'Culinary perfection']
   }
 };
