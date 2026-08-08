@@ -103,7 +103,17 @@ export const dictionary: Dictionary = {
     organic: ['Pure', 'Earth', 'Raw', 'Fresh', 'Root', 'Nature', 'Wild', 'Green', 'Sprout', 'Vital'],
     fintech: ['Pay', 'Vault', 'Flow', 'Wealth', 'Trust', 'Ledger', 'Coin', 'Capital', 'Finance', 'Asset'],
     web3: ['Block', 'Chain', 'Node', 'Hash', 'Token', 'Decent', 'Meta', 'Vault', 'Mint', 'Network'],
-    catering: ['Feast', 'Taste', 'Serve', 'Dish', 'Bite', 'Table', 'Chef', 'Flavor', 'Gather', 'Plate']
+    catering: ['Feast', 'Taste', 'Serve', 'Dish', 'Bite', 'Table', 'Chef', 'Flavor', 'Gather', 'Plate'],
+    wind: ['Breeze', 'Gale', 'Aero', 'Zephyr', 'Turbine', 'Gust', 'Air', 'Flow', 'Current', 'Lift'],
+    hydro: ['Aqua', 'Fluid', 'Wave', 'Tide', 'Current', 'Stream', 'Drop', 'Flow', 'Surge', 'Liquid'],
+    ev: ['Volt', 'Charge', 'Spark', 'Wire', 'Electra', 'Power', 'Current', 'Ohm', 'Drive', 'Amp'],
+    battery: ['Cell', 'Core', 'Store', 'Charge', 'Life', 'Pack', 'Node', 'Volt', 'Grid', 'Power'],
+    smarthome: ['Nest', 'Hub', 'Sync', 'Sense', 'Live', 'Connect', 'Link', 'Home', 'Base', 'Smart'],
+    iot: ['Node', 'Link', 'Sync', 'Net', 'Mesh', 'Connect', 'Pulse', 'Sense', 'Data', 'Wave'],
+    wearables: ['Fit', 'Sense', 'Track', 'Pulse', 'Wear', 'Skin', 'Body', 'Move', 'Step', 'Sync'],
+    ar: ['View', 'Sight', 'Vision', 'Scope', 'Lens', 'See', 'World', 'Mix', 'Layer', 'Augment'],
+    quantum: ['Qubit', 'State', 'Entangle', 'Core', 'Phase', 'Spin', 'Wave', 'Logic', 'Space', 'Time'],
+    nanotech: ['Micro', 'Atom', 'Nano', 'Scale', 'Cell', 'Core', 'Unit', 'Base', 'Tiny', 'Part']
   },
   vibeTokens: {
     luxury: ['Luxe', 'Elite', 'Prime', 'Aura', 'Velvet', 'Crown', 'Gold', 'Silk', 'Grand', 'Opus'],
@@ -203,6 +213,16 @@ export const dictionary: Dictionary = {
     organic: ['Purely natural', 'From earth to you', 'Healthy living'],
     fintech: ['Empowering your finances', 'Smart money', 'The future of wealth'],
     web3: ['Decentralize everything', 'Building the new web', 'Secure and transparent'],
-    catering: ['A feast for the senses', 'Serving excellence', 'Culinary perfection']
+    catering: ['A feast for the senses', 'Serving excellence', 'Culinary perfection'],
+    wind: ['Harness the breeze', 'Powering the future with air', 'Clean energy from the sky'],
+    hydro: ['Flowing with energy', 'The power of water', 'Sustainable currents'],
+    ev: ['Drive the future', 'Electric mobility', 'Charge ahead'],
+    battery: ['Powering your life', 'Energy stored, ready to go', 'The core of power'],
+    smarthome: ['Living smartly', 'Your home, connected', 'Intelligent living spaces'],
+    iot: ['Connecting the physical world', 'Smart devices everywhere', 'Data in motion'],
+    wearables: ['Tech on you', 'Tracking your life', 'Smart apparel'],
+    ar: ['Augmenting your reality', 'See the unseen', 'A new layer of life'],
+    quantum: ['Computing the impossible', 'The next leap in technology', 'Beyond binary'],
+    nanotech: ['Small scale, big impact', 'Engineering the invisible', 'Building from atoms']
   }
 };
