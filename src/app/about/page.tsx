@@ -35,7 +35,7 @@ export default function AboutPage() {
             The traditional branding process is broken for startups. It is often too slow, prohibitively expensive, or frustratingly generic. Founders find themselves caught between paying exorbitant agency fees or settling for cookie-cutter logo generators that fail to capture the true essence of their vision. We believe that an elite brand identity—one that communicates trust, authority, and innovation—should be accessible to everyone with a great idea.
           </p>
           <p>
-            This belief led to the creation of <strong>BrandForge</strong>. BrandForge isn&apos;t just a logo maker; it&apos;s a comprehensive <em>Founder Brand Operating System</em>. By answering a few simple questions, founders can instantly generate a cohesive Brand DNA—complete with psychological archetypes, premium typography pairings, and engineered color palettes. Instead of starting from a blank canvas, you start from a foundation of proven design principles.
+            This belief led to the creation of <strong>BrandForge</strong>. BrandForge isn&apos;t just a logo maker; it&apos;s a comprehensive <em>Founder Brand Operating System</em>. By answering a few simple questions, founders can instantly generate a cohesive Brand DNA (essential for <Link href="/blog/how-to-build-brand-trust" className="text-indigo-400 hover:underline">building long-term brand trust</Link>)—complete with psychological archetypes, premium typography pairings, and engineered color palettes. Instead of starting from a blank canvas, you start from a foundation of proven design principles.
           </p>
 
           <h2 className="text-2xl font-bold mt-12 mb-6">Part of the Alfo Ecosystem</h2>
