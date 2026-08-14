@@ -11,7 +11,7 @@ const meta = buildArticleMeta(
   'What is a Brand Guideline? The Founder\'s Blueprint',
   'A brand guideline is a document detailing how your brand should be presented visually and verbally. Learn why it is essential for scaling startups.',
   '/blog/what-is-a-brand-guideline',
-  { publishedAt: new Date().toISOString() }
+  { publishedAt: "2026-07-10T00:00:00Z", updatedAt: new Date().toISOString() }
 );
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -98,6 +98,10 @@ export default function WhatIsABrandGuidelinePage() {
 
           <p>
             When you use <Link href="/">BrandForge</Link>, you aren&apos;t just getting a name; the output is effectively a lightweight brand guideline (a Brand Board) containing your archetype, typography, palette, and voice. You can export this immediately or view examples in our <Link href="/identity-directions">Generated Identity Directions</Link> gallery.
+          </p>
+
+          <p>
+            If you want to build a comprehensive set of rules, read our <Link href="/blog/complete-guide-to-brand-guidelines" className="text-indigo-400 hover:underline">Complete Guide to Brand Guidelines</Link>.
           </p>
         </article>
       </main>
