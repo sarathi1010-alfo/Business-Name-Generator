@@ -113,7 +113,17 @@ export const dictionary: Dictionary = {
     wearables: ['Fit', 'Sense', 'Track', 'Pulse', 'Wear', 'Skin', 'Body', 'Move', 'Step', 'Sync'],
     ar: ['View', 'Sight', 'Vision', 'Scope', 'Lens', 'See', 'World', 'Mix', 'Layer', 'Augment'],
     quantum: ['Qubit', 'State', 'Entangle', 'Core', 'Phase', 'Spin', 'Wave', 'Logic', 'Space', 'Time'],
-    nanotech: ['Micro', 'Atom', 'Nano', 'Scale', 'Cell', 'Core', 'Unit', 'Base', 'Tiny', 'Part']
+    nanotech: ['Micro', 'Atom', 'Nano', 'Scale', 'Cell', 'Core', 'Unit', 'Base', 'Tiny', 'Part'],
+    microbrewery: ['Hops', 'Craft', 'Brew', 'Tap', 'Draft', 'Malt', 'Barrel', 'Pint', 'Keg', 'Ale'],
+    foodtruck: ['Bite', 'Street', 'Grub', 'Eats', 'Wheel', 'Roll', 'Crave', 'Snack', 'Munch', 'Fare'],
+    boutiquehotel: ['Stay', 'Suite', 'Lodge', 'Haven', 'Rest', 'Inn', 'Casa', 'Nest', 'Oasis', 'Retreat'],
+    glamping: ['Camp', 'Wild', 'Tent', 'Nature', 'Out', 'Trail', 'Peak', 'Pine', 'Wood', 'Ridge'],
+    telehealth: ['Care', 'Med', 'Health', 'Doc', 'Heal', 'Well', 'Clinic', 'Link', 'Sync', 'Pulse'],
+    medtech: ['Bio', 'Health', 'Med', 'Care', 'Cure', 'Life', 'Cell', 'Gene', 'Pulse', 'Scan'],
+    edtech: ['Learn', 'Study', 'Teach', 'Skill', 'Mind', 'Brain', 'Smart', 'Grow', 'Think', 'Class'],
+    proptech: ['Home', 'House', 'Estate', 'Space', 'Nest', 'Dwell', 'Key', 'Roof', 'Block', 'Base'],
+    insurtech: ['Safe', 'Sure', 'Guard', 'Shield', 'Cover', 'Trust', 'Secure', 'Policy', 'Life', 'Risk'],
+    cleantech: ['Eco', 'Green', 'Pure', 'Clean', 'Clear', 'Earth', 'Nature', 'Renew', 'Fresh', 'Life']
   },
   vibeTokens: {
     luxury: ['Luxe', 'Elite', 'Prime', 'Aura', 'Velvet', 'Crown', 'Gold', 'Silk', 'Grand', 'Opus'],
@@ -223,6 +233,16 @@ export const dictionary: Dictionary = {
     wearables: ['Tech on you', 'Tracking your life', 'Smart apparel'],
     ar: ['Augmenting your reality', 'See the unseen', 'A new layer of life'],
     quantum: ['Computing the impossible', 'The next leap in technology', 'Beyond binary'],
-    nanotech: ['Small scale, big impact', 'Engineering the invisible', 'Building from atoms']
+    nanotech: ['Small scale, big impact', 'Engineering the invisible', 'Building from atoms'],
+    microbrewery: ['Crafted for you', 'Small batches, big taste', 'Brewed locally'],
+    foodtruck: ['Street food redefined', 'Flavor on the go', 'Rolling taste'],
+    boutiquehotel: ['A stay to remember', 'Intimate luxury', 'Your local haven'],
+    glamping: ['Nature meets comfort', 'The wild, elevated', 'Luxury outdoors'],
+    telehealth: ['Care anywhere', 'Health at your fingertips', 'Connecting your care'],
+    medtech: ['Innovating health', 'Technology for life', 'Advancing medical science'],
+    edtech: ['Learning reimagined', 'Education for all', 'Smart tools for bright minds'],
+    proptech: ['Real estate redefined', 'Smarter property management', 'The future of housing'],
+    insurtech: ['Insurance made simple', 'Smarter coverage', 'Protecting your future'],
+    cleantech: ['A cleaner tomorrow', 'Sustainable solutions', 'Innovating for the earth']
   }
 };

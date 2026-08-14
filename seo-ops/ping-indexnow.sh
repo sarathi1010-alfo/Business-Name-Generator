@@ -140,6 +140,17 @@ else
     "https://brandforge.alfo.online/industries/web3-startup-names"
     "https://brandforge.alfo.online/industries/catering-business-names"
     "https://brandforge.alfo.online/blog/how-to-build-minimum-viable-brand"
+    "https://brandforge.alfo.online/blog/complete-guide-to-brand-guidelines"
+    "https://brandforge.alfo.online/industries/microbrewery-names"
+    "https://brandforge.alfo.online/industries/foodtruck-names"
+    "https://brandforge.alfo.online/industries/boutiquehotel-names"
+    "https://brandforge.alfo.online/industries/glamping-business-names"
+    "https://brandforge.alfo.online/industries/telehealth-startup-names"
+    "https://brandforge.alfo.online/industries/medtech-company-names"
+    "https://brandforge.alfo.online/industries/edtech-startup-names"
+    "https://brandforge.alfo.online/industries/proptech-company-names"
+    "https://brandforge.alfo.online/industries/insurtech-startup-names"
+    "https://brandforge.alfo.online/industries/cleantech-company-names"
   )
 fi
 
