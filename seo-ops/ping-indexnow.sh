@@ -2,7 +2,7 @@
 
 # Configuration
 HOST="brandforge.alfo.online"
-KEY="${INDEXNOW_KEY:-685c40483863493a8e998a4740f993d0}"
+KEY="685c40483863493a8e998a4740f993d0"
 API_URL="https://api.indexnow.org/indexnow"
 
 # If URLs are passed as arguments, use them. Otherwise, use the default list.
