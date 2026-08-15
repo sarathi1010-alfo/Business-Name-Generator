@@ -1,195 +1,288 @@
-# WEEKLY CONTENT ENGINE: BRANDFORGE EDITION
+WEEKLY CONTENT ENGINE: BRANDFORGE EDITION
+Target: https://brandforge.alfo.online/ | GA4 ID: G-HZQ3QT11QC (Immutable)
 
-This document defines the repeatable weekly content strategy for BrandForge (https://brandforge.alfo.online/) to build massive semantic surface area and dominate the brand identity generator niche.
+PRE-EXECUTION TECHNICAL MANDATE (IMMUTABLE - RUN EVERY PUBLISH)
+Analytics Lock: Preserve G-HZQ3QT11QC & all GTM scripts in <head> across all Alfo subdomains.
 
----
+Append-Only Law: NEVER delete existing brand directions, pages, or IDs. Only CREATE or UPDATE.
 
-## 1. THE REPEATABLE WEEKLY TEMPLATE SYSTEM
+Zero Hallucination: Do not invent fake archetype traits, color palettes, or competitor features.
 
-### Template A – Cluster Article (700-1000 words)
-*Daily educational depth for specific audiences.*
+DELIVERABLE 1: THE 6 REPEATABLE AEO TEMPLATES (BRANDFORGE EDITION)
+Template A – Cluster Article (700-1000 words) – Daily educational depth.
 
-- **H1:** `[PRIMARY_KEYWORD]`: Complete Guide for `[TARGET_AUDIENCE]` in 2026
-- **AEO Answer Block:** 30-word concise definition of `[PRIMARY_KEYWORD]` immediately under H1 (AI Overview optimization).
-- **H2:** Why `[PRIMARY_KEYWORD]` Matters for `[AUDIENCE/USE_CASE]`
-- **H2:** How to `[ACTION]` with `[PRIMARY_KEYWORD]` (Step-by-step instructions)
-- **H2:** Top `[NUMBER]` `[STRATEGIES/TOOLS]` for `[PRIMARY_KEYWORD]`
-- **H3:** Detailed breakdown of each (with real brand examples like Apple, Nike, or Stripe)
-- **H2:** Common Mistakes to Avoid (Comparison Table: Mistake vs. Solution)
-- **AEO Box:** 5 Key Takeaways (Bullet points)
-- **AEO Box:** FAQ Section (5 questions + FAQPage Schema)
-- **Internal Links:** 1 Pillar + 2 Clusters + Tool (BrandForge Studio)
+H1: [PRIMARY_KEYWORD]: Complete Guide for [TARGET_AUDIENCE] in 2026
 
-### Template B – Programmatic Comparison Page (500-700 words)
-*High-intent traffic capturing vs. competitors.*
+Intro (30 words): Define the branding concept. State why it's critical for [TARGET_AUDIENCE]'s business success.
 
-- **H1:** `[ENTITY_A]` vs `[ENTITY_B]`: Which Brand Identity Generator is Better for `[USE_CASE]`?
-- **Quick Verdict:** 1-sentence AI-style summary verdict.
-- **Comparison Table:** (Features, `[ENTITY_A]`, `[ENTITY_B]`, Winner)
-- **H2:** Deep Dive into `[ENTITY_A]` (Pros/Cons)
-- **H2:** Deep Dive into `[ENTITY_B]` (Pros/Cons)
-- **H2:** When to Choose `[ENTITY_A]` vs `[ENTITY_B]`
-- **AEO Box:** "Best Pick for [Specific Scenario]"
-- **Internal Links:** Pillar + Tool
+H2: Why [PRIMARY_KEYWORD] Matters for [AUDIENCE]
 
-### Template C – Micro-Answer Page (300-500 words)
-*Featured snippets and voice search optimization.*
+H2: How to [ACTION] with [PRIMARY_KEYWORD] (Step-by-Step, e.g., defining your archetype)
 
-- **H1:** What is `[BRAND_TERM]`? (Direct question format)
-- **AEO Answer Block:** 40-60 word precise definition.
-- **H2:** How Does `[TERM]` Work?
-- **H2:** Real-World Example of `[TERM]` in `[INDUSTRY]`
-- **H2:** Why is `[TERM]` Important for Founders?
-- **H2:** `[TERM]` vs `[RELATED_TERM]` (Comparison Table)
-- **AEO Box:** Core Principles (Bullets)
-- **Internal Links:** 1 Cluster + Tool
+H2: Top [NUMBER] Strategies for [PRIMARY_KEYWORD] (H3s for each with real brand examples)
 
-### Template D – Pillar Page (3000-7000 words)
-*The authoritative hub for a broad topic.*
+AEO Box (5 Key Takeaways): Bulleted list.
 
-- **H1:** The Ultimate 2026 Guide to `[BROAD_TOPIC]`
-- **Executive Summary:** 200 words optimized for AI Overviews.
-- **Table of Contents:** With jump links.
-- **Chapters:**
-  - 1. Evolution of `[TOPIC]`
-  - 2. Technical Foundation
-  - 3. Top 10 Strategies for 2026
-  - 4. Case Study: `[REAL_BRAND]`
-  - 5. Future Trends
-- **AEO Box:** Statistical Data Table (e.g., Color Psychology Stats or Archetype Popularity)
-- **AEO Box:** 10+ FAQ + Schema
-- **Internal Links:** 15+ Cluster Articles + Tool
+AEO FAQ (5 Qs): Inject FAQPage Schema JSON-LD.
 
-### Template E – Industry/Use-Case Branding Guide (600-800 words)
-*Commercial intent targeting specific sectors.*
+Internal Links: 1 Pillar (Ultimate Guide), 2 Clusters, 1 Tool (/).
 
-- **H1:** Brand Identity for `[INDUSTRY]`: The Complete 2026 Guide
-- **H2:** Why Branding Matters in `[INDUSTRY]`
-- **H2:** Top 5 Brand Archetypes for `[INDUSTRY]`
-- **H2:** Visual Guidelines: Color Palettes & Typography for `[INDUSTRY]`
-- **H2:** Brand Voice and Tone for `[INDUSTRY]`
-- **H2:** 3 Iconic Brand Examples from `[INDUSTRY]`
-- **AEO Box:** Quick Reference Table (Industry → Archetype → Colors → Voice)
-- **Internal Links:** Pillar + Tool + Related Industry
+Template B – Programmatic Comparison (500-700 words) – Infinite scaling.
 
-### Template F – Archetype Deep-Dive (600-800 words)
-*Deep psychology-based branding.*
+H1: [ENTITY_A] vs [ENTITY_B]: Which Brand Identity Generator is Better for [USE_CASE]?
 
-- **H1:** The `[ARCHETYPE]` Brand Archetype: Complete Guide for 2026
-- **H2:** What is the `[ARCHETYPE]` Archetype? (Definition)
-- **H2:** Core Characteristics of the `[ARCHETYPE]`
-- **H2:** Famous Brands Using the `[ARCHETYPE]` (e.g., Apple for Creator, Nike for Hero)
-- **H2:** Visual DNA: Colors & Typography for `[ARCHETYPE]` Brands
-- **H2:** Brand Voice for `[ARCHETYPE]` Brands
-- **H2:** How to Build a `[ARCHETYPE]` Brand with BrandForge
-- **AEO Box:** Quick Reference Table (Archetype → Traits → Colors → Fonts → Examples)
-- **Internal Links:** Pillar + Tool + Related Archetype
+Quick Verdict (1 sentence): "For [USE_CASE], [WINNER] wins due to [KEY_FEATURE]."
 
----
+Table: Feature | [A] | [B] | Winner.
 
-## 2. THE REPEATABLE WEEKLY CALENDAR
+Pros/Cons: Bulleted lists for both.
 
-| Day | Publishing Focus | Content Types | Theme/Cluster |
-|-----|------------------|---------------|---------------|
-| **Monday** | **Fundamentals** | 1 Pillar, 5 Micro-Answers | Brand Identity, Why Branding Matters |
-| **Tuesday** | **Comparisons** | 2 Comparison Pages, 5 Micro-Answers | BrandForge vs Looka, vs Brandmark |
-| **Wednesday**| **Industry Guides**| 3 Industry Guides, 5 Micro-Answers | Tech, Health, Food, Fashion |
-| **Thursday** | **Archetype Deep-Dives** | 3 Archetype Deep-Dives, 5 Micro-Answers | Hero, Creator, Sage, Innocent |
-| **Friday** | **Visual Identity** | 3 Cluster Articles, 5 Micro-Answers | Color Theory, Typography, Logo Types |
-| **Saturday** | **Planning & Audit** | - | Internal Linking Audit + Planning Next Week |
-| **Sunday** | **Refresh & Prune** | - | Content Refreshing + Brand Voice/Copywriting Updates |
+AEO Box: "Best Pick for [Scenario]".
 
----
+Schema: Product or FAQPage Schema.
 
-## 3. PROGRAMMATIC CSV MAPPING
+Template C – Micro-Answer (300-500 words) – Featured snippets & voice search.
 
-### Comparison Pages (Template B)
-`entity_a`, `entity_b`, `use_case`, `features_json`, `pros_a`, `cons_a`, `pros_b`, `cons_b`, `verdict`, `cta_link`
+H1: What is [BRAND_TERM]? (Direct Question, e.g., "What is a brand archetype?")
 
-### Industry/Use-Case Pages (Template E)
-`industry`, `primary_archetype`, `color_hexes`, `font_pair`, `voice_keywords`, `example_brands`, `meta_desc`, `tags`
+Definition (40-60 words): Concise, jargon-free with real-world example.
 
-### Archetype Pages (Template F)
-`archetype`, `traits`, `primary_colors`, `typography_style`, `voice_tone`, `famous_examples`, `brandforge_vibe_link`
+H2: How Does [TERM] Work?
 
----
+H2: Real-World Example in [INDUSTRY] (e.g., Nike as the Hero archetype).
 
-## 4. THE ETERNAL WEEKLY RHYTHM
+H2: [TERM] vs [RELATED_TERM] (Table).
 
-- **Weekly Pillar:** 1 per week
-- **Weekly Industry Guides:** 3 per week
-- **Weekly Archetype Deep-Dives:** 3 per week
-- **Weekly Comparisons:** 2 per week
-- **Daily Clusters:** 3-5 per day
-- **Daily Programmatic:** 5-10 per day
-- **Daily Micro-Answers:** 5 per day
-- **Weekly Indexed Pages Target:** 50–100 new pages.
+Schema: FAQPage Schema.
 
----
+Template D – Pillar Page (3000-7000 words) – Weekly hub.
 
-## 5. PRIORITY TOPIC QUEUE (FIRST 4 WEEKS)
+H1: The Ultimate 2026 Guide to [BROAD_TOPIC] (e.g., Building a Brand Identity)
 
-### Week 1: Authority Engine - Fundamentals
-- **Pillar:** The Ultimate Guide to Brand Identity in 2026
-- **Comparisons:** BrandForge vs Looka, BrandForge vs Brandmark
-- **Industries:** Tech Startups, E-commerce
-- **Archetypes:** The Hero, The Creator
-- **Micro-Answers:** "What is Brand Identity?", "What is a Brand Archetype?", "Why is branding important?", "What is brand positioning?", "What is a brand voice?"
+Executive Summary (200 words): AI Overview targeting.
 
-### Week 2: Brand Strategy & Positioning
-- **Pillar:** The Complete Guide to Brand Strategy
-- **Comparisons:** BrandForge vs Hatchful, BrandForge vs Canva Brand Kit
-- **Industries:** SaaS, Health & Wellness
-- **Archetypes:** The Sage, The Innocent
-- **Micro-Answers:** "What is a Logo Mark?", "What is Color Psychology?", "What is Typography in Branding?", "What is a brand guideline?", "What is brand differentiation?"
+TOC: Jump links.
 
-### Week 3: Visual Identity Deep-Dive
-- **Pillar:** The Complete Guide to Visual Identity Design
-- **Comparisons:** BrandForge vs Frontify, BrandForge vs LogoAI
-- **Industries:** Food & Beverage, Fashion & Apparel
-- **Archetypes:** The Explorer, The Rebel
-- **Micro-Answers:** "What is the Hero Archetype?", "What is the Creator Archetype?", "What is the Sage Archetype?", "What is the Innocent Archetype?", "What is the Explorer Archetype?"
+Chapters: Evolution of Branding, Technical Foundation (Archetypes, Visual Identity), Top 10 Branding Strategies, Case Studies (Nike, Apple, Patagonia), Future Trends (AI-Generated Brands).
 
-### Week 4: Advanced Branding Topics
-- **Pillar:** The Complete Guide to Brand Guidelines
-- **Comparisons:** BrandForge vs DesignEvo, BrandForge vs Tailor Brands
-- **Industries:** Real Estate, Education
-- **Archetypes:** The Magician, The Lover
-- **Micro-Answers:** "What is the Rebel Archetype?", "What is the Magician Archetype?", "What is the Lover Archetype?", "What is the Jester Archetype?", "What is the Caregiver Archetype?"
+AEO Box: Statistical Data Table (e.g., "64% of consumers share brand values as key driver of loyalty").
 
----
+FAQ: 10+ questions with FAQPage Schema.
 
-## 6. ARCHETYPE DEEP-DIVE QUEUE
+Internal Links: 15+ links to clusters, archetype pages, and /identity-directions.
 
-- **Weeks 1-2:** The Hero, The Creator, The Sage, The Innocent
-- **Weeks 3-4:** The Explorer, The Rebel, The Magician, The Lover
-- **Weeks 5-6:** The Jester, The Caregiver, The Ruler, The Everyman
+Template E – Industry/Use-Case Branding Guide (600-800 words) – Commercial & educational intent.
 
----
+H1: Brand Identity for [INDUSTRY]: The Complete 2026 Guide
 
-## 7. INDUSTRY BRANDING GUIDE QUEUE
+Intro: 2-3 stats specific to that industry.
 
-1. **Technology:** SaaS, AI/ML, Fintech, Cybersecurity, EdTech
-2. **Health/Wellness:** Fitness, Mental Health, Nutrition, Medical
-3. **Food/Beverage:** Restaurants, Coffee, Alcohol, Snacks
-4. **Fashion:** Apparel, Accessories, Luxury, Streetwear
-5. **Real Estate:** Residential, Commercial, Property Management
-6. **Education:** Online Courses, Tutoring, Universities
-7. **Nonprofit:** Charities, NGOs, Social Enterprises
-8. **Creative:** Design Agencies, Photography, Music
-9. **Professional Services:** Consulting, Legal, Accounting
-10. **E-commerce:** DTC, Marketplace, Subscription Boxes
+Top 5 Brand Archetypes: For [INDUSTRY] with examples.
 
----
+Visual Identity: Color palette, typography recommendations.
 
-## 8. MICRO-ANSWER TOPIC QUEUE
+Brand Voice: Tone and messaging guidelines.
 
-- **Week 1:** Brand Fundamentals (Identity, Archetypes, Importance, Positioning, Voice)
-- **Week 2:** Visual Basics (Logo Mark, Color Psychology, Typography, Guidelines, Differentiation)
-- **Week 3:** Archetypes I (Hero, Creator, Sage, Innocent, Explorer)
-- **Week 4:** Archetypes II (Rebel, Magician, Lover, Jester, Caregiver)
-- **Week 5:** Brand Metrics (Ruler Archetype, Everyman Archetype, Brand Equity, Loyalty, Awareness)
-- **Week 6:** Strategic Assets (Mission Statement, Vision Statement, Value Prop, Brand Story, Consistency)
+3 Real-World Examples: Brands from [INDUSTRY] with strong identities.
 
----
-**END OF WEEKLY CONTENT ENGINE**
+AEO Box: Quick Ref Table (Industry → Archetype → Colors → Voice → Examples).
+
+Internal Links: Pillar + /identity-directions + Archetype Guide.
+
+Template F – Archetype Deep-Dive (600-800 words) – Educational depth.
+
+H1: The [ARCHETYPE] Brand Archetype: Complete Guide for 2026
+
+Definition: What is the [ARCHETYPE] archetype?
+
+Core Characteristics: 4-5 key traits.
+
+Famous Brands: 3-4 examples (e.g., Nike = Hero, Apple = Creator).
+
+Visual Identity: Colors, typography, imagery.
+
+Brand Voice: Tone, messaging, and copywriting style.
+
+How to Build: Using BrandForge's archetype selector.
+
+AEO Box: Quick Ref Table (Archetype → Traits → Colors → Fonts → Famous Brands).
+
+Internal Links: Pillar + /identity-directions + Industry Guide.
+
+DELIVERABLE 2: THE REPEATABLE WEEKLY CALENDAR (MON-SUN)
+Monday (Brand Fundamentals): 1 Pillar (Weekly Hub). 5 Micro-Answers (What is...). 3 Clusters on brand identity basics, why branding matters, brand positioning.
+
+Tuesday (Comparisons): 2 Comparison Pages (BrandForge vs Competitor X/Y). 5 Micros. 3 Programmatic pages.
+
+Wednesday (Industry Guides): 2 Industry Branding Guides (Tech, Health, Food, Fashion, etc. rotating). 5 Micros. 3 Programmatic pages.
+
+Thursday (Archetype Deep-Dives): 2 Archetype Guides (Hero, Creator, Sage, Innocent, etc. rotating). 5 Micros. 3 Programmatic pages.
+
+Friday (Visual Identity & Strategy): 2 Clusters on color psychology, typography, logo types, brand voice. 5 Micros.
+
+Saturday (Planning & Audit): Interlinking Audit (ensure every new page links to 3+ others). Schema Validation. 4xx Zombie Scan.
+
+Sunday (Pruning & Refreshing): Update 1 legacy section (e.g., homepage brand direction descriptions). Refresh lastmod dates. Regenerate sitemap & Ping Google/IndexNow.
+
+DELIVERABLE 3: PROGRAMMATIC CSV HEADERS
+Comparison Pages (Template B):
+URL_Slug, H1_Title, Entity_A, Entity_B, Use_Case, Feature_1_Bool...Feature_5_Bool, Pros_A_Array, Cons_A_Array, Pros_B_Array, Cons_B_Array, Verdict_Winner, Best_For_Scenario, Internal_Link_1, Internal_Link_2
+
+Industry/Use-Case Pages (Template E):
+URL_Slug, H1_Title, Industry, Top_Archetypes_Array, Color_Palette_JSON, Typography_JSON, Voice_Description, Examples_JSON, Tags
+
+Archetype Pages (Template F):
+URL_Slug, H1_Title, Archetype, Traits_Array, Colors_JSON, Fonts_JSON, Voice_Description, Famous_Brands_Array, Tags
+
+DELIVERABLE 4: THE ETERNAL WEEKLY RHYTHM (CADENCE)
+Metric	Weekly Target
+Pillar Pages	1
+Industry Branding Guides	2–3
+Archetype Deep-Dives	2–3
+Comparison Pages	1–2
+Cluster Articles	15–25 (3-5/day)
+Programmatic Pages	25–50 (5-10/day)
+Micro-Answer Pages	~35 (5/day)
+Total New Pages/Week	80–120
+New Indexed Pages (Est.)	50–100
+DELIVERABLE 5: PRIORITY TOPIC QUEUE (FIRST 4 WEEKS)
+Week 1 (Fundamentals):
+
+Pillar: "The Ultimate Guide to Brand Identity in 2026"
+
+Comparisons: BrandForge vs Looka, BrandForge vs Brandmark
+
+Industries: Tech Startups, E-commerce/DTC
+
+Archetypes: The Hero, The Creator
+
+Micro: What is Brand Identity?, What is a Brand Archetype?, Why is Branding Important?, What is Brand Positioning?, What is Brand Voice?
+
+Week 2 (Strategy & Positioning):
+
+Pillar: "The Complete Guide to Brand Strategy"
+
+Comparisons: BrandForge vs Hatchful, BrandForge vs Canva Brand Kit
+
+Industries: SaaS/Software, Health & Wellness
+
+Archetypes: The Sage, The Innocent
+
+Micro: What is Brand Positioning?, What is Brand Voice?, What is Color Psychology?, What is a Logo Mark?, What is a Brand Guideline?
+
+Week 3 (Visual Identity):
+
+Pillar: "The Complete Guide to Visual Identity Design"
+
+Comparisons: BrandForge vs Frontify, BrandForge vs LogoAI
+
+Industries: Food & Beverage, Fashion & Apparel
+
+Archetypes: The Explorer, The Rebel
+
+Micro: What is Color Psychology?, What is a Logo Mark?, What is Typography in Branding?, What is Brand Differentiation?, What is Brand Consistency?
+
+Week 4 (Advanced Topics):
+
+Pillar: "The Complete Guide to Brand Guidelines"
+
+Comparisons: BrandForge vs DesignEvo, BrandForge vs Tailor Brands
+
+Industries: Real Estate, Education
+
+Archetypes: The Magician, The Lover
+
+Micro: What is a Brand Guideline?, What is Brand Differentiation?, What is Brand Equity?, What is Brand Loyalty?, What is Brand Awareness?
+
+DELIVERABLE 6: ARCHETYPE DEEP-DIVE QUEUE (12 WEEKS)
+W1-2: The Hero, The Creator, The Sage, The Innocent
+
+W3-4: The Explorer, The Rebel, The Magician, The Lover
+
+W5-6: The Jester, The Caregiver, The Ruler, The Everyman
+
+DELIVERABLE 7: INDUSTRY BRANDING GUIDE QUEUE (12 WEEKS)
+W1-2: Tech Startups, E-commerce/DTC
+
+W3-4: SaaS/Software, Health & Wellness
+
+W5-6: Food & Beverage, Fashion & Apparel
+
+W7-8: Real Estate, Education
+
+W9-10: Nonprofit, Creative Agencies
+
+W11-12: Professional Services, Hospitality
+
+DELIVERABLE 8: MICRO-ANSWER TOPIC QUEUE (WEEKS 1-6)
+Week 1:
+
+What is brand identity?
+
+What is a brand archetype?
+
+Why is branding important?
+
+What is brand positioning?
+
+What is a brand voice?
+
+Week 2:
+
+What is a logo mark?
+
+What is color psychology?
+
+What is typography in branding?
+
+What is a brand guideline?
+
+What is brand differentiation?
+
+Week 3:
+
+What is the Hero archetype?
+
+What is the Creator archetype?
+
+What is the Sage archetype?
+
+What is the Innocent archetype?
+
+What is the Explorer archetype?
+
+Week 4:
+
+What is the Rebel archetype?
+
+What is the Magician archetype?
+
+What is the Lover archetype?
+
+What is the Jester archetype?
+
+What is the Caregiver archetype?
+
+Week 5:
+
+What is the Ruler archetype?
+
+What is the Everyman archetype?
+
+What is brand equity?
+
+What is brand loyalty?
+
+What is brand awareness?
+
+Week 6:
+
+What is a brand mission statement?
+
+What is a brand vision statement?
+
+What is a brand value proposition?
+
+What is a brand story?
+
+What is brand consistency?
