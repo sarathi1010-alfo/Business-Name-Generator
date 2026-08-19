@@ -213,6 +213,13 @@ export async function GET() {
     },
   ];
 
+    routes.push({
+    url: buildCanonical('/blog/how-to-build-a-startup-brand'),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+
   const xml = generateSitemapXml(routes);
 
   return new NextResponse(xml, {
