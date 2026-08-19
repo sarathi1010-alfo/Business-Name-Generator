@@ -637,3 +637,73 @@ Caption: The 4 Pillars of a Minimum Viable Brand Guideline. Don't scale your tea
 **Post 12:**
 [Image: Graphic showing 'Identity Drift' (messy branding) vs 'Brand Consistency' (clean branding)]
 Caption: A Brand Guideline is your defense against Identity Drift. Keep your brand looking sharp, no matter who is designing for it. ✨ #BrandIdentity #Consistency #BrandForge
+
+## Daily Batch: Service & Trades
+
+### Twitter/X
+
+**Post 1:**
+Stop naming your home service business like everyone else.
+We just added 10 new service industries to BrandForge, including Towing, Electrician, Pool Cleaning, and Pest Control.
+Find a name that builds trust from the first search.
+#LocalBusiness #Branding #ServiceIndustry
+
+**Post 2:**
+The biggest mistake local businesses make? A generic name.
+You need a name that conveys reliability and expertise.
+Generate professional names for your trade business in seconds.
+#BrandForge #Trades #Entrepreneur
+
+**Post 3:**
+Your brand name is your first impression.
+Make it count.
+Explore our new industry categories for waste management, paving, and fencing.
+#BrandNaming #Startups
+
+**Post 4:**
+A great brand name builds trust before you even pick up the phone.
+Try BrandForge for your home inspection or locksmith business.
+#LocalServices #BrandStrategy
+
+### LinkedIn
+
+**Post 5:**
+We are excited to announce new industry additions to the BrandForge generator!
+Now supporting local services and trades: Towing, Pool Cleaning, Electrician, Pest Control, and more.
+A professional brand name is key to standing out in your local market.
+#LocalBusiness #BrandIdentity #BrandForge
+
+**Post 6:**
+Trust is everything in the service industry.
+Your brand name should reflect your reliability.
+Generate names engineered for perception and trust.
+#ServiceBusiness #Marketing
+
+**Post 7:**
+Are you starting a home service business?
+Don't settle for a generic name.
+Our tool now supports 10 new trade industries. Find a name that works as hard as you do.
+#Entrepreneurship #Trades
+
+**Post 8:**
+Consistency and a strong name = local market dominance.
+Build your Minimum Viable Brand with BrandForge.
+#LocalSEO #BrandStrategy
+
+### Instagram
+
+**Post 9:**
+[Image: Tools and a clean brand logo]
+Caption: Launching a trade business? We just added 10 new service industries to BrandForge. Find a name that builds trust instantly. 🛠️ #LocalBusiness #Branding
+
+**Post 10:**
+[Image: Checklist for local service branding]
+Caption: Your name is your first impression. Make sure it conveys reliability. Check out our new generator categories for electricians, plumbers, and more. ⚡ #ServiceIndustry #BrandForge
+
+**Post 11:**
+[Image: "Stop using generic names"]
+Caption: Stand out in your local market with a professional brand name. Generate ideas in seconds. Link in bio. 🚀 #Entrepreneur #NamingStrategy
+
+**Post 12:**
+[Image: A professional van with a clean logo]
+Caption: A strong brand name builds trust before you even arrive. Start building your MVB today. 🚐 #LocalMarketing #BrandIdentity

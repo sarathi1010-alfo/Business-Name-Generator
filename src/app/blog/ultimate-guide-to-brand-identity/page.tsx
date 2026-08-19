@@ -11,7 +11,7 @@ const meta = buildArticleMeta(
   "The Ultimate Guide to Brand Identity in 2026",
   "Your complete blueprint for building a cohesive, powerful brand identity that builds trust and drives growth in 2026.",
   "/blog/ultimate-guide-to-brand-identity",
-  { updatedAt: "2026-07-10T00:00:00Z", publishedAt: "2026-07-10T00:00:00Z" }
+  { updatedAt: '2026-08-19T14:36:47.309355', publishedAt: "2026-07-10T00:00:00Z" }
 );
 
 export async function generateMetadata(): Promise<Metadata> {

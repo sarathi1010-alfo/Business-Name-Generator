@@ -38,7 +38,9 @@ export default function AboutPage() {
             This belief led to the creation of <strong>BrandForge</strong>. BrandForge isn&apos;t just a logo maker; it&apos;s a comprehensive <em>Founder Brand Operating System</em>. By answering a few simple questions, founders can instantly generate a cohesive Brand DNA (essential for <Link href="/blog/how-to-build-brand-trust" className="text-indigo-400 hover:underline">building long-term brand trust</Link>)—complete with psychological archetypes, premium typography pairings, and engineered color palettes. Instead of starting from a blank canvas, you start from a foundation of proven design principles.
           </p>
 
-          <h2 className="text-2xl font-bold mt-12 mb-6">Part of the Alfo Ecosystem</h2>
+
+<p>If you are just getting started, we recommend reading our guide on <Link href="/blog/how-to-build-a-startup-brand" className="text-indigo-400 hover:underline">how to build a startup brand</Link>.</p>
+<h2 className="text-2xl font-bold mt-12 mb-6">Part of the Alfo Ecosystem</h2>
           <p>
             BrandForge is a proud member of the <strong>Alfo Ecosystem</strong>, a suite of ultra-fast, interconnected design utilities built specifically for modern creators and entrepreneurs. The Alfo philosophy is simple: tools should be fast, intelligent, and focused on output.
           </p>

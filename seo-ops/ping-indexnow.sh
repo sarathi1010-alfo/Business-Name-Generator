@@ -34,6 +34,17 @@ if [ $# -gt 0 ]; then
 else
   # List of primary URLs to index
   URLS=(
+    "https://brandforge.alfo.online/industries/towing-names"
+    "https://brandforge.alfo.online/industries/pool-cleaning-names"
+    "https://brandforge.alfo.online/industries/pest-control-names"
+    "https://brandforge.alfo.online/industries/electrician-names"
+    "https://brandforge.alfo.online/industries/locksmith-names"
+    "https://brandforge.alfo.online/industries/tree-service-names"
+    "https://brandforge.alfo.online/industries/waste-management-names"
+    "https://brandforge.alfo.online/industries/paving-names"
+    "https://brandforge.alfo.online/industries/fencing-names"
+    "https://brandforge.alfo.online/industries/home-inspection-names"
+    "https://brandforge.alfo.online/blog/how-to-build-a-startup-brand"
     "https://brandforge.alfo.online/blog/how-to-build-brand-trust"
     "https://brandforge.alfo.online/industries/wind-energy-names"
     "https://brandforge.alfo.online/industries/hydro-energy-names"

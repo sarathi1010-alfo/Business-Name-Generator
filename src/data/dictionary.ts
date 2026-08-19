@@ -124,6 +124,17 @@ export const dictionary: Dictionary = {
     proptech: ['Home', 'House', 'Estate', 'Space', 'Nest', 'Dwell', 'Key', 'Roof', 'Block', 'Base'],
     insurtech: ['Safe', 'Sure', 'Guard', 'Shield', 'Cover', 'Trust', 'Secure', 'Policy', 'Life', 'Risk'],
     cleantech: ['Eco', 'Green', 'Pure', 'Clean', 'Clear', 'Earth', 'Nature', 'Renew', 'Fresh', 'Life']
+,
+    'towing': ['Tow', 'Pull', 'Haul', 'Hook', 'Lift', 'Road', 'Rescue', 'Assist', 'Swift', 'Clear'],
+    'pool-cleaning': ['Pool', 'Clear', 'Blue', 'Aqua', 'Swim', 'Splash', 'Clean', 'Water', 'Fresh', 'Pure'],
+    'pest-control': ['Bug', 'Clear', 'Shield', 'Guard', 'Safe', 'Pest', 'Defend', 'Wipe', 'Block', 'Free'],
+    'electrician': ['Volt', 'Spark', 'Wire', 'Power', 'Light', 'Shock', 'Flow', 'Grid', 'Charge', 'Amp'],
+    'locksmith': ['Key', 'Lock', 'Safe', 'Secure', 'Guard', 'Open', 'Access', 'Trust', 'Shield', 'Vault'],
+    'tree-service': ['Tree', 'Wood', 'Leaf', 'Branch', 'Root', 'Green', 'Arbor', 'Chop', 'Trim', 'Cut'],
+    'waste-management': ['Bin', 'Trash', 'Clear', 'Waste', 'Eco', 'Sweep', 'Haul', 'Clean', 'Dispose', 'Dump'],
+    'paving': ['Pave', 'Road', 'Stone', 'Tar', 'Smooth', 'Path', 'Drive', 'Asphalt', 'Solid', 'Base'],
+    'fencing': ['Fence', 'Bound', 'Guard', 'Line', 'Post', 'Wood', 'Iron', 'Wall', 'Secure', 'Yard'],
+    'home-inspection': ['Check', 'Home', 'Look', 'Inspect', 'Safe', 'Sure', 'Trust', 'Verify', 'Clear', 'Scan'],
   },
   vibeTokens: {
     luxury: ['Luxe', 'Elite', 'Prime', 'Aura', 'Velvet', 'Crown', 'Gold', 'Silk', 'Grand', 'Opus'],
@@ -137,7 +148,17 @@ export const dictionary: Dictionary = {
     edgy: ['Razor', 'Spike', 'Venom', 'Riot', 'Clash', 'Volt', 'Grit', 'Rebel', 'Havoc', 'Neon'],
     trustworthy: ['Sure', 'True', 'Trust', 'Safe', 'Guard', 'Shield', 'Solid', 'Veri', 'Secure', 'Clear']
   },
-  taglines: {
+  taglines: {    'towing': ['Always ready to pull you out', 'Roadside rescue done right', 'Swift and safe towing'],
+    'pool-cleaning': ['Crystal clear waters', 'Dive into purity', 'Your pool, perfected'],
+    'pest-control': ['Protecting your home', 'Pest-free guaranteed', 'Your shield against bugs'],
+    'electrician': ['Powering your life', 'Bright solutions', 'Wired for success'],
+    'locksmith': ['Securing what matters', 'Your key to safety', 'Fast and reliable access'],
+    'tree-service': ['Rooted in excellence', 'Caring for your canopy', 'Expert tree care'],
+    'waste-management': ['Keeping it clean', 'Responsible disposal', 'Your partner in eco-waste'],
+    'paving': ['Smooth surfaces, solid trust', 'Paving the way forward', 'Built to last'],
+    'fencing': ['Boundaries built beautiful', 'Securing your space', 'Strong and stylish fencing'],
+    'home-inspection': ['See the unseen', 'Inspect with confidence', 'Your home, verified'],
+
 
     vr: ['Step into the future', 'Beyond reality', 'Immersive worlds'],
     space: ['Reaching the stars', 'The final frontier', 'Beyond limits'],
