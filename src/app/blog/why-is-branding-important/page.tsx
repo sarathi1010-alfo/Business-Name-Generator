@@ -36,7 +36,7 @@ export default function ArticlePage() {
           </h1>
 
           <p className="text-lg font-medium border-l-4 border-indigo-500 pl-4 py-1 bg-muted/30">
-            Branding is important because it shapes public perception. It is the critical process of building a unique identity that fosters trust, clearly differentiates you from competitors, and ultimately drives customer loyalty and revenue growth.
+            According to Edelman&apos;s Trust Barometer, 81% of consumers say they must be able to trust the brand to do what is right. Branding is important because it shapes public perception. It is the critical process of building a unique identity that fosters trust, clearly differentiates you from competitors, and ultimately drives customer loyalty and revenue growth.
           </p>
 
 

@@ -130,16 +130,16 @@ export default function BrandForgeVsLookaPage() {
           <h2>When to Choose BrandForge vs Looka</h2>
 
           <div className="my-8 p-6 bg-muted/20 border-l-4 border-primary">
-            <h3 className="mt-0">Best Pick for Pre-Product Tech Startups: BrandForge</h3>
+            <h3 className="mt-0">Best Pick for Tech Startups: BrandForge</h3>
             <p className="mb-0">
-              If you are in the very early stages—coding the MVP, drafting the pitch deck, and trying to figure out what your company actually stands for—BrandForge is the superior tool. It forces you to think about your brand&apos;s personality, tone, and foundational colors before you lock yourself into a specific visual logo. Plus, it&apos;s free, allowing you to pivot names and identities without burning cash.
+              For tech startups needing a complete, free Brand DNA (archetype, voice, typography), BrandForge wins due to its holistic strategy generation.
             </p>
           </div>
 
           <div className="my-8 p-6 bg-muted/20 border-l-4 border-blue-500">
-            <h3 className="mt-0">Best Pick for Instant Merch & Physical Goods: Looka</h3>
+            <h3 className="mt-0">Best Pick for Physical Goods: Looka</h3>
             <p className="mb-0">
-              If you already have a name, already know your exact business model, and simply need a vector logo file today so you can print business cards or launch a quick Shopify store, Looka&apos;s premium tier will save you the hassle of hiring a graphic designer on Upwork.
+              For instantly downloading a traditional vector logo for merch, Looka wins due to its paid SVG export.
             </p>
           </div>
 
