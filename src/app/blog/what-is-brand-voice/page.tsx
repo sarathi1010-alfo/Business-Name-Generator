@@ -95,7 +95,7 @@ export default function ArticlePage() {
           </div>
 
           <p>
-            To build a cohesive brand, your voice must match your visuals. The <Link href="/" className="text-indigo-400 hover:underline">BrandForge Generator Studio</Link> helps you map out the perfect archetype, giving you a strong foundation for both visual design and copywriting. Dive deeper into strategy with our <Link href="/blog/ultimate-guide-to-brand-identity" className="text-indigo-400 hover:underline">Ultimate Guide to Brand Identity</Link>.
+            To build a cohesive brand, your voice must match your visuals. The <Link href="/" className="text-indigo-400 hover:underline">BrandForge Generator Studio</Link> helps you map out the perfect archetype, giving you a strong foundation for both visual design and copywriting. Dive deeper into strategy with our <Link href="/blog/how-to-build-brand-strategy" className="text-indigo-400 hover:underline">The Ultimate 2026 Guide to Building a Brand Strategy</Link>.
           </p>
         </article>
       </main>
