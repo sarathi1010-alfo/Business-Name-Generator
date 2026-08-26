@@ -37,7 +37,7 @@ export default function ArticlePage() {
           </h1>
 
           <p className="text-lg font-medium border-l-4 border-indigo-500 pl-4 py-1 bg-muted/30">
-            Brand identity is the collection of all visual, emotional, and strategic elements a company creates to portray its image. It includes logos, typography, colors, and voice, working together to communicate trust and differentiate the business in a crowded marketplace.
+            Brand identity is the collection of all visual, emotional, and strategic elements a company creates to portray its image. It includes logos, typography, colors, and voice, working together to communicate trust and differentiate the business in a crowded marketplace. If you are building an identity for yourself, check out our guide on <Link href="/blog/how-to-build-a-personal-brand" className="text-indigo-400 hover:underline">how to build a personal brand</Link>.
           </p>
 
 

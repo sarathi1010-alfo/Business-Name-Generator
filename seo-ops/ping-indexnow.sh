@@ -162,6 +162,17 @@ else
     "https://brandforge.alfo.online/industries/proptech-company-names"
     "https://brandforge.alfo.online/industries/insurtech-startup-names"
     "https://brandforge.alfo.online/industries/cleantech-company-names"
+    "https://brandforge.alfo.online/blog/how-to-build-a-personal-brand"
+    "https://brandforge.alfo.online/industries/massage-therapy-names"
+    "https://brandforge.alfo.online/industries/acupuncture-names"
+    "https://brandforge.alfo.online/industries/chiropractor-names"
+    "https://brandforge.alfo.online/industries/physical-therapy-names"
+    "https://brandforge.alfo.online/industries/personal-trainer-names"
+    "https://brandforge.alfo.online/industries/nutritionist-names"
+    "https://brandforge.alfo.online/industries/life-coach-names"
+    "https://brandforge.alfo.online/industries/career-coach-names"
+    "https://brandforge.alfo.online/industries/business-coach-names"
+    "https://brandforge.alfo.online/industries/tutoring-names"
   )
 fi
 
