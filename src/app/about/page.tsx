@@ -39,7 +39,7 @@ export default function AboutPage() {
           </p>
 
 
-<p>If you are just getting started, we recommend reading our guide on <Link href="/blog/how-to-build-a-startup-brand" className="text-indigo-400 hover:underline">how to build a startup brand</Link>.</p>
+<p>If you are just getting started, we recommend reading our guide on <Link href="/blog/how-to-build-a-startup-brand" className="text-indigo-400 hover:underline">how to build a startup brand</Link> or checking out our guide on <Link href="/blog/how-to-build-a-personal-brand" className="text-indigo-400 hover:underline">how to build a personal brand</Link>.</p>
 <h2 className="text-2xl font-bold mt-12 mb-6">Part of the Alfo Ecosystem</h2>
           <p>
             BrandForge is a proud member of the <strong>Alfo Ecosystem</strong>, a suite of ultra-fast, interconnected design utilities built specifically for modern creators and entrepreneurs. The Alfo philosophy is simple: tools should be fast, intelligent, and focused on output.

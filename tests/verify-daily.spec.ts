@@ -1,6 +1,19 @@
 import { test, expect } from '@playwright/test';
 
 const urls = [
+
+  '/blog/how-to-build-a-personal-brand',
+  '/industries/massage-therapy-names',
+  '/industries/acupuncture-names',
+  '/industries/chiropractor-names',
+  '/industries/physical-therapy-names',
+  '/industries/personal-trainer-names',
+  '/industries/nutritionist-names',
+  '/industries/life-coach-names',
+  '/industries/career-coach-names',
+  '/industries/business-coach-names',
+  '/industries/tutoring-names'
+,
   '/name-styles/alliteration-brand-names',
   '/name-styles/alphanumeric-brand-names',
   '/name-styles/foreign-word-brand-names',

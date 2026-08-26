@@ -135,6 +135,17 @@ export const dictionary: Dictionary = {
     'paving': ['Pave', 'Road', 'Stone', 'Tar', 'Smooth', 'Path', 'Drive', 'Asphalt', 'Solid', 'Base'],
     'fencing': ['Fence', 'Bound', 'Guard', 'Line', 'Post', 'Wood', 'Iron', 'Wall', 'Secure', 'Yard'],
     'home-inspection': ['Check', 'Home', 'Look', 'Inspect', 'Safe', 'Sure', 'Trust', 'Verify', 'Clear', 'Scan'],
+    'massage-therapy': ['Massage', 'Touch', 'Relax', 'Zen', 'Knead', 'Soothe', 'Calm', 'Heal', 'Wellness', 'Body'],
+    'acupuncture': ['Needle', 'Point', 'Zen', 'Qi', 'Flow', 'Heal', 'Balance', 'Harmony', 'Vital', 'Acu'],
+    'chiropractor': ['Spine', 'Align', 'Back', 'Joint', 'Chiro', 'Crack', 'Relief', 'Posture', 'Health', 'Adjust'],
+    'physical-therapy': ['Move', 'Active', 'PT', 'Therapy', 'Rehab', 'Recover', 'Motion', 'Strength', 'Heal', 'Body'],
+    'personal-trainer': ['Fit', 'Train', 'Strong', 'Lift', 'Sweat', 'Coach', 'Gym', 'Muscle', 'Active', 'Iron'],
+    'nutritionist': ['Nutri', 'Diet', 'Food', 'Health', 'Eat', 'Bite', 'Vital', 'Green', 'Nourish', 'Fresh'],
+    'life-coach': ['Life', 'Guide', 'Coach', 'Path', 'Mind', 'Grow', 'Lead', 'Vision', 'Future', 'Step'],
+    'career-coach': ['Career', 'Job', 'Work', 'Rise', 'Path', 'Coach', 'Lead', 'Goal', 'Success', 'Next'],
+    'business-coach': ['Biz', 'Scale', 'Grow', 'Coach', 'Lead', 'Profit', 'Vision', 'Strategy', 'Build', 'Success'],
+    'tutoring': ['Tutor', 'Learn', 'Study', 'Mind', 'Smart', 'Teach', 'Prep', 'Score', 'A+', 'Guide'],
+
   },
   vibeTokens: {
     luxury: ['Luxe', 'Elite', 'Prime', 'Aura', 'Velvet', 'Crown', 'Gold', 'Silk', 'Grand', 'Opus'],
@@ -158,6 +169,17 @@ export const dictionary: Dictionary = {
     'paving': ['Smooth surfaces, solid trust', 'Paving the way forward', 'Built to last'],
     'fencing': ['Boundaries built beautiful', 'Securing your space', 'Strong and stylish fencing'],
     'home-inspection': ['See the unseen', 'Inspect with confidence', 'Your home, verified'],
+    'massage-therapy': ['Relaxation redefined', 'Healing hands', 'Your daily calm'],
+    'acupuncture': ['Balance your energy', 'Natural healing', 'Flow freely'],
+    'chiropractor': ['Align your life', 'Stand tall', 'Pain relief, naturally'],
+    'physical-therapy': ['Get back to motion', 'Recover stronger', 'Your path to health'],
+    'personal-trainer': ['Unleash your potential', 'Train hard, live well', 'Fitness that fits you'],
+    'nutritionist': ['Fuel your body right', 'Eat well, live well', 'Nutrition for life'],
+    'life-coach': ['Guide your journey', 'Unlock your potential', 'Live your best life'],
+    'career-coach': ['Accelerate your career', 'Find your path', 'Next step success'],
+    'business-coach': ['Scale your success', 'Strategic growth', 'Build your empire'],
+    'tutoring': ['Learn smarter', 'Achieve your best', 'Guiding academic success'],
+
 
 
     vr: ['Step into the future', 'Beyond reality', 'Immersive worlds'],
