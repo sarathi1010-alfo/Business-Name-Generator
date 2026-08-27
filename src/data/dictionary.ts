@@ -145,7 +145,16 @@ export const dictionary: Dictionary = {
     'career-coach': ['Career', 'Job', 'Work', 'Rise', 'Path', 'Coach', 'Lead', 'Goal', 'Success', 'Next'],
     'business-coach': ['Biz', 'Scale', 'Grow', 'Coach', 'Lead', 'Profit', 'Vision', 'Strategy', 'Build', 'Success'],
     'tutoring': ['Tutor', 'Learn', 'Study', 'Mind', 'Smart', 'Teach', 'Prep', 'Score', 'A+', 'Guide'],
-
+    'podcast-network': ['Cast', 'Audio', 'Voice', 'Sound', 'Wave', 'Speak', 'Listen', 'Echo', 'Mic', 'Talk'],
+    'indie-maker': ['Build', 'Ship', 'Make', 'Create', 'Craft', 'Code', 'Launch', 'Solo', 'Hack', 'Forge'],
+    'newsletter-creator': ['Letter', 'Read', 'Post', 'Mail', 'Note', 'Send', 'Word', 'News', 'Ink', 'Draft'],
+    'community-platform': ['Tribe', 'Hub', 'Meet', 'Gather', 'Space', 'Join', 'Connect', 'Link', 'Group', 'Circle'],
+    'dropshipping-store': ['Drop', 'Ship', 'Trend', 'Cart', 'Buy', 'Sell', 'Deal', 'Market', 'Find', 'Shop'],
+    'course-creator': ['Learn', 'Teach', 'Class', 'Skill', 'Master', 'Study', 'Guide', 'Academy', 'School', 'Lesson'],
+    'affiliate-site': ['Link', 'Find', 'Review', 'Best', 'Top', 'Pick', 'Choice', 'Guide', 'Rank', 'Earn'],
+    'print-on-demand': ['Print', 'Merch', 'Design', 'Wear', 'Custom', 'Ink', 'Tee', 'Art', 'Make', 'Press'],
+    'digital-product': ['File', 'Pack', 'Kit', 'Bundle', 'Asset', 'Tool', 'Template', 'Guide', 'Set', 'Grid'],
+    'subscription-box': ['Box', 'Monthly', 'Pack', 'Crate', 'Club', 'Send', 'Surprise', 'Curate', 'Gift', 'Stash']
   },
   vibeTokens: {
     luxury: ['Luxe', 'Elite', 'Prime', 'Aura', 'Velvet', 'Crown', 'Gold', 'Silk', 'Grand', 'Opus'],
@@ -179,6 +188,16 @@ export const dictionary: Dictionary = {
     'career-coach': ['Accelerate your career', 'Find your path', 'Next step success'],
     'business-coach': ['Scale your success', 'Strategic growth', 'Build your empire'],
     'tutoring': ['Learn smarter', 'Achieve your best', 'Guiding academic success'],
+    'podcast-network': ['Voices that resonate', 'Your daily listen', 'Amplify your message'],
+    'indie-maker': ['Built from scratch', 'Shipping fast', 'Crafted by one'],
+    'newsletter-creator': ['Ideas in your inbox', 'Read between the lines', 'Curated for you'],
+    'community-platform': ['Where people gather', 'Belonging reimagined', 'Connect and grow'],
+    'dropshipping-store': ['Curated finds', 'Trending now', 'Delivered to your door'],
+    'course-creator': ['Learn to master', 'Skills for the future', 'Knowledge unlocked'],
+    'affiliate-site': ['Honest reviews', 'Your buying guide', 'Top picks daily'],
+    'print-on-demand': ['Your design, delivered', 'Custom creations', 'Wear your art'],
+    'digital-product': ['Tools for creators', 'Download success', 'Assets that scale'],
+    'subscription-box': ['Joy delivered monthly', 'A new surprise', 'Curated for your lifestyle'],
 
 
 
