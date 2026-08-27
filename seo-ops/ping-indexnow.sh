@@ -173,6 +173,17 @@ else
     "https://brandforge.alfo.online/industries/career-coach-names"
     "https://brandforge.alfo.online/industries/business-coach-names"
     "https://brandforge.alfo.online/industries/tutoring-names"
+    "https://brandforge.alfo.online/blog/how-to-define-brand-positioning"
+    "https://brandforge.alfo.online/industries/podcast-network-names"
+    "https://brandforge.alfo.online/industries/indie-maker-names"
+    "https://brandforge.alfo.online/industries/newsletter-creator-names"
+    "https://brandforge.alfo.online/industries/community-platform-names"
+    "https://brandforge.alfo.online/industries/dropshipping-store-names"
+    "https://brandforge.alfo.online/industries/course-creator-names"
+    "https://brandforge.alfo.online/industries/affiliate-site-names"
+    "https://brandforge.alfo.online/industries/print-on-demand-names"
+    "https://brandforge.alfo.online/industries/digital-product-names"
+    "https://brandforge.alfo.online/industries/subscription-box-names"
   )
 fi
 

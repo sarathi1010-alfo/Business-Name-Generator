@@ -852,3 +852,84 @@ Slide 2: Your name is your first impression.
 Slide 3: Current trends favor strong, evocative words that suggest quality.
 Slide 4: Generate ideas with BrandForge.
 Slide 5: Link in bio to try our new coaching name generators!
+
+---
+
+## Content Batch: Digital Business & Positioning (12 Posts)
+### Target URLs:
+- `/blog/how-to-define-brand-positioning`
+- `/industries/podcast-network-names` (and 9 other digital business name generators)
+
+### Twitter/X
+
+**Post 1:**
+If you try to appeal to everyone, you will appeal to no one. Brand positioning is how you choose who to ignore.
+We just published the ultimate 2026 guide to defining your brand positioning. Stop competing on features.
+Read it here: https://brandforge.alfo.online/blog/how-to-define-brand-positioning
+#BrandStrategy #Startups
+
+**Post 2:**
+Starting a newsletter, a podcast, or an indie project? Your name is your first hook. Avoid generic names that get lost in the noise.
+We just added 10 new categories for digital creators to our AI naming studio.
+Find your name: https://brandforge.alfo.online/
+#IndieMaker #CreatorEconomy
+
+**Post 3:**
+The most expensive mistake founders make? Treating positioning as an afterthought.
+If you can't explain why your product is different in one sentence, you don't have a position.
+Learn how to define yours: https://brandforge.alfo.online/blog/how-to-define-brand-positioning
+#Founders #Positioning
+
+**Post 4:**
+Building a community platform? A strong brand name sets the tone for your culture from day one.
+Try our new Community Platform name generator and build your tribe.
+https://brandforge.alfo.online/industries/community-platform-names
+#CommunityBuilder #Branding
+
+### LinkedIn
+
+**Post 5:**
+In 2026, features are easily replicated. Your brand positioning is your only defensible moat.
+We've just released a comprehensive guide on how to carve out a unique space in your market, establish a strong unique value proposition, and stop competing on price.
+Read the full guide here: https://brandforge.alfo.online/blog/how-to-define-brand-positioning
+#BrandPositioning #MarketingStrategy #Leadership
+
+**Post 6:**
+The creator economy is booming, but differentiation is harder than ever. Whether you're starting a podcast network, a digital product store, or an indie SaaS, a strong brand name is critical to building trust.
+We've updated the BrandForge naming studio with 10 new digital business categories. Find a name that scales with your ambition.
+Try it today: https://brandforge.alfo.online/
+#CreatorEconomy #DigitalBusiness #Startups
+
+**Post 7:**
+"Positioning is not what you do to a product; it is what you do to the mind of the prospect."
+Are you the premium option, or the accessible alternative? Are you the rebellious disruptor or the trusted sage?
+Make a choice. Read our guide on defining your brand positioning to get started.
+https://brandforge.alfo.online/blog/how-to-define-brand-positioning
+#BrandStrategy #Entrepreneurship
+
+**Post 8:**
+Launching a new course or digital product this year? Don't let a weak name hold back your launch.
+Our AI-powered naming studio generates brandable, professional names specifically tailored for course creators and digital product builders.
+Discover your brand name: https://brandforge.alfo.online/industries/course-creator-names
+#CourseCreator #EdTech #Branding
+
+### Instagram
+
+**Post 9 (Image/Graphic):**
+[Graphic: Bold text "Don't compete on features. Compete on perception."]
+Caption: Brand positioning is how you win in crowded markets. If you aren't defining your narrative, someone else is. Read our complete guide to brand positioning at the link in bio. 🎯 #BrandStrategy #Founders #StartupTips
+
+**Post 10 (Image/Graphic):**
+[Graphic: Split screen showing a generic newsletter name vs a BrandForge generated name]
+Caption: Starting a newsletter, podcast, or indie project? Your name is your first hook. We just added 10 new digital business categories to our naming studio. Try it out! (Link in bio) 🚀 #CreatorEconomy #IndieMaker #BrandForge
+
+**Post 11 (Carousel):**
+Slide 1: How to define your brand positioning.
+Slide 2: Step 1: Understand your audience's deepest frustrations.
+Slide 3: Step 2: Define your Unique Value Proposition (UVP).
+Slide 4: Step 3: Choose your brand archetype.
+Slide 5: Read the full guide at the link in bio! #Branding #MarketingStrategy
+
+**Post 12 (Image/Graphic):**
+[Graphic: "A brand for everyone is a brand for no one."]
+Caption: Niche down to blow up. Stop trying to appeal to the whole market and focus on the users who need you the most. #BrandPositioning #Entrepreneurship

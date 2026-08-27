@@ -24,7 +24,18 @@ const urls = [
   '/industries/moving-company-names',
   '/archetypes/innovator-brand-names',
   '/archetypes/guide-brand-names',
-  '/blog/how-to-name-local-business'
+  '/blog/how-to-name-local-business',
+  '/blog/how-to-define-brand-positioning',
+  '/industries/podcast-network-names',
+  '/industries/indie-maker-names',
+  '/industries/newsletter-creator-names',
+  '/industries/community-platform-names',
+  '/industries/dropshipping-store-names',
+  '/industries/course-creator-names',
+  '/industries/affiliate-site-names',
+  '/industries/print-on-demand-names',
+  '/industries/digital-product-names',
+  '/industries/subscription-box-names'
 ];
 
 test.describe('Daily Content Engine Verification', () => {
