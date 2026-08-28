@@ -12,7 +12,7 @@ const meta = buildArticleMeta(
   "What is Brand Identity? A Founder's Guide to Building Trust",
   "Discover what brand identity truly is and why it&apos;s the foundation of business success. Learn how to create a cohesive visual and emotional brand for 2026.",
   "/blog/what-is-brand-identity",
-  { updatedAt: new Date().toISOString(), publishedAt: "2026-07-10T00:00:00Z" }
+  { updatedAt: "2026-08-28T00:00:00Z", publishedAt: "2026-07-10T00:00:00Z" }
 );
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -107,6 +107,7 @@ export default function ArticlePage() {
           <p>
             For a deeper dive into overall strategy, read our <Link href="/blog/how-to-build-brand-strategy" className="text-indigo-400 hover:underline">guide on how to build a powerful brand strategy</Link> or our <Link href="/blog/complete-guide-to-visual-identity-design" className="text-indigo-400 hover:underline">Complete Guide to Visual Identity Design</Link>. As your team grows, you will also need to lock these details down using our <Link href="/blog/complete-guide-to-brand-guidelines" className="text-indigo-400 hover:underline">Complete Guide to Brand Guidelines</Link>. If you need to launch quickly, learn <Link href="/blog/how-to-build-minimum-viable-brand" className="text-indigo-400 hover:underline">How to Build a Minimum Viable Brand (MVB)</Link>. You can also see how BrandForge compares to alternatives in our <Link href="/blog/brandforge-vs-brandmark" className="text-indigo-400 hover:underline">BrandForge vs Brandmark</Link> review.
           </p>
+        <p>Learn more about crafting a distinctive tone in our <Link href="/blog/how-to-create-a-brand-voice-that-connects" className="text-indigo-400 hover:underline">guide on how to create a brand voice that connects</Link>.</p>
         </article>
       </main>
       <Footer />

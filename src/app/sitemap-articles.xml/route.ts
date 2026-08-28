@@ -233,6 +233,13 @@ export async function GET() {
     priority: 0.9,
   });
 
+  routes.push({
+    url: buildCanonical('/blog/how-to-create-a-brand-voice-that-connects'),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+
   const xml = generateSitemapXml(routes);
 
   return new NextResponse(xml, {
