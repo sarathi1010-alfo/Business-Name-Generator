@@ -8,6 +8,17 @@ API_URL="https://api.indexnow.org/indexnow"
 # If URLs are passed as arguments, use them. Otherwise, use the default list.
 if [ $# -gt 0 ]; then
   URLS=(
+    "https://brandforge.alfo.online/blog/how-to-create-a-brand-voice-that-connects"
+    "https://brandforge.alfo.online/luxury-brand-names"
+    "https://brandforge.alfo.online/modern-brand-names"
+    "https://brandforge.alfo.online/minimalist-brand-names"
+    "https://brandforge.alfo.online/futuristic-brand-names"
+    "https://brandforge.alfo.online/playful-brand-names"
+    "https://brandforge.alfo.online/premium-brand-names"
+    "https://brandforge.alfo.online/elegant-brand-names"
+    "https://brandforge.alfo.online/bold-brand-names"
+    "https://brandforge.alfo.online/edgy-brand-names"
+    "https://brandforge.alfo.online/trustworthy-brand-names"
     "https://brandforge.alfo.online/blog/how-to-name-a-future-proof-startup"
     "https://brandforge.alfo.online/industries/vr-company-names"
     "https://brandforge.alfo.online/industries/space-startup-names"
@@ -34,6 +45,17 @@ if [ $# -gt 0 ]; then
 else
   # List of primary URLs to index
   URLS=(
+    "https://brandforge.alfo.online/blog/how-to-create-a-brand-voice-that-connects"
+    "https://brandforge.alfo.online/luxury-brand-names"
+    "https://brandforge.alfo.online/modern-brand-names"
+    "https://brandforge.alfo.online/minimalist-brand-names"
+    "https://brandforge.alfo.online/futuristic-brand-names"
+    "https://brandforge.alfo.online/playful-brand-names"
+    "https://brandforge.alfo.online/premium-brand-names"
+    "https://brandforge.alfo.online/elegant-brand-names"
+    "https://brandforge.alfo.online/bold-brand-names"
+    "https://brandforge.alfo.online/edgy-brand-names"
+    "https://brandforge.alfo.online/trustworthy-brand-names"
     "https://brandforge.alfo.online/industries/towing-names"
     "https://brandforge.alfo.online/industries/pool-cleaning-names"
     "https://brandforge.alfo.online/industries/pest-control-names"

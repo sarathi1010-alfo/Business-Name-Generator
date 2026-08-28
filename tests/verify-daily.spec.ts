@@ -36,6 +36,18 @@ const urls = [
   '/industries/print-on-demand-names',
   '/industries/digital-product-names',
   '/industries/subscription-box-names'
+,
+  '/blog/how-to-create-a-brand-voice-that-connects',
+  '/luxury-brand-names',
+  '/modern-brand-names',
+  '/minimalist-brand-names',
+  '/futuristic-brand-names',
+  '/playful-brand-names',
+  '/premium-brand-names',
+  '/elegant-brand-names',
+  '/bold-brand-names',
+  '/edgy-brand-names',
+  '/trustworthy-brand-names'
 ];
 
 test.describe('Daily Content Engine Verification', () => {

@@ -11,7 +11,7 @@ const meta = buildArticleMeta(
   "What is Brand Voice? Guide to Brand Linguistics",
   "Learn the core elements of brand voice and how to communicate consistently across all channels to build trust in 2026.",
   "/blog/what-is-brand-voice",
-  { updatedAt: "2026-07-10T00:00:00Z", publishedAt: "2026-07-10T00:00:00Z" }
+  { updatedAt: "2026-08-28T00:00:00Z", publishedAt: "2026-07-10T00:00:00Z" }
 );
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -97,6 +97,7 @@ export default function ArticlePage() {
           <p>
             To build a cohesive brand, your voice must match your visuals. The <Link href="/" className="text-indigo-400 hover:underline">BrandForge Generator Studio</Link> helps you map out the perfect archetype, giving you a strong foundation for both visual design and copywriting. Dive deeper into strategy with our <Link href="/blog/how-to-build-brand-strategy" className="text-indigo-400 hover:underline">The Ultimate 2026 Guide to Building a Brand Strategy</Link>.
           </p>
+        <p>Learn more about crafting a distinctive tone in our <Link href="/blog/how-to-create-a-brand-voice-that-connects" className="text-indigo-400 hover:underline">guide on how to create a brand voice that connects</Link>.</p>
         </article>
       </main>
       <Footer />
