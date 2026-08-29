@@ -47,7 +47,10 @@ const urls = [
   '/elegant-brand-names',
   '/bold-brand-names',
   '/edgy-brand-names',
-  '/trustworthy-brand-names'
+  '/trustworthy-brand-names',
+  '/about',
+  '/blog',
+  '/identity-directions'
 ];
 
 test.describe('Daily Content Engine Verification', () => {
