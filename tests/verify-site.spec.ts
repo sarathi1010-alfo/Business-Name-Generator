@@ -17,6 +17,9 @@ const urls = [
   '/industries/health-wellness-names',
   '/archetypes/hero-brand-names',
   '/archetypes/outlaw-brand-names',
+  '/about',
+  '/blog',
+  '/identity-directions',
 ];
 
 test.describe('Technical Integrity & Functional Verification', () => {
