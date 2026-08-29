@@ -41,6 +41,17 @@ if [ $# -gt 0 ]; then
     "https://brandforge.alfo.online/blog/why-is-branding-important"
     "https://brandforge.alfo.online/blog/what-is-brand-positioning"
     "https://brandforge.alfo.online/blog/what-is-brand-voice"
+    "https://brandforge.alfo.online/blog/how-to-build-brand-equity"
+    "https://brandforge.alfo.online/industries/cloud-kitchen-names"
+    "https://brandforge.alfo.online/industries/virtual-assistant-names"
+    "https://brandforge.alfo.online/industries/3d-animation-names"
+    "https://brandforge.alfo.online/industries/podcast-production-names"
+    "https://brandforge.alfo.online/industries/music-production-names"
+    "https://brandforge.alfo.online/industries/indie-game-names"
+    "https://brandforge.alfo.online/industries/co-working-names"
+    "https://brandforge.alfo.online/industries/urban-farming-names"
+    "https://brandforge.alfo.online/industries/language-learning-names"
+    "https://brandforge.alfo.online/industries/home-security-names"
   )
 else
   # List of primary URLs to index
