@@ -154,7 +154,17 @@ export const dictionary: Dictionary = {
     'affiliate-site': ['Link', 'Find', 'Review', 'Best', 'Top', 'Pick', 'Choice', 'Guide', 'Rank', 'Earn'],
     'print-on-demand': ['Print', 'Merch', 'Design', 'Wear', 'Custom', 'Ink', 'Tee', 'Art', 'Make', 'Press'],
     'digital-product': ['File', 'Pack', 'Kit', 'Bundle', 'Asset', 'Tool', 'Template', 'Guide', 'Set', 'Grid'],
-    'subscription-box': ['Box', 'Monthly', 'Pack', 'Crate', 'Club', 'Send', 'Surprise', 'Curate', 'Gift', 'Stash']
+    'subscription-box': ['Box', 'Monthly', 'Pack', 'Crate', 'Club', 'Send', 'Surprise', 'Curate', 'Gift', 'Stash'],
+    'cloud-kitchen': ['Cloud', 'Kitchen', 'Bite', 'Ghost', 'Prep', 'Cook', 'Chef', 'Taste', 'Serve', 'Dish'],
+    'virtual-assistant': ['Task', 'Help', 'Assist', 'Done', 'Sync', 'Pro', 'Virtual', 'Admin', 'Support', 'Time'],
+    '3d-animation': ['Render', 'Frame', 'Pixel', 'Motion', 'Anima', 'Studio', 'Blend', 'VFX', 'Toon', 'Mesh'],
+    'podcast-production': ['Audio', 'Mic', 'Sound', 'Wave', 'Voice', 'Cast', 'Record', 'Edit', 'Studio', 'Talk'],
+    'music-production': ['Beat', 'Track', 'Sound', 'Mix', 'Master', 'Rhythm', 'Note', 'Chord', 'Vibe', 'Tune'],
+    'indie-game': ['Play', 'Pixel', 'Bit', 'Quest', 'Forge', 'Code', 'Sprite', 'Level', 'Run', 'Jump'],
+    'co-working': ['Space', 'Work', 'Desk', 'Hub', 'Base', 'Hive', 'Collab', 'Sync', 'Meet', 'Focus'],
+    'urban-farming': ['City', 'Grow', 'Green', 'Crop', 'Root', 'Leaf', 'Sprout', 'Harvest', 'Fresh', 'Earth'],
+    'language-learning': ['Speak', 'Lingo', 'Word', 'Talk', 'Learn', 'Fluent', 'Voice', 'Vocab', 'Tongue', 'Chat'],
+    'home-security': ['Safe', 'Guard', 'Watch', 'Shield', 'Lock', 'Secure', 'Alert', 'Protect', 'Cam', 'Defend']
   },
   vibeTokens: {
     luxury: ['Luxe', 'Elite', 'Prime', 'Aura', 'Velvet', 'Crown', 'Gold', 'Silk', 'Grand', 'Opus'],
@@ -198,7 +208,16 @@ export const dictionary: Dictionary = {
     'print-on-demand': ['Your design, delivered', 'Custom creations', 'Wear your art'],
     'digital-product': ['Tools for creators', 'Download success', 'Assets that scale'],
     'subscription-box': ['Joy delivered monthly', 'A new surprise', 'Curated for your lifestyle'],
-
+    'cloud-kitchen': ['Virtual tastes', 'Delivery only excellence', 'Ghost kitchen perfection'],
+    'virtual-assistant': ['Your time reclaimed', 'Tasks handled', 'Virtual support professionals'],
+    '3d-animation': ['Bringing ideas to life', 'Pixels in motion', 'Next-gen rendering'],
+    'podcast-production': ['Professional audio', 'Your voice amplified', 'Crystal clear casts'],
+    'music-production': ['Beats that hit', 'Your sound mastered', 'Crafting hits'],
+    'indie-game': ['Crafted with passion', 'Pixels and play', 'Unique adventures'],
+    'co-working': ['Work better together', 'Your city hub', 'Productive spaces'],
+    'urban-farming': ['City grown', 'Fresh from the concrete', 'Rooftop roots'],
+    'language-learning': ['Speak the world', 'Fluent futures', 'Master new words'],
+    'home-security': ['Peace of mind', 'Always watching out', 'Your safe haven'],
 
 
     vr: ['Step into the future', 'Beyond reality', 'Immersive worlds'],

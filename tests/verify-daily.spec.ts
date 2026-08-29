@@ -3,6 +3,17 @@ import { test, expect } from '@playwright/test';
 const urls = [
 
   '/blog/how-to-build-a-personal-brand',
+  '/blog/how-to-build-brand-equity',
+  '/industries/cloud-kitchen-names',
+  '/industries/virtual-assistant-names',
+  '/industries/3d-animation-names',
+  '/industries/podcast-production-names',
+  '/industries/music-production-names',
+  '/industries/indie-game-names',
+  '/industries/co-working-names',
+  '/industries/urban-farming-names',
+  '/industries/language-learning-names',
+  '/industries/home-security-names',
   '/industries/massage-therapy-names',
   '/industries/acupuncture-names',
   '/industries/chiropractor-names',
