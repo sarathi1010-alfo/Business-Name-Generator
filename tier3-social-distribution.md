@@ -1024,3 +1024,49 @@ Caption: This is the power of brand equity. It’s why customers choose YOU over
 **Post 12**
 [Image: BrandForge logo with text "Start building your brand's foundation today."]
 Caption: Don't leave your brand equity to chance. Use our naming studio to ensure your brand's foundation is strategically aligned with your vision. Try BrandForge for free (link in bio). #BrandNaming #StartupLaunch
+
+## SaaS Brand Series (Twitter/X)
+
+**Post 1**
+Building a SaaS brand is different from building any other type of business. Features get copied. Your brand is your only sustainable moat. Learn how to build it: https://brandforge.alfo.online/blog/how-to-build-a-saas-brand #SaaS #Startups #Branding
+
+**Post 2**
+What's the difference between a SaaS company that struggles to acquire users and one that grows effortlessly? Brand positioning. Define yours in one sentence. Find out how: https://brandforge.alfo.online/blog/how-to-build-a-saas-brand #B2BMarketing #FounderTips
+
+**Post 3**
+Don't sound like a robot. Just because you're selling B2B software doesn't mean your copy has to be boring. Develop an authentic voice that connects. Read our complete guide to SaaS branding. #Copywriting #SaaS
+
+**Post 4**
+We just added 10 new software categories to the BrandForge naming studio (including CRM, ERP, and Helpdesk). Stop struggling to name your next big software project. Try it here: https://brandforge.alfo.online/industries/crm-software-names #SaaSFounder #IndieHacker
+
+## SaaS Brand Series (LinkedIn)
+
+**Post 5**
+In the crowded B2B SaaS space, your product features are no longer enough to win. Competitors can replicate your features overnight. What they cannot replicate is the trust and recognition of a strong brand. We've just published a comprehensive guide on building a SaaS brand in 2026. Read the full strategy here: https://brandforge.alfo.online/blog/how-to-build-a-saas-brand
+
+**Post 6**
+A strong SaaS brand reduces customer acquisition costs and improves retention. Why? Because a clear value proposition and a trustworthy aesthetic make the buying decision easier. Let's discuss how you're positioning your software in the comments below.
+
+**Post 7**
+Are you building a CRM, a marketing tool, or project management software? Naming your product correctly is the first step to establishing authority. We've updated our naming generator to include 10 new specific software verticals. Check out the new capabilities here: https://brandforge.alfo.online/industries/marketing-software-names
+
+**Post 8**
+Many SaaS companies default to the "Sage" archetype—informative and analytical. But sometimes, being the "Hero" or the "Rebel" is exactly what you need to stand out. Our new guide covers how to choose the right archetype for your B2B audience. Read more: https://brandforge.alfo.online/blog/how-to-build-a-saas-brand
+
+## SaaS Brand Series (Instagram)
+
+**Post 9**
+[Image/Carousel: The 4 Steps to Building a SaaS Brand]
+Caption: Your software features can be copied. Your brand cannot. 🔒 Follow these 4 steps to build a scalable SaaS brand that drives acquisition and builds trust. Link in bio for the complete guide! #SaaS #TechStartup #BrandStrategy
+
+**Post 10**
+[Image: Quote - "Stop sounding like a robot. B2B is still human-to-human."]
+Caption: Even if you're selling enterprise software, you're still selling to humans. Don't let your brand voice become sterile. Learn how to inject personality into your SaaS brand. Link in bio! 💬 #B2BMarketing #Copywriting #Founders
+
+**Post 11**
+[Image: Visual showcase of the BrandForge studio with "SaaS" selected]
+Caption: Naming your new software project just got easier. We've added 10 new SaaS categories to our naming studio, from CRM to Project Management. Find your perfect name today! Link in bio. 🚀 #SaaSFounder #IndieHacker #Startups
+
+**Post 12**
+[Image: Comparison graphic showing generic SaaS interface vs branded interface]
+Caption: Trust is everything in SaaS. A cohesive, modern visual identity signals reliability and reduces churn. Is your visual identity helping or hurting your conversions? Read our guide to find out. #SaaSGrowth #UIUX #Branding

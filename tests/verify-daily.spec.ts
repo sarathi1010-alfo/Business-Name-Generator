@@ -1,6 +1,17 @@
 import { test, expect } from '@playwright/test';
 
 const urls = [
+  '/blog/how-to-build-a-saas-brand',
+  '/industries/crm-software-names',
+  '/industries/erp-software-names',
+  '/industries/billing-software-names',
+  '/industries/hr-software-names',
+  '/industries/marketing-software-names',
+  '/industries/sales-software-names',
+  '/industries/accounting-software-names',
+  '/industries/helpdesk-software-names',
+  '/industries/analytics-software-names',
+  '/industries/project-management-software-names',
 
   '/blog/how-to-build-a-personal-brand',
   '/blog/how-to-build-brand-equity',
