@@ -18,6 +18,17 @@ export const dictionary: Dictionary = {
     'Plural', 'Miro', 'Loom', 'Bento', 'Vivid', 'Axios', 'Coda', 'Fathom', 'Vanta'
   ],
   industryTokens: {
+    'crm-software': ['Manage relationships', 'Customer central', 'Sales streamlined'],
+    'erp-software': ['Enterprise core', 'Operations unified', 'Business operating system'],
+    'billing-software': ['Payments automated', 'Revenue recognized', 'Invoicing made easy'],
+    'hr-software': ['People first', 'Talent management', 'Workforce elevated'],
+    'marketing-software': ['Campaigns that convert', 'Growth engine', 'Audience engaged'],
+    'sales-software': ['Close more deals', 'Pipeline accelerated', 'Revenue engine'],
+    'accounting-software': ['Books balanced', 'Financial clarity', 'Numbers you trust'],
+    'helpdesk-software': ['Support simplified', 'Customers happy', 'Tickets resolved'],
+    'analytics-software': ['Data driven', 'Insights unlocked', 'Metrics that matter'],
+    'project-management-software': ['Projects delivered', 'Teams aligned', 'Work organized'],
+
 
     vr: ['Virtual', 'Immense', 'Reality', 'Sense', 'Oculus', 'Sphere', 'Vivid', 'Holo', 'Lens', 'World'],
     space: ['Astro', 'Cosmos', 'Orbit', 'Galaxy', 'Stellar', 'Nova', 'Void', 'Launch', 'Zenith', 'Star'],
@@ -178,7 +189,18 @@ export const dictionary: Dictionary = {
     edgy: ['Razor', 'Spike', 'Venom', 'Riot', 'Clash', 'Volt', 'Grit', 'Rebel', 'Havoc', 'Neon'],
     trustworthy: ['Sure', 'True', 'Trust', 'Safe', 'Guard', 'Shield', 'Solid', 'Veri', 'Secure', 'Clear']
   },
-  taglines: {    'towing': ['Always ready to pull you out', 'Roadside rescue done right', 'Swift and safe towing'],
+  taglines: {
+    'crm-software': ['The CRM for modern teams', 'Better customer relationships', 'Sales made simple'],
+    'erp-software': ['Your entire business, in one place', 'The operating system for enterprise', 'Unified operations'],
+    'billing-software': ['Get paid faster', 'Automated billing for modern business', 'Revenue operations simplified'],
+    'hr-software': ['Empower your workforce', 'The modern HR platform', 'Better people management'],
+    'marketing-software': ['Drive growth with every campaign', 'The marketing engine for scale', 'Automate your marketing'],
+    'sales-software': ['Accelerate your revenue', 'The ultimate sales tool', 'Close deals faster'],
+    'accounting-software': ['Smart accounting for growing businesses', 'Financial peace of mind', 'Your books, balanced'],
+    'helpdesk-software': ['Deliver exceptional support', 'The modern helpdesk', 'Happy customers, happy team'],
+    'analytics-software': ['Turn data into decisions', 'Actionable insights for growth', 'The analytics platform for modern teams'],
+    'project-management-software': ['Get work done, together', 'The easiest way to manage projects', 'Align your team'],
+    'towing': ['Always ready to pull you out', 'Roadside rescue done right', 'Swift and safe towing'],
     'pool-cleaning': ['Crystal clear waters', 'Dive into purity', 'Your pool, perfected'],
     'pest-control': ['Protecting your home', 'Pest-free guaranteed', 'Your shield against bugs'],
     'electrician': ['Powering your life', 'Bright solutions', 'Wired for success'],

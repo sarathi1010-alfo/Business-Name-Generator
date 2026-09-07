@@ -217,6 +217,17 @@ else
     "https://brandforge.alfo.online/industries/print-on-demand-names"
     "https://brandforge.alfo.online/industries/digital-product-names"
     "https://brandforge.alfo.online/industries/subscription-box-names"
+    "https://brandforge.alfo.online/blog/how-to-build-a-saas-brand"
+    "https://brandforge.alfo.online/industries/crm-software-names"
+    "https://brandforge.alfo.online/industries/erp-software-names"
+    "https://brandforge.alfo.online/industries/billing-software-names"
+    "https://brandforge.alfo.online/industries/hr-software-names"
+    "https://brandforge.alfo.online/industries/marketing-software-names"
+    "https://brandforge.alfo.online/industries/sales-software-names"
+    "https://brandforge.alfo.online/industries/accounting-software-names"
+    "https://brandforge.alfo.online/industries/helpdesk-software-names"
+    "https://brandforge.alfo.online/industries/analytics-software-names"
+    "https://brandforge.alfo.online/industries/project-management-software-names"
   )
 fi
 
