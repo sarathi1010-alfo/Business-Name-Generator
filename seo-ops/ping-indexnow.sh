@@ -228,6 +228,17 @@ else
     "https://brandforge.alfo.online/industries/helpdesk-software-names"
     "https://brandforge.alfo.online/industries/analytics-software-names"
     "https://brandforge.alfo.online/industries/project-management-software-names"
+    "https://brandforge.alfo.online/industries/space-tourism-names"
+    "https://brandforge.alfo.online/industries/quantum-tech-names"
+    "https://brandforge.alfo.online/industries/neural-tech-names"
+    "https://brandforge.alfo.online/industries/exotic-pet-names"
+    "https://brandforge.alfo.online/archetypes/visionary-brand-names"
+    "https://brandforge.alfo.online/archetypes/alchemist-brand-names"
+    "https://brandforge.alfo.online/name-styles/mythological-brand-names"
+    "https://brandforge.alfo.online/name-styles/numeric-brand-names"
+    "https://brandforge.alfo.online/name-styles/hybrid-brand-names"
+    "https://brandforge.alfo.online/name-styles/minimal-brand-names"
+    "https://brandforge.alfo.online/blog/how-to-build-ecommerce-brand"
   )
 fi
 
