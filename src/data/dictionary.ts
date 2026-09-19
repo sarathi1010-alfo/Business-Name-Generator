@@ -134,8 +134,11 @@ export const dictionary: Dictionary = {
     edtech: ['Learn', 'Study', 'Teach', 'Skill', 'Mind', 'Brain', 'Smart', 'Grow', 'Think', 'Class'],
     proptech: ['Home', 'House', 'Estate', 'Space', 'Nest', 'Dwell', 'Key', 'Roof', 'Block', 'Base'],
     insurtech: ['Safe', 'Sure', 'Guard', 'Shield', 'Cover', 'Trust', 'Secure', 'Policy', 'Life', 'Risk'],
-    cleantech: ['Eco', 'Green', 'Pure', 'Clean', 'Clear', 'Earth', 'Nature', 'Renew', 'Fresh', 'Life']
-,
+    cleantech: ['Eco', 'Green', 'Pure', 'Clean', 'Clear', 'Earth', 'Nature', 'Renew', 'Fresh', 'Life'],
+    'space-tourism': ['Astro', 'Orbit', 'Galaxy', 'Star', 'Nova', 'Cosmic', 'Voyage', 'Lunar', 'Stellar', 'Celestial', 'Beyond', 'Infinity'],
+    'quantum-tech': ['Quantum', 'Qubit', 'Entangle', 'Photon', 'Wave', 'Matrix', 'Nano', 'Pulse', 'Core', 'Shift', 'Sync', 'Nexus'],
+    'neural-tech': ['Neuro', 'Synapse', 'Mind', 'Cortex', 'Brain', 'Link', 'Sense', 'Cog', 'Nerve', 'Thought', 'Impulse', 'Wire'],
+    'exotic-pet': ['Wild', 'Rare', 'Exotic', 'Beast', 'Fauna', 'Jungle', 'Safari', 'Creature', 'Tropic', 'Scale', 'Feather', 'Claw'],
     'towing': ['Tow', 'Pull', 'Haul', 'Hook', 'Lift', 'Road', 'Rescue', 'Assist', 'Swift', 'Clear'],
     'pool-cleaning': ['Pool', 'Clear', 'Blue', 'Aqua', 'Swim', 'Splash', 'Clean', 'Water', 'Fresh', 'Pure'],
     'pest-control': ['Bug', 'Clear', 'Shield', 'Guard', 'Safe', 'Pest', 'Defend', 'Wipe', 'Block', 'Free'],
@@ -346,6 +349,10 @@ export const dictionary: Dictionary = {
     edtech: ['Learning reimagined', 'Education for all', 'Smart tools for bright minds'],
     proptech: ['Real estate redefined', 'Smarter property management', 'The future of housing'],
     insurtech: ['Insurance made simple', 'Smarter coverage', 'Protecting your future'],
-    cleantech: ['A cleaner tomorrow', 'Sustainable solutions', 'Innovating for the earth']
+    cleantech: ['A cleaner tomorrow', 'Sustainable solutions', 'Innovating for the earth'],
+    'space-tourism': ['Beyond the stars', 'Your cosmic journey', 'Experience infinity'],
+    'quantum-tech': ['Computing the future', 'Next-gen processing', 'Quantum leaps in tech'],
+    'neural-tech': ['Connecting minds', 'The next frontier of thought', 'Enhancing human potential'],
+    'exotic-pet': ['Rare companions', 'Wildly unique pets', 'For the extraordinary owner']
   }
 };
