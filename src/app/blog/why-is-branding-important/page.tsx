@@ -11,7 +11,7 @@ const meta = buildArticleMeta(
   "Why is Branding Important? A Founder's Guide",
   "Learn why investing in branding early gives founders a significant strategic advantage, builds trust, and drives revenue in 2026.",
   "/blog/why-is-branding-important",
-  { updatedAt: new Date().toISOString() }
+  { updatedAt: "2026-07-10T00:00:00Z", publishedAt: "2026-07-10T00:00:00Z" }
 );
 
 export async function generateMetadata(): Promise<Metadata> {
