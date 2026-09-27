@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'BrandForge Blog - Insights for Founders and Brand Builders',
-  description: 'Deep dives into brand identity, archetypes, strategy, and naming. Build a brand that stands out.',
+  description: 'Deep dives into brand identity, archetypes, strategy, and naming. Build a brand that stands out. ',
   alternates: {
     canonical: 'https://brandforge.alfo.online/blog',
   },

@@ -11,7 +11,7 @@ const meta = buildArticleMeta(
   "What is Brand Positioning? A Strategic Guide",
   "Understand how to carve out a unique space in your customers' minds to differentiate from competitors in 2026.",
   "/blog/what-is-brand-positioning",
-  { updatedAt: new Date().toISOString() }
+  { updatedAt: "2026-07-10T00:00:00Z", publishedAt: "2026-07-10T00:00:00Z" }
 );
 
 export async function generateMetadata(): Promise<Metadata> {

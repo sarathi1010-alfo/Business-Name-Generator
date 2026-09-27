@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'About BrandForge - The Founder Brand Operating System',
-  description: 'Learn about our mission to democratize elite brand identity and the Alfo ecosystem of design utilities.',
+  description: 'Learn about our mission to democratize elite brand identity and the Alfo ecosystem of design utilities. ',
   alternates: {
     canonical: 'https://brandforge.alfo.online/about',
   },
