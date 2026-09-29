@@ -4,13 +4,13 @@ import { Footer } from '@/components/layout/Footer';
 import { JsonLd } from '@/components/JsonLd';
 import { buildFaqSchema } from '@/lib/seo/buildSchema';
 import Link from 'next/link';
-import { buildNameStyleMeta } from '@/lib/seo/metaFactories';
+import { buildIndustryMeta } from '@/lib/seo/metaFactories';
 
 export const metadata: Metadata = {
-  title: "Minimal Brand Names",
-  description: "Minimal brand names are short, often just one syllable or a few letters. They are highly memorable, look great visually, and are easy to type, making them ideal for digital-first companies.",
+  title: "3D Printing Company Names",
+  description: "Focus on words that convey creation, innovation, precision, and the future. Names should reflect the cutting-edge technology and the transformative nature of additive manufacturing.",
   alternates: {
-    canonical: 'https://brandforge.alfo.online/name-styles/minimal-brand-names',
+    canonical: 'https://brandforge.alfo.online/industries/printing3d-company-names',
   },
 };
 
@@ -18,15 +18,15 @@ export default function Page() {
   return (
     <>
       <JsonLd schema={buildFaqSchema([
-        { question: "What makes a minimal brand name effective?", answer: "Minimal brand names are short, often just one syllable or a few letters. They are highly memorable, look great visually, and are easy to type, making them ideal for digital-first companies." }
+        { question: "How to name a 3D printing company?", answer: "Focus on words that convey creation, innovation, precision, and the future. Names should reflect the cutting-edge technology and the transformative nature of additive manufacturing." }
       ])} />
       <Header />
       <main className="flex-1 bg-[#0a0a0c] text-white flex flex-col items-center">
         <section className="w-full py-16 md:py-24 px-4 bg-muted/20 border-b">
           <div className="container max-w-4xl mx-auto text-center space-y-6">
-            <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Minimal Brand Names – Clean, Short, and Punchy</h1>
+            <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">3D Printing Company Names – Innovative, Precise, and Future-Ready</h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-              Minimal brand names are short, often just one syllable or a few letters. They are highly memorable, look great visually, and are easy to type, making them ideal for digital-first companies.
+              Focus on words that convey creation, innovation, precision, and the future. Names should reflect the cutting-edge technology and the transformative nature of additive manufacturing.
             </p>
           </div>
         </section>

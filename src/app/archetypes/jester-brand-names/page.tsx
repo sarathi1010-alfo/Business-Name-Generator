@@ -1,79 +1,51 @@
 import { Metadata } from 'next';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
-import { AdSlot } from '@/components/ui/AdSlot';
-import { generateNames } from '@/lib/generateNames';
-import { NameCard } from '@/components/generator/NameCard';
-import { Button } from '@/components/ui/button';
-import Link from 'next/link';
 import { JsonLd } from '@/components/JsonLd';
-import { buildBreadcrumbSchema, buildFaqSchema } from '@/lib/seo/buildSchema';
-import { buildVibeMeta } from '@/lib/seo/metaFactories';
-import { resolveMetadata } from '@/lib/seo/resolveMetadata';
+import { buildFaqSchema } from '@/lib/seo/buildSchema';
+import Link from 'next/link';
+import { buildArchetypeMeta } from '@/lib/seo/metaFactories';
 
-const archetype = 'jester';
-const archetypeTitle = 'Jester';
+export const metadata: Metadata = {
+  title: "Jester Brand Archetype Names",
+  description: "The Jester archetype focuses on living in the moment, having fun, and entertaining others. Brands with this archetype use humor and playfulness to connect with their audience.",
+  alternates: {
+    canonical: 'https://brandforge.alfo.online/archetypes/jester-brand-names',
+  },
+};
 
-export async function generateMetadata(): Promise<Metadata> {
-  const title = `${archetypeTitle} Brand Archetype Names`;
-  const meta = buildVibeMeta('playful'); // Base meta
-  meta.title = title;
-  meta.description = `Discover playful, irreverent brand names for the ${archetypeTitle} archetype. Perfect for fun, disruptive startups looking to entertain.`;
-  meta.slug = `/archetypes/${archetype}-brand-names`;
-  return resolveMetadata(meta);
-}
-
-const faqs = [
-  { question: `What is the ${archetypeTitle} brand archetype?`, answer: `The ${archetypeTitle} brand archetype focuses on having fun, living in the moment, and enjoying life. These brands use humor to connect with their audience and break the ice.` },
-  { question: `How to name a ${archetypeTitle} brand?`, answer: `Naming a ${archetypeTitle} brand usually involves playful sounds, puns, or slightly irreverent words that signal you don't take yourself too seriously (e.g., Mailchimp, Dollar Shave Club).` }
-];
-
-export default function ArchetypeNamesPage() {
-  const staticNames = generateNames({ industry: 'tech', vibe: 'playful', length: 'short', style: 'brandable', isTwoWords: false }, 12);
-  const title = `${archetypeTitle} Brand Archetype Names`;
-
+export default function Page() {
   return (
     <>
-      <JsonLd schema={buildBreadcrumbSchema([
-        { label: 'Home', href: '/' },
-        { label: title, href: `/archetypes/${archetype}-brand-names` }
+      <JsonLd schema={buildFaqSchema([
+        { question: "What is the Jester brand archetype?", answer: "The Jester archetype focuses on living in the moment, having fun, and entertaining others. Brands with this archetype use humor and playfulness to connect with their audience." }
       ])} />
-      <JsonLd schema={buildFaqSchema(faqs)} />
       <Header />
-      <main className="flex-1 flex flex-col items-center">
+      <main className="flex-1 bg-[#0a0a0c] text-white flex flex-col items-center">
         <section className="w-full py-16 md:py-24 px-4 bg-muted/20 border-b">
           <div className="container max-w-4xl mx-auto text-center space-y-6">
-            <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-foreground">
-              {title} – Playful, Entertaining, and Fun
-            </h1>
+            <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Jester Brand Archetype Names – Entertaining, Irreverent, and Joyful</h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-              Want a brand that makes people smile? Discover names that fit the {archetypeTitle} archetype perfectly.
+              The Jester archetype focuses on living in the moment, having fun, and entertaining others. Brands with this archetype use humor and playfulness to connect with their audience.
             </p>
-            <div className="pt-4">
-              <Link href={`/?vibe=playful`}>
-                <Button size="lg" className="font-bold">Open Full Generator</Button>
-              </Link>
-            </div>
           </div>
         </section>
 
-        <div className="w-full py-8 flex justify-center border-b">
-          <AdSlot variant="leaderboard" />
-        </div>
+        <section className="w-full max-w-4xl mx-auto px-4 py-16 prose prose-slate dark:prose-invert">
+          <h2>Why Choose These Names?</h2>
+          <p>
+            When building a brand in this category, your name is your first impression. It needs to resonate with your target audience, convey your core values, and stand out from the competition. Whether you are aiming for innovation, trustworthiness, or creativity, selecting the right name sets the foundation for your entire brand identity.
+          </p>
 
-        <section className="w-full max-w-7xl mx-auto px-4 md:px-8 py-16">
-          <h2 className="text-2xl font-bold tracking-tight mb-8">Top {archetypeTitle} Name Ideas</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {staticNames.map((n, i) => (
-              <div key={n.id} className="pointer-events-none">
-                <NameCard nameObj={n} index={i} isShortlisted={false} onToggleShortlist={undefined as unknown as () => void} />
-              </div>
-            ))}
-          </div>
+          <h3>Finding Your Perfect Match</h3>
+          <p>
+            Consider what makes your business unique. Are you disrupting an industry? Providing unmatched luxury? Or offering friendly, approachable service? Your brand name should reflect this positioning. Don't be afraid to brainstorm extensively, testing different variations until you find the one that clicks.
+          </p>
 
-          <div className="mt-12 p-8 bg-card border rounded-xl flex flex-col items-center text-center space-y-4">
-            <Link href={`/?vibe=playful`}>
-              <Button variant="outline" size="lg">Explore more {archetypeTitle} names</Button>
+          <div className="mt-8 p-6 bg-card border rounded-lg not-prose text-center">
+            <h3 className="text-xl font-bold mb-4">Ready to generate your own names?</h3>
+            <Link href="/" className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2">
+              Open BrandForge Studio
             </Link>
           </div>
         </section>
