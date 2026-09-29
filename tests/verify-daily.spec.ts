@@ -1,6 +1,17 @@
 import { test, expect } from '@playwright/test';
 
 const urls = [
+  '/blog/complete-guide-to-brand-strategy',
+  '/name-styles/compound-brand-names',
+  '/name-styles/invented-brand-names',
+  '/name-styles/minimal-brand-names',
+  '/name-styles/playful-brand-names',
+  '/industries/esports-team-names',
+  '/industries/printing3d-company-names',
+  '/industries/tattoo-shop-names',
+  '/industries/travel-agency-names',
+  '/archetypes/jester-brand-names',
+  '/archetypes/ruler-brand-names',
   '/blog/how-to-build-a-saas-brand',
   '/industries/crm-software-names',
   '/industries/erp-software-names',
@@ -12,7 +23,6 @@ const urls = [
   '/industries/helpdesk-software-names',
   '/industries/analytics-software-names',
   '/industries/project-management-software-names',
-
   '/blog/how-to-build-a-personal-brand',
   '/blog/how-to-build-brand-equity',
   '/industries/cloud-kitchen-names',
@@ -34,8 +44,7 @@ const urls = [
   '/industries/life-coach-names',
   '/industries/career-coach-names',
   '/industries/business-coach-names',
-  '/industries/tutoring-names'
-,
+  '/industries/tutoring-names',
   '/name-styles/alliteration-brand-names',
   '/name-styles/alphanumeric-brand-names',
   '/name-styles/foreign-word-brand-names',
@@ -57,8 +66,7 @@ const urls = [
   '/industries/affiliate-site-names',
   '/industries/print-on-demand-names',
   '/industries/digital-product-names',
-  '/industries/subscription-box-names'
-,
+  '/industries/subscription-box-names',
   '/blog/how-to-create-a-brand-voice-that-connects',
   '/blog/how-to-build-ecommerce-brand',
   '/industries/space-tourism-names',
@@ -70,7 +78,6 @@ const urls = [
   '/name-styles/mythological-brand-names',
   '/name-styles/numeric-brand-names',
   '/name-styles/hybrid-brand-names',
-  '/name-styles/minimal-brand-names',
   '/luxury-brand-names',
   '/modern-brand-names',
   '/minimalist-brand-names',

@@ -7,10 +7,10 @@ import Link from 'next/link';
 import { buildNameStyleMeta } from '@/lib/seo/metaFactories';
 
 export const metadata: Metadata = {
-  title: "Minimal Brand Names",
-  description: "Minimal brand names are short, often just one syllable or a few letters. They are highly memorable, look great visually, and are easy to type, making them ideal for digital-first companies.",
+  title: "Playful Brand Names",
+  description: "Playful brand names stand out by not taking themselves too seriously, making the brand feel more approachable and memorable, especially in crowded or dry markets.",
   alternates: {
-    canonical: 'https://brandforge.alfo.online/name-styles/minimal-brand-names',
+    canonical: 'https://brandforge.alfo.online/name-styles/playful-brand-names',
   },
 };
 
@@ -18,15 +18,15 @@ export default function Page() {
   return (
     <>
       <JsonLd schema={buildFaqSchema([
-        { question: "What makes a minimal brand name effective?", answer: "Minimal brand names are short, often just one syllable or a few letters. They are highly memorable, look great visually, and are easy to type, making them ideal for digital-first companies." }
+        { question: "Why use a playful brand name?", answer: "Playful brand names stand out by not taking themselves too seriously, making the brand feel more approachable and memorable, especially in crowded or dry markets." }
       ])} />
       <Header />
       <main className="flex-1 bg-[#0a0a0c] text-white flex flex-col items-center">
         <section className="w-full py-16 md:py-24 px-4 bg-muted/20 border-b">
           <div className="container max-w-4xl mx-auto text-center space-y-6">
-            <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Minimal Brand Names – Clean, Short, and Punchy</h1>
+            <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Playful Brand Names – Fun, Quirky, and Approachable</h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-              Minimal brand names are short, often just one syllable or a few letters. They are highly memorable, look great visually, and are easy to type, making them ideal for digital-first companies.
+              Playful brand names stand out by not taking themselves too seriously, making the brand feel more approachable and memorable, especially in crowded or dry markets.
             </p>
           </div>
         </section>

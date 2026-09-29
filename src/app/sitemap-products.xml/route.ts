@@ -62,6 +62,67 @@ export async function GET() {
     });
   }
 
+  routes.push({
+    url: buildCanonical('/name-styles/compound-brand-names'),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+  routes.push({
+    url: buildCanonical('/name-styles/invented-brand-names'),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+  routes.push({
+    url: buildCanonical('/name-styles/minimal-brand-names'),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+  routes.push({
+    url: buildCanonical('/name-styles/playful-brand-names'),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+  routes.push({
+    url: buildCanonical('/industries/esports-team-names'),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+  routes.push({
+    url: buildCanonical('/industries/printing3d-company-names'),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+  routes.push({
+    url: buildCanonical('/industries/tattoo-shop-names'),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+  routes.push({
+    url: buildCanonical('/industries/travel-agency-names'),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+  routes.push({
+    url: buildCanonical('/archetypes/jester-brand-names'),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+  routes.push({
+    url: buildCanonical('/archetypes/ruler-brand-names'),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+
   const xml = generateSitemapXml(routes);
 
   return new NextResponse(xml, {
