@@ -90,7 +90,18 @@ const urls = [
   '/trustworthy-brand-names',
   '/about',
   '/blog',
-  '/identity-directions'
+  '/identity-directions',
+  '/blog/how-to-build-brand-loyalty',
+  '/industries/tech-names',
+  '/industries/vr-names',
+  '/industries/space-names',
+  '/industries/esports-names',
+  '/industries/influencer-names',
+  '/industries/drone-names',
+  '/industries/printing3d-names',
+  '/industries/ai-names',
+  '/industries/beauty-names',
+  '/industries/fitness-names',
 ];
 
 test.describe('Daily Content Engine Verification', () => {

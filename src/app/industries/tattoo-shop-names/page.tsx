@@ -39,7 +39,7 @@ export default function Page() {
 
           <h3>Finding Your Perfect Match</h3>
           <p>
-            Consider what makes your business unique. Are you disrupting an industry? Providing unmatched luxury? Or offering friendly, approachable service? Your brand name should reflect this positioning. Don't be afraid to brainstorm extensively, testing different variations until you find the one that clicks.
+            Consider what makes your business unique. Are you disrupting an industry? Providing unmatched luxury? Or offering friendly, approachable service? Your brand name should reflect this positioning. Don&apos;t be afraid to brainstorm extensively, testing different variations until you find the one that clicks.
           </p>
 
           <div className="mt-8 p-6 bg-card border rounded-lg not-prose text-center">

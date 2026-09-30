@@ -7,10 +7,10 @@ import Link from 'next/link';
 import { buildIndustryMeta } from '@/lib/seo/metaFactories';
 
 export const metadata: Metadata = {
-  title: "Esports Team Names",
-  description: "A good esports team name should be memorable, sound aggressive or victorious, and look good as an acronym. It needs to stand out on jerseys and in tournament brackets.",
+  title: "Tech Brand Names",
+  description: "To create the perfect tech brand name, focus on words that convey innovation, reliability, and the future. A strong tech name should reflect the cutting-edge technology and the transformative nature of the industry.",
   alternates: {
-    canonical: 'https://brandforge.alfo.online/industries/esports-team-names',
+    canonical: 'https://brandforge.alfo.online/industries/tech-names',
   },
 };
 
@@ -18,15 +18,15 @@ export default function Page() {
   return (
     <>
       <JsonLd schema={buildFaqSchema([
-        { question: "What makes a good esports team name?", answer: "A good esports team name should be memorable, sound aggressive or victorious, and look good as an acronym. It needs to stand out on jerseys and in tournament brackets." }
+        { question: "How to choose the best tech brand name?", answer: "To create the perfect tech brand name, focus on words that convey innovation, reliability, and the future. A strong tech name should reflect the cutting-edge technology and the transformative nature of the industry." }
       ])} />
       <Header />
       <main className="flex-1 bg-[#0a0a0c] text-white flex flex-col items-center">
         <section className="w-full py-16 md:py-24 px-4 bg-muted/20 border-b">
           <div className="container max-w-4xl mx-auto text-center space-y-6">
-            <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Esports Team Names – Bold, Aggressive, and Victorious</h1>
+            <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Tech Brand Names – Innovative, Scalable, and Future-Ready</h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-              A good esports team name should be memorable, sound aggressive or victorious, and look good as an acronym. It needs to stand out on jerseys and in tournament brackets.
+              To create the perfect tech brand name, focus on words that convey innovation, reliability, and the future. A strong tech name should reflect the cutting-edge technology and the transformative nature of the industry.
             </p>
           </div>
         </section>

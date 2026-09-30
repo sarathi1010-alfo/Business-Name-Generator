@@ -123,6 +123,77 @@ export async function GET() {
     priority: 0.9,
   });
 
+
+  routes.push({
+    url: buildCanonical('/industries/tech-names'),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+
+  routes.push({
+    url: buildCanonical('/industries/vr-names'),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+
+  routes.push({
+    url: buildCanonical('/industries/space-names'),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+
+  routes.push({
+    url: buildCanonical('/industries/esports-names'),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+
+  routes.push({
+    url: buildCanonical('/industries/influencer-names'),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+
+  routes.push({
+    url: buildCanonical('/industries/drone-names'),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+
+  routes.push({
+    url: buildCanonical('/industries/printing3d-names'),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+
+  routes.push({
+    url: buildCanonical('/industries/ai-names'),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+
+  routes.push({
+    url: buildCanonical('/industries/beauty-names'),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+
+  routes.push({
+    url: buildCanonical('/industries/fitness-names'),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+
   const xml = generateSitemapXml(routes);
 
   return new NextResponse(xml, {

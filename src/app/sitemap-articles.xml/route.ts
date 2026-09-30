@@ -269,6 +269,14 @@ export async function GET() {
     priority: 0.9,
   });
 
+
+  routes.push({
+    url: buildCanonical('/blog/how-to-build-brand-loyalty'),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+
   const xml = generateSitemapXml(routes);
 
   return new NextResponse(xml, {
