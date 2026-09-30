@@ -250,6 +250,17 @@ else
     "https://brandforge.alfo.online/name-styles/hybrid-brand-names"
     "https://brandforge.alfo.online/name-styles/minimal-brand-names"
     "https://brandforge.alfo.online/blog/how-to-build-ecommerce-brand"
+    "https://brandforge.alfo.online/blog/how-to-build-brand-loyalty"
+    "https://brandforge.alfo.online/industries/tech-names"
+    "https://brandforge.alfo.online/industries/vr-names"
+    "https://brandforge.alfo.online/industries/space-names"
+    "https://brandforge.alfo.online/industries/esports-names"
+    "https://brandforge.alfo.online/industries/influencer-names"
+    "https://brandforge.alfo.online/industries/drone-names"
+    "https://brandforge.alfo.online/industries/printing3d-names"
+    "https://brandforge.alfo.online/industries/ai-names"
+    "https://brandforge.alfo.online/industries/beauty-names"
+    "https://brandforge.alfo.online/industries/fitness-names"
   )
 fi
 
