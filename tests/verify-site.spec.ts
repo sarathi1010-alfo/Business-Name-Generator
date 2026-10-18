@@ -47,7 +47,20 @@ const urls = [
   '/about',
   '/blog',
   '/identity-directions',
+
+  '/blog/how-to-build-a-health-and-wellness-brand',
+  '/industries/yoga-studio-names',
+  '/industries/meditation-app-names',
+  '/industries/wellness-retreat-names',
+  '/industries/nutrition-clinic-names',
+  '/industries/holistic-health-names',
+  '/industries/spa-resort-names',
+  '/industries/supplement-brand-names',
+  '/industries/organic-food-store-names',
+  '/industries/fitness-studio-names',
+  '/industries/therapy-practice-names',
 ];
+
 
 test.describe('Technical Integrity & Functional Verification', () => {
   for (const url of urls) {
