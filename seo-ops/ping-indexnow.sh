@@ -261,8 +261,21 @@ else
     "https://brandforge.alfo.online/industries/ai-names"
     "https://brandforge.alfo.online/industries/beauty-names"
     "https://brandforge.alfo.online/industries/fitness-names"
+
+    "https://brandforge.alfo.online/blog/how-to-build-a-health-and-wellness-brand"
+    "https://brandforge.alfo.online/industries/yoga-studio-names"
+    "https://brandforge.alfo.online/industries/meditation-app-names"
+    "https://brandforge.alfo.online/industries/wellness-retreat-names"
+    "https://brandforge.alfo.online/industries/nutrition-clinic-names"
+    "https://brandforge.alfo.online/industries/holistic-health-names"
+    "https://brandforge.alfo.online/industries/spa-resort-names"
+    "https://brandforge.alfo.online/industries/supplement-brand-names"
+    "https://brandforge.alfo.online/industries/organic-food-store-names"
+    "https://brandforge.alfo.online/industries/fitness-studio-names"
+    "https://brandforge.alfo.online/industries/therapy-practice-names"
   )
 fi
+
 
 # Convert array to JSON array
 URL_LIST_JSON=$(printf '%s\n' "${URLS[@]}" | jq -R . | jq -s .)

@@ -102,7 +102,20 @@ const urls = [
   '/industries/ai-names',
   '/industries/beauty-names',
   '/industries/fitness-names',
+
+  '/blog/how-to-build-a-health-and-wellness-brand',
+  '/industries/yoga-studio-names',
+  '/industries/meditation-app-names',
+  '/industries/wellness-retreat-names',
+  '/industries/nutrition-clinic-names',
+  '/industries/holistic-health-names',
+  '/industries/spa-resort-names',
+  '/industries/supplement-brand-names',
+  '/industries/organic-food-store-names',
+  '/industries/fitness-studio-names',
+  '/industries/therapy-practice-names',
 ];
+
 
 test.describe('Daily Content Engine Verification', () => {
   for (const url of urls) {

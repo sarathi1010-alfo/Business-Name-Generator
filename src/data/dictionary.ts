@@ -18,6 +18,17 @@ export const dictionary: Dictionary = {
     'Plural', 'Miro', 'Loom', 'Bento', 'Vivid', 'Axios', 'Coda', 'Fathom', 'Vanta'
   ],
   industryTokens: {
+    'yoga-studio': ['om', 'zen', 'flow', 'lotus', 'asana', 'prana', 'align'],
+    'meditation-app': ['mind', 'calm', 'space', 'breathe', 'still', 'pause', 'sync'],
+    'wellness-retreat': ['haven', 'escape', 'sanctuary', 'rest', 'renew', 'oasis', 'bliss'],
+    'nutrition-clinic': ['nourish', 'fuel', 'balance', 'vital', 'pure', 'health', 'diet'],
+    'holistic-health': ['whole', 'heal', 'body', 'spirit', 'nature', 'core', 'life'],
+    'spa-resort': ['glow', 'relax', 'soothe', 'lux', 'serene', 'bathe', 'pure'],
+    'supplement-brand': ['boost', 'opti', 'vita', 'prime', 'core', 'peak', 'pure'],
+    'organic-food-store': ['earth', 'green', 'fresh', 'raw', 'nature', 'harvest', 'pure'],
+    'fitness-studio': ['sweat', 'core', 'fit', 'burn', 'sculpt', 'pulse', 'form'],
+    'therapy-practice': ['mind', 'grow', 'heal', 'safe', 'talk', 'guide', 'path'],
+
     'crm-software': ['Manage relationships', 'Customer central', 'Sales streamlined'],
     'erp-software': ['Enterprise core', 'Operations unified', 'Business operating system'],
     'billing-software': ['Payments automated', 'Revenue recognized', 'Invoicing made easy'],
@@ -193,6 +204,17 @@ export const dictionary: Dictionary = {
     trustworthy: ['Sure', 'True', 'Trust', 'Safe', 'Guard', 'Shield', 'Solid', 'Veri', 'Secure', 'Clear']
   },
   taglines: {
+    'yoga-studio': ['Find your flow', 'Breathe deeply', 'Align your body and mind'],
+    'meditation-app': ['Peace in your pocket', 'Mindfulness made easy', 'Your daily calm'],
+    'wellness-retreat': ['Escape to tranquility', 'Renew your spirit', 'Your sanctuary of health'],
+    'nutrition-clinic': ['Fuel your best life', 'Expert nutritional guidance', 'Balance from within'],
+    'holistic-health': ['Healing the whole you', 'Natural paths to wellness', 'Mind, body, and spirit'],
+    'spa-resort': ['Relax and rejuvenate', 'Luxury wellness', 'Your glowing escape'],
+    'supplement-brand': ['Peak performance naturally', 'Vitality in every dose', 'Core health support'],
+    'organic-food-store': ['Fresh from the earth', 'Purely organic', 'Nourish your body'],
+    'fitness-studio': ['Push your limits', 'Sweat with purpose', 'Transform your body'],
+    'therapy-practice': ['A safe space to grow', 'Healing minds', 'Guidance for life'],
+
     'crm-software': ['The CRM for modern teams', 'Better customer relationships', 'Sales made simple'],
     'erp-software': ['Your entire business, in one place', 'The operating system for enterprise', 'Unified operations'],
     'billing-software': ['Get paid faster', 'Automated billing for modern business', 'Revenue operations simplified'],
