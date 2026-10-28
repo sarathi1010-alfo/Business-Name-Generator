@@ -6,28 +6,28 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-14 max-w-7xl items-center px-4 md:px-8">
         <div className="mr-4 flex">
-          <Link href="/" className="mr-6 flex items-center space-x-2">
+          <Link href="/" className="mr-6 flex items-center space-x-2 min-h-[44px] min-w-[44px]">
             <Sparkles className="h-5 w-5 text-primary" />
             <span className="font-bold sm:inline-block">
               BrandForge
             </span>
           </Link>
-          <nav className="flex items-center space-x-6 text-sm font-medium">
+          <nav className="flex items-center space-x-4 text-sm font-medium">
             <Link
               href="/"
-              className="transition-colors hover:text-foreground/80 text-foreground/60"
+              className="transition-colors hover:text-foreground/80 text-foreground/60 min-h-[44px] flex items-center px-2"
             >
               Generator
             </Link>
             <Link
-              href="/names-for-tech"
-              className="transition-colors hover:text-foreground/80 text-foreground/60 hidden sm:block"
+              href="/industries/tech-names"
+              className="transition-colors hover:text-foreground/80 text-foreground/60 hidden sm:flex min-h-[44px] items-center px-2"
             >
               Industries
             </Link>
             <Link
               href="/blog"
-              className="transition-colors hover:text-foreground/80 text-foreground/60"
+              className="transition-colors hover:text-foreground/80 text-foreground/60 min-h-[44px] flex items-center px-2"
             >
               Blog
             </Link>
