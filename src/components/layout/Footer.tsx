@@ -8,9 +8,9 @@ export function Footer() {
           Built with precision. <span className="font-semibold text-foreground">BrandForge</span>.
         </p>
         <div className="flex items-center space-x-4 text-sm text-muted-foreground">
-          <Link href="#" className="hover:underline">Terms</Link>
-          <Link href="#" className="hover:underline">Privacy</Link>
-          <Link href="#" className="hover:underline">Contact</Link>
+          <Link href="/blog" className="hover:underline min-h-[44px] flex items-center px-2">Guides</Link>
+          <Link href="/" className="hover:underline min-h-[44px] flex items-center px-2">Generator</Link>
+          <Link href="/industries/tech-names" className="hover:underline min-h-[44px] flex items-center px-2">Industries</Link>
         </div>
       </div>
     </footer>

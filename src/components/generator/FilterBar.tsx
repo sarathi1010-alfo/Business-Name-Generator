@@ -22,7 +22,7 @@ export function FilterBar({ filters, updateFilter, onGenerate, isGenerating }: F
         <div className="space-y-3">
           <Label>Industry</Label>
           <select
-            className="flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+            className="flex h-11 min-h-[44px] w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
             value={filters.industry}
             onChange={(e) => updateFilter('industry', e.target.value as Industry)}
           >
@@ -33,7 +33,7 @@ export function FilterBar({ filters, updateFilter, onGenerate, isGenerating }: F
         <div className="space-y-3">
           <Label>Vibe</Label>
           <select
-            className="flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
+            className="flex h-11 min-h-[44px] w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
             value={filters.vibe}
             onChange={(e) => updateFilter('vibe', e.target.value as Vibe)}
           >
@@ -44,7 +44,7 @@ export function FilterBar({ filters, updateFilter, onGenerate, isGenerating }: F
         <div className="space-y-3">
           <Label>Style</Label>
           <select
-            className="flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
+            className="flex h-11 min-h-[44px] w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
             value={filters.style}
             onChange={(e) => updateFilter('style', e.target.value as NameStyle)}
           >
@@ -55,7 +55,7 @@ export function FilterBar({ filters, updateFilter, onGenerate, isGenerating }: F
         <div className="space-y-3">
           <Label>Length</Label>
           <select
-            className="flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
+            className="flex h-11 min-h-[44px] w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
             value={filters.length}
             onChange={(e) => updateFilter('length', e.target.value as LengthFilter)}
           >
@@ -66,17 +66,17 @@ export function FilterBar({ filters, updateFilter, onGenerate, isGenerating }: F
       </div>
 
       <div className="flex items-center justify-between pt-4 border-t">
-        <label className="flex items-center space-x-2 text-sm font-medium leading-none cursor-pointer">
+        <label className="flex items-center space-x-2 text-sm font-medium leading-none cursor-pointer min-h-[44px]">
           <input
             type="checkbox"
-            className="peer h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 checked:bg-primary checked:text-primary-foreground"
+            className="peer h-5 w-5 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 checked:bg-primary checked:text-primary-foreground"
             checked={filters.isTwoWords}
             onChange={(e) => updateFilter('isTwoWords', e.target.checked)}
           />
           <span>Two-word names</span>
         </label>
 
-        <Button onClick={onGenerate} disabled={isGenerating} size="lg" className="w-full md:w-auto font-semibold">
+        <Button onClick={onGenerate} disabled={isGenerating} size="lg" className="w-full md:w-auto font-semibold min-h-[44px] min-w-[44px]">
           {isGenerating ? 'Generating...' : 'Generate Names'}
         </Button>
       </div>
