@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { GeneratedName } from '../types';
+import { trackEvent } from '../lib/gtag';
 
 export function useShortlist() {
   const [shortlist, setShortlist] = useState<GeneratedName[]>([]);
@@ -23,6 +24,11 @@ export function useShortlist() {
         updated = prev.filter(n => n.name !== nameObj.name);
       } else {
         updated = [...prev, nameObj];
+        trackEvent('save_favorite', {
+          name: nameObj.name,
+          industry: nameObj.filtersUsed?.industry,
+          vibe: nameObj.filtersUsed?.vibe,
+        });
       }
       try {
         localStorage.setItem('name-shortlist', JSON.stringify(updated));

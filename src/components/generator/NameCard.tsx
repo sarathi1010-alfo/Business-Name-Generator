@@ -9,6 +9,7 @@ import { cn } from '@/lib/utils';
 import { motion } from 'motion/react';
 import { useFounderMode } from '@/hooks/useFounderMode';
 import { useRouter } from 'next/navigation';
+import { trackEvent } from '@/lib/gtag';
 
 interface NameCardProps {
   nameObj: GeneratedName;
@@ -30,6 +31,12 @@ export function NameCard({ nameObj, isShortlisted, onToggleShortlist, index }: N
   };
 
   const handleSaveToWorkspace = () => {
+    trackEvent('save_favorite', {
+      name: nameObj.name,
+      action: 'build_brand_identity',
+      industry: nameObj.filtersUsed?.industry,
+      vibe: nameObj.filtersUsed?.vibe,
+    });
     // If dna doesn't exist for some reason, the hook will generate it
     createProjectFromIdea(
       nameObj,

@@ -4,6 +4,7 @@ import { GenerationFilters, GeneratedName } from '../types';
 import { generateNames } from '../lib/generateNames';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { generateBrandDNA } from '../lib/brand-engine';
+import { trackEvent } from '../lib/gtag';
 
 const DEFAULT_FILTERS: GenerationFilters = {
   industry: 'tech',
@@ -59,6 +60,12 @@ export function useGenerator(initialOverrides?: Partial<GenerationFilters>) {
       }));
       setResults(newNames);
       setIsGenerating(false);
+      trackEvent('generate_names', {
+        industry: filters.industry,
+        vibe: filters.vibe,
+        style: filters.style,
+        count: newNames.length,
+      });
     }, 600);
   }, [filters, router]);
 
