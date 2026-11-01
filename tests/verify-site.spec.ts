@@ -4,6 +4,18 @@ const baseUrl = 'http://localhost:3000';
 
 const urls = [
   '/blog/how-to-build-a-saas-brand',
+  '/blog/how-to-build-a-real-estate-brand',
+  '/industries/real-estate-names',
+  '/industries/property-management-names',
+  '/industries/real-estate-agency-names',
+  '/industries/commercial-real-estate-names',
+  '/industries/real-estate-investment-names',
+  '/industries/mortgage-broker-names',
+  '/industries/title-company-names',
+  '/industries/home-staging-names',
+  '/industries/real-estate-photography-names',
+  '/industries/appraisal-services-names',
+  '/industries/proptech-startup-names',
   '/industries/crm-software-names',
   '/industries/erp-software-names',
   '/industries/billing-software-names',
