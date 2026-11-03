@@ -1114,3 +1114,58 @@ Caption: Less is more. Minimalist and hybrid brand names are dominating the star
 **Instagram Post 4:**
 [Image: A vibrant, magical logo suitable for the Alchemist archetype]
 Caption: Is your brand transformative? Does it turn the ordinary into the extraordinary? ✨ You might be the Alchemist archetype. Explore magical, transformative brand names that capture this powerful persona. Link in bio! #BrandArchetypes #BrandMagic
+### EDUCATION BRANDING CAMPAIGN (12 Posts)
+
+#### POST 1 (Twitter/X - Thread)
+Building an education brand? Trust is your biggest asset. Here is how to build a brand that students and parents trust:
+1. Know your audience (K-12 vs adult learners)
+2. Choose your archetype (Sage or Creator)
+3. Use a trustworthy color palette (Blues & Greens)
+4. Keep your brand voice consistent
+Dive deeper: https://brandforge.alfo.online/blog/how-to-build-an-education-brand #EdTech #Branding #Education
+
+#### POST 2 (LinkedIn - Long Form)
+The education sector is booming, but standing out is harder than ever. Whether you're launching a coding bootcamp or an online course platform, your brand identity is what sets you apart.
+Our latest guide breaks down the step-by-step process of building an education brand that conveys trust, expertise, and innovation.
+Read the full guide here: https://brandforge.alfo.online/blog/how-to-build-an-education-brand
+#EducationBranding #BrandStrategy #EdTechStartup
+
+#### POST 3 (Instagram - Carousel Concept)
+Slide 1: How to Build an Education Brand
+Slide 2: Define Your Audience (Who are you teaching?)
+Slide 3: Choose Your Archetype (The Sage vs The Creator)
+Slide 4: Design for Trust (Blue & Green Palettes)
+Slide 5: Read the full guide at the link in bio!
+Caption: Ready to launch your education business? 🎓 Start with a strong brand foundation. Link in bio for our complete 2026 guide! #EduPreneur #BrandIdentity #OnlineCourses
+
+#### POST 4 (Twitter/X - Short)
+What's in a name? For education brands, it's everything. Avoid generic names and aim for evocative or abstract names that capture the essence of learning. Need ideas? Try the BrandForge generator! https://brandforge.alfo.online/industries/education-startup-names #StartupIdeas #NamingStrategy
+
+#### POST 5 (LinkedIn - Tip)
+When branding an education business, the 'Sage' archetype is a classic choice. It represents wisdom, knowledge, and truth. If your goal is to be seen as the ultimate authority in your niche, lean into the Sage. Learn more in our latest guide: https://brandforge.alfo.online/blog/how-to-build-an-education-brand #BrandArchetypes #MarketingTips
+
+#### POST 6 (Instagram - Reel Concept)
+Visual: Fast-paced text overlay on a background of students/learning.
+Text: "3 Colors for Education Brands: 1. Blue (Trust) 2. Green (Growth) 3. Yellow (Energy)".
+Caption: Color psychology matters! Make sure your education brand's colors send the right message. 🎨📚 #ColorPsychology #DesignTips #EducationBusiness
+
+#### POST 7 (Twitter/X - Question)
+Are you building an online course or a traditional tutoring service? Your branding needs to reflect your delivery method. What is your biggest challenge in branding your education business? Let us know below! 👇 #EdTechChat #FounderQuestions
+
+#### POST 8 (LinkedIn - Case Study)
+Look at the most successful education brands—they all have a consistent, authoritative yet accessible brand voice. They sound like knowledgeable mentors. Is your brand voice hitting the right notes? Check our guide to find out: https://brandforge.alfo.online/blog/how-to-build-an-education-brand #Copywriting #BrandVoice
+
+#### POST 9 (Instagram - Single Image)
+Image: A sleek, modern logo for a fictional coding bootcamp.
+Caption: Tech education requires a modern, innovative brand identity. Launching a coding bootcamp? Generate the perfect name and brand DNA with BrandForge! Link in bio. 💻🚀 #CodingBootcamp #TechEducation #BrandDesign
+
+#### POST 10 (Twitter/X - Stat)
+Did you know? Trust is the #1 deciding factor for parents and adult learners when choosing an educational platform. Your brand identity is the first step in building that trust. Learn how: https://brandforge.alfo.online/blog/how-to-build-an-education-brand #EdTechStats #MarketingStrategy
+
+#### POST 11 (LinkedIn - Resource Sharing)
+Launching an online course? We've just added 'Online Course Names' to our programmatic generation engine. Find the perfect name for your next educational venture in seconds: https://brandforge.alfo.online/industries/online-course-names #OnlineLearning #CourseCreator #Entrepreneurship
+
+#### POST 12 (Instagram - Story)
+Image: Screenshot of the BrandForge interface generating 'Art School' names.
+Text: Need a creative name for your art school? We've got you covered. Swipe up to generate ideas!
+Link: https://brandforge.alfo.online/industries/art-school-names #ArtEducation #CreativeBusiness #BrandForge
