@@ -1169,3 +1169,25 @@ Launching an online course? We've just added 'Online Course Names' to our progra
 Image: Screenshot of the BrandForge interface generating 'Art School' names.
 Text: Need a creative name for your art school? We've got you covered. Swipe up to generate ideas!
 Link: https://brandforge.alfo.online/industries/art-school-names #ArtEducation #CreativeBusiness #BrandForge
+
+---
+
+## 📅 [New Date] - Brand Strategy Campaign (12 Posts)
+
+### X (Twitter)
+1. "Your logo isn't your brand. It's the tip of the iceberg. True brand strategy aligns your core vision with what your customers actually need. Here is a blueprint to get started. 🚀 Read our new guide: https://brandforge.alfo.online/blog/complete-guide-to-brand-strategy"
+2. "Struggling to find a brand name that stands out? Start with positioning. The right name follows the right strategy. Build your foundation first. #BrandStrategy #Startups"
+3. "Are you the Rebel? The Caregiver? The Innovator? Choosing your brand archetype isn't just a fun exercise, it dictates your entire brand voice and positioning. 🗣️ Discover yours."
+4. "The best founders know that a strong brand is a moat. Don't leave your identity to chance. Learn how to craft a brand strategy that scales with your business."
+
+### LinkedIn
+5. "In 2026, the market is too crowded to just 'wing it' with your brand. A compelling brand strategy is what separates successful startups from those that fade into obscurity. We've just published The Complete Guide to Brand Strategy for Startups. It covers defining your core identity, understanding your target audience, and developing a unique positioning. Read the full guide here: https://brandforge.alfo.online/blog/complete-guide-to-brand-strategy"
+6. "Founders: Stop treating your brand as an afterthought. It's not just a logo or a color palette—it's how you make your customers feel. Start defining your brand strategy today."
+7. "How do you position your startup when everyone else is doing the same thing? You find the intersection of your unique strengths and your audience's unmet needs. Let's talk about brand positioning."
+8. "A consistent brand voice builds trust. Trust builds loyalty. Loyalty builds a successful business. What does your brand sound like? #BrandVoice #StartupGrowth"
+
+### Instagram
+9. (Image: A sleek blueprint graphic) "Your blueprint for a brand that lasts. 🏗️ Discover the core components of brand strategy in our new guide. Link in bio! #branding #startuptips"
+10. (Image: A positioning matrix) "Where does your brand sit? 📍 Finding your unique space in the market is key to standing out. #brandpositioning #founderlife"
+11. (Image: 3 different brand archetypes) "Who are you? The Rebel, The Sage, or The Creator? Your archetype is the soul of your brand. ✨"
+12. (Image: Quote graphic: 'A brand is a promise kept.') "Start keeping your promises. Build a strategy that works. 📈 #brandstrategy #businessgrowth"

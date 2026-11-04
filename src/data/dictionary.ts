@@ -18,6 +18,17 @@ export const dictionary: Dictionary = {
     'Plural', 'Miro', 'Loom', 'Bento', 'Vivid', 'Axios', 'Coda', 'Fathom', 'Vanta'
   ],
   industryTokens: {
+    'mental-health-app': ['mind', 'calm', 'peace', 'heal', 'care', 'balance', 'zen'],
+    'fitness-wearable': ['track', 'move', 'pulse', 'fit', 'active', 'step', 'rhythm'],
+    'vegan-restaurant': ['plant', 'green', 'earth', 'leaf', 'pure', 'root', 'sprout'],
+    'organic-farm': ['farm', 'fresh', 'soil', 'nature', 'grow', 'harvest', 'crop'],
+    'craft-brewery': ['brew', 'hops', 'craft', 'barrel', 'pint', 'malt', 'draft'],
+    'specialty-coffee': ['bean', 'roast', 'brew', 'cup', 'pour', 'grind', 'aroma'],
+    'teletherapy': ['talk', 'connect', 'mind', 'care', 'listen', 'support', 'heal'],
+    'wellness-retreat': ['rest', 'retreat', 'spa', 'calm', 'renew', 'restore', 'peace'],
+    'yoga-app': ['flow', 'pose', 'zen', 'stretch', 'breathe', 'align', 'flex'],
+    'meditation-app': ['meditate', 'still', 'quiet', 'breathe', 'focus', 'center', 'calm'],
+
     'crm-software': ['Manage relationships', 'Customer central', 'Sales streamlined'],
     'erp-software': ['Enterprise core', 'Operations unified', 'Business operating system'],
     'billing-software': ['Payments automated', 'Revenue recognized', 'Invoicing made easy'],
@@ -214,6 +225,17 @@ export const dictionary: Dictionary = {
     trustworthy: ['Sure', 'True', 'Trust', 'Safe', 'Guard', 'Shield', 'Solid', 'Veri', 'Secure', 'Clear']
   },
   taglines: {
+    'mental-health-app': ['Your pocket therapist', 'Mindful moments', 'Peace of mind anywhere'],
+    'fitness-wearable': ['Track every move', 'Your personal coach', 'Fitness on your wrist'],
+    'vegan-restaurant': ['Plant-powered flavor', 'Cruelty-free dining', 'Eat green, live well'],
+    'organic-farm': ['Fresh from the earth', 'Grown with love', 'Nature\'s bounty'],
+    'craft-brewery': ['Brewed for you', 'Small batch, big flavor', 'Cheers to craft'],
+    'specialty-coffee': ['Perfectly roasted', 'Your morning fuel', 'Crafted coffee experiences'],
+    'teletherapy': ['Therapy from home', 'Care at a click', 'Support when you need it'],
+    'wellness-retreat': ['Escape and rejuvenate', 'Find your center', 'A sanctuary for the soul'],
+    'yoga-app': ['Flow anywhere', 'Your daily practice', 'Yoga for everyone'],
+    'meditation-app': ['Find your focus', 'Breathe easy', 'Calm your mind'],
+
     'crm-software': ['The CRM for modern teams', 'Better customer relationships', 'Sales made simple'],
     'erp-software': ['Your entire business, in one place', 'The operating system for enterprise', 'Unified operations'],
     'billing-software': ['Get paid faster', 'Automated billing for modern business', 'Revenue operations simplified'],

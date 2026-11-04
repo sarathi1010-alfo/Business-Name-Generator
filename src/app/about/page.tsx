@@ -22,7 +22,7 @@ export default function AboutPage() {
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-indigo-900/20 via-[#0a0a0c] to-[#0a0a0c] pointer-events-none" />
           <div className="container relative z-10 max-w-4xl mx-auto text-center space-y-8">
             <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-br from-white to-white/50">
-              Our Mission
+              Our Mission (Read our <Link href="/blog/complete-guide-to-brand-strategy">Brand Strategy Guide</Link>)
             </h1>
             <p className="text-xl md:text-2xl text-white/60 font-light leading-relaxed">
               BrandForge was built with a single objective: to give founders the strategic edge of a high-end branding agency without the six-figure price tag.
