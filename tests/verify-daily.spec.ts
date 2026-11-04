@@ -1,6 +1,18 @@
 import { test, expect } from '@playwright/test';
 
 const urls = [
+  '/blog/complete-guide-to-brand-strategy',
+  '/industries/mental-health-app-names',
+  '/industries/fitness-wearable-names',
+  '/industries/vegan-restaurant-names',
+  '/industries/organic-farm-names',
+  '/industries/craft-brewery-names',
+  '/industries/specialty-coffee-names',
+  '/industries/teletherapy-names',
+  '/industries/wellness-retreat-names',
+  '/industries/yoga-app-names',
+  '/industries/meditation-app-names',
+
   '/blog/how-to-build-a-saas-brand',
   '/blog/how-to-build-a-real-estate-brand',
   '/blog/how-to-build-an-education-brand',

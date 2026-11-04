@@ -8,6 +8,18 @@ API_URL="https://api.indexnow.org/indexnow"
 # If URLs are passed as arguments, use them. Otherwise, use the default list.
 if [ $# -gt 0 ]; then
   URLS=(
+    "https://brandforge.alfo.online/blog/complete-guide-to-brand-strategy"
+    "https://brandforge.alfo.online/industries/mental-health-app-names"
+    "https://brandforge.alfo.online/industries/fitness-wearable-names"
+    "https://brandforge.alfo.online/industries/vegan-restaurant-names"
+    "https://brandforge.alfo.online/industries/organic-farm-names"
+    "https://brandforge.alfo.online/industries/craft-brewery-names"
+    "https://brandforge.alfo.online/industries/specialty-coffee-names"
+    "https://brandforge.alfo.online/industries/teletherapy-names"
+    "https://brandforge.alfo.online/industries/wellness-retreat-names"
+    "https://brandforge.alfo.online/industries/yoga-app-names"
+    "https://brandforge.alfo.online/industries/meditation-app-names"
+
     "https://brandforge.alfo.online/blog/how-to-create-a-brand-voice-that-connects"
     "https://brandforge.alfo.online/luxury-brand-names"
     "https://brandforge.alfo.online/modern-brand-names"
@@ -68,6 +80,18 @@ if [ $# -gt 0 ]; then
 else
   # List of primary URLs to index
   URLS=(
+    "https://brandforge.alfo.online/blog/complete-guide-to-brand-strategy"
+    "https://brandforge.alfo.online/industries/mental-health-app-names"
+    "https://brandforge.alfo.online/industries/fitness-wearable-names"
+    "https://brandforge.alfo.online/industries/vegan-restaurant-names"
+    "https://brandforge.alfo.online/industries/organic-farm-names"
+    "https://brandforge.alfo.online/industries/craft-brewery-names"
+    "https://brandforge.alfo.online/industries/specialty-coffee-names"
+    "https://brandforge.alfo.online/industries/teletherapy-names"
+    "https://brandforge.alfo.online/industries/wellness-retreat-names"
+    "https://brandforge.alfo.online/industries/yoga-app-names"
+    "https://brandforge.alfo.online/industries/meditation-app-names"
+
     "https://brandforge.alfo.online/blog/how-to-create-a-brand-voice-that-connects"
     "https://brandforge.alfo.online/luxury-brand-names"
     "https://brandforge.alfo.online/modern-brand-names"

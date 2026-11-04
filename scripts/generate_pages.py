@@ -1,17 +1,6 @@
 import os
 
-industries = [
-    'education-startup',
-    'online-course',
-    'music-school',
-    'art-school',
-    'culinary-school',
-    'driving-school',
-    'preschool',
-    'test-prep',
-    'vocational-school',
-    'coding-bootcamp'
-]
+industries = ['mental-health-app', 'fitness-wearable', 'vegan-restaurant', 'organic-farm', 'craft-brewery', 'specialty-coffee', 'teletherapy', 'wellness-retreat', 'yoga-app', 'meditation-app']
 
 template = """/* eslint-disable react/no-unescaped-entities */
 import {{ Metadata }} from 'next';
