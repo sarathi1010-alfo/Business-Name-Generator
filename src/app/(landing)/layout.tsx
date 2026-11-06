@@ -5,13 +5,13 @@ export const metadata: Metadata = {
   description:
     'Generate catchy, brandable business name ideas in seconds. Free AI company name generator with industry filters, style presets, and domain checks.',
   alternates: {
-    canonical: 'http://brandforge.alfo.online/',
+    canonical: 'https://brandforge.alfo.online/',
   },
   openGraph: {
     title: 'Free Business Name Generator | Brand Name Ideas - BrandForge',
     description:
       'Generate catchy, brandable business name ideas in seconds. Free AI company name generator with industry filters, style presets, and domain checks.',
-    url: 'http://brandforge.alfo.online/',
+    url: 'https://brandforge.alfo.online/',
     siteName: 'BrandForge',
     type: 'website',
     images: [

@@ -20,7 +20,7 @@ export function Header() {
               Generator
             </Link>
             <Link
-              href="/industries/tech-names"
+              href="/industries/tech-startup-names"
               className="transition-colors hover:text-foreground/80 text-foreground/60 hidden sm:flex min-h-[44px] items-center px-2"
             >
               Industries

@@ -10,7 +10,7 @@ export function Footer() {
         <div className="flex items-center space-x-4 text-sm text-muted-foreground">
           <Link href="/blog" className="hover:underline min-h-[44px] flex items-center px-2">Guides</Link>
           <Link href="/" className="hover:underline min-h-[44px] flex items-center px-2">Generator</Link>
-          <Link href="/industries/tech-names" className="hover:underline min-h-[44px] flex items-center px-2">Industries</Link>
+          <Link href="/industries/tech-startup-names" className="hover:underline min-h-[44px] flex items-center px-2">Industries</Link>
         </div>
       </div>
     </footer>
