@@ -220,6 +220,13 @@ export async function GET() {
   ];
 
     routes.push({
+    url: buildCanonical('/blog/how-to-build-an-education-brand'),
+    lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  });
+
+  routes.push({
     url: buildCanonical('/blog/how-to-build-a-startup-brand'),
     lastModified: new Date().toISOString(),
     changeFrequency: 'weekly',
@@ -227,36 +234,7 @@ export async function GET() {
   });
 
   routes.push({
-    url: buildCanonical('/blog/how-to-build-a-personal-brand'),
-    lastModified: new Date().toISOString(),
-    changeFrequency: 'weekly',
-    priority: 0.9,
-  });
-
-  routes.push({
-    url: buildCanonical('/blog/how-to-create-a-brand-voice-that-connects'),
-    lastModified: new Date().toISOString(),
-    changeFrequency: 'weekly',
-    priority: 0.9,
-  });
-
-
-  routes.push({
-    url: buildCanonical('/blog/how-to-build-brand-equity'),
-    lastModified: new Date().toISOString(),
-    changeFrequency: 'weekly',
-    priority: 0.9,
-  });
-
-  routes.push({
-    url: buildCanonical('/blog/how-to-build-a-saas-brand'),
-    lastModified: new Date().toISOString(),
-    changeFrequency: 'weekly',
-    priority: 0.9,
-  });
-
-  routes.push({
-    url: buildCanonical('/blog/how-to-build-ecommerce-brand'),
+    url: buildCanonical('/blog/how-to-build-a-real-estate-brand'),
     lastModified: new Date().toISOString(),
     changeFrequency: 'weekly',
     priority: 0.9,

@@ -28,6 +28,14 @@ Disallow: /temp/
 Disallow: /private/
 Allow: /
 
+# AhrefsBot Unblocked
+User-agent: AhrefsBot
+Allow: /
+#                                                                           #
+#                                                                           #
+#                                                                           #
+
+
 User-agent: bingbot
 User-agent: msnbot
 User-agent: msnbot-media
