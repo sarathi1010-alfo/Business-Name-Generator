@@ -87,7 +87,18 @@ if [ $# -gt 0 ]; then
     "https://brandforge.alfo.online/industries/urban-farming-names"
     "https://brandforge.alfo.online/industries/language-learning-names"
     "https://brandforge.alfo.online/industries/home-security-names"
-  )
+
+    "https://brandforge.alfo.online/industries/marketing-names"
+    "https://brandforge.alfo.online/industries/design-names"
+    "https://brandforge.alfo.online/industries/coffee-names"
+    "https://brandforge.alfo.online/industries/travel-names"
+    "https://brandforge.alfo.online/industries/music-names"
+    "https://brandforge.alfo.online/industries/legal-names"
+    "https://brandforge.alfo.online/industries/accounting-names"
+    "https://brandforge.alfo.online/industries/architecture-names"
+    "https://brandforge.alfo.online/industries/tattoo-names"
+    "https://brandforge.alfo.online/industries/interior-names"
+    "https://brandforge.alfo.online/blog/how-to-build-a-creative-agency-brand")
 else
   # List of primary URLs to index
   URLS=(

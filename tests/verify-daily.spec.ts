@@ -137,6 +137,17 @@ const urls = [
   '/industries/organic-food-store-names',
   '/industries/fitness-studio-names',
   '/industries/therapy-practice-names',
+  '/industries/marketing-names',
+  '/industries/design-names',
+  '/industries/coffee-names',
+  '/industries/travel-names',
+  '/industries/music-names',
+  '/industries/legal-names',
+  '/industries/accounting-names',
+  '/industries/architecture-names',
+  '/industries/tattoo-names',
+  '/industries/interior-names',
+  '/blog/how-to-build-a-creative-agency-brand',
 ];
 
 
